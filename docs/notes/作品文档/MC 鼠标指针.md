@@ -72,13 +72,18 @@ permalink: /notes/MC-鼠标指针.html
 
 :::: tabs
 
+@tab ::mingcute:film-line:: 视频演示&宣传片
+
+视频正在制作
+<!-- 视频正在制作
+<LinkCard title="哔哩哔哩" icon="mingcute:bilibili-fill" href=""></LinkCard>
+
+@[bilibili]()
+-->
+
 @tab ::mingcute:cursor-3-line:: 实时预览
 
 <iframe src="/rc/鼠标样式预览.html" width="100%" height="790px" frameborder="0"></iframe>
-
-@tab ::mingcute:film-line:: 视频演示&宣传片
-
-<LinkCard title="哔哩哔哩" icon="mingcute:bilibili-fill" href="https://space.bilibili.com/1337092956/lists/5398777"></LinkCard>
 
 ::::
 
@@ -89,8 +94,6 @@ permalink: /notes/MC-鼠标指针.html
 @tab ::mingcute:film-line:: 通用安装方式
 
 <LinkCard title="哔哩哔哩-链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1EJegeBERB"></LinkCard>
-
-@[bilibili](BV1EJegeBERB)
 
 @tab ::mingcute:film-line:: 旧版-安装方式
 
