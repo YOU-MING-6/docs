@@ -74,12 +74,9 @@ permalink: /notes/MC-鼠标指针.html
 
 @tab ::mingcute:film-line:: 视频演示&宣传片
 
-视频正在制作
-<!-- 视频正在制作
-<LinkCard title="哔哩哔哩" icon="mingcute:bilibili-fill" href=""></LinkCard>
+<LinkCard title="哔哩哔哩" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1t13yzSE84"></LinkCard>
 
-@[bilibili]()
--->
+@[bilibili](BV1t13yzSE84)
 
 @tab ::mingcute:cursor-3-line:: 实时预览
 
@@ -93,7 +90,7 @@ permalink: /notes/MC-鼠标指针.html
 
 @tab ::mingcute:film-line:: 通用安装方式
 
-<LinkCard title="哔哩哔哩-链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1EJegeBERB"></LinkCard>
+<LinkCard title="哔哩哔哩-链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1t13yzSE84"></LinkCard>
 
 @tab ::mingcute:film-line:: 旧版-安装方式
 
