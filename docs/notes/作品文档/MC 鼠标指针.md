@@ -20,8 +20,10 @@ permalink: /notes/MC-鼠标指针.html
 
 - 使用了 ==「新版 MC 材质」=={.info} 制作，~~而不是网上的 老版材质~~；
 - 还有一部分鼠标是动态的；
-- 在 ==1.2=={.info} 版本中，支持了右键自动安装（.inf）；
+- 在 ==1.2=={.info} 版本中，支持了右键自动安装；
+  - 注：自动安装过程中会在 `C:\Windows\Cursors` 创建 `Minecraft` 文件夹以用于保存光标文件；
 - 在鼠标文件 ==忙.ani=={.info} 中，使用了超过 60 帧的动画；
+- 目前 2.0 版本新增了铜质工具的光标文件；
 - 你还可以按 ==文件名=={.info}  进行 ==手动设置=={.info} 鼠标光标；
 - 你也可以自己根据 ==可选=={.info} 来自定义鼠标光标；
 - 目前 2.0 版本已有 ==230+=={.info} 个光标文件！
@@ -105,7 +107,7 @@ permalink: /notes/MC-鼠标指针.html
 ::: card-masonry
 
 <Card title="v2.0-鼠标光标.7z" icon="mingcute:file-zip-line"><Badge text="安全" type="tip" />
-  压缩包共 528 KB
+  压缩包共 574 KB
 </Card>
 <Card title="v1.8-鼠标光标.7z" icon="mingcute:file-zip-line"><Badge text="安全" type="tip" />
   压缩包共 292 KB
