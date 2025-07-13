@@ -18,6 +18,10 @@ permalink: /notes/Floating-OS.html
 
 ![](/rc/ft.png)
 
+::: details 目录
+[[TOC]]
+:::
+
 ## ::mingcute:document-line:: 简介
 
 ==Floating OS== 是一个由 [Afly-dream](/friends/) 于 ==2024.8.5=={.info} 开始制作的一个 ==二创系统=={.info}。

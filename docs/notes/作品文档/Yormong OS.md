@@ -15,6 +15,10 @@ permalink: /notes/Yormong-OS.html
 
 ![](/rc/ym-os.png)
 
+::: details 目录
+[[TOC]]
+:::
+
 ## ::mingcute:document-line:: 简介
 
 ==Yormong OS== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2024.1.24=={.info} 开始制作的一个 ==PPT 系统=={.info} 。
@@ -71,7 +75,7 @@ permalink: /notes/Yormong-OS.html
 
 @tab ::mingcute:film-line:: 宣传片
 
-<LinkCard title="哔哩哔哩-链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1Dq421c7EC"></LinkCard>
+<LinkCard title="哔哩哔哩 - 链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1Dq421c7EC"></LinkCard>
 
 @[bilibili](BV1Dq421c7EC)
 
@@ -83,15 +87,16 @@ permalink: /notes/Yormong-OS.html
 
 ## ::mingcute:arrow-to-down-line:: 下载链接
 
-:::: details ::mingcute:file-info-line:: 文件属性
+:::: card
+::mingcute:file-info-line:: **文件属性**【 [校验文件值](/notes/更多/必看.html#确保文件是安全的) 】
 
-::: card-masonry
+::: collapse accordion
+- :+ ::mingcute:file-zip-line:: 公测版v1.0.0.20240622.343.exe
+    <Badge text="安全" type="tip" /> 自解压文件(.exe) 共 266 MB
 
-<Card title="公测版v1.0.0.20240622.343.exe" icon="mingcute:file-zip-line"><Badge text="安全" type="tip" />
-  自解压文件(.exe) 266.8 MB；
-  连同其他文件共 267 MB
-</Card>
-
+    MD5 值：`b203c52c4c373d90eb6b607ed273602b`  
+    SHA256 值：`f263db2ed2e8c4ba8913d79136fb73f13d356133327e2aeae3cbfc593845d1fa`
+:::
 ::::
 
 ::: tabs

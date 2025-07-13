@@ -18,6 +18,10 @@ permalink: /notes/Mindows11.html
 
 ![](/rc/min11.png)
 
+::: details 目录
+[[TOC]]
+:::
+
 ## ::mingcute:document-line:: 简介
 
 ==Mindows11== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2023.4.14=={.info} 开始制作的  ==PPT 系统=={.info} 。
@@ -80,26 +84,36 @@ permalink: /notes/Mindows11.html
 
 ## ::mingcute:arrow-to-down-line:: 下载链接
 
-:::: details ::mingcute:file-info-line:: 文件属性
+:::: card
+::mingcute:file-info-line:: **文件属性**【 [校验文件值](/notes/更多/必看.html#确保文件是安全的) 】
 
-::: card-masonry
+::: collapse accordion
+- :+ ::mingcute:file-zip-line:: Min11 v4.2安装.pptx
+    <Badge text="安全" type="tip" /> PPT 共 76.0 M
 
-<Card title="Min11 v4.2安装.pptx" icon="mingcute:chart-pie-line"><Badge text="安全" type="tip" />
-  PPT文件共 76.0 M
-</Card>
-<Card title="Min11 v4.1安装.pptx" icon="mingcute:chart-pie-line"><Badge text="安全" type="tip" />
-  PPT文件共 75.4 M
-</Card>
-<Card title="Min11 v4.0安装.zip" icon="mingcute:chart-pie-line"><Badge text="安全" type="tip" />
-  PPT文件共 39.3 M
-</Card>
-<Card title="Min11 v3.3安装.zip" icon="mingcute:chart-pie-line"><Badge text="安全" type="tip" />
-  PPT文件共 41.2 M
-</Card>
-<Card title="Min11 v3.0安装.zip" icon="mingcute:chart-pie-line"><Badge text="安全" type="tip" />
-  PPT文件共 32.2 M
-</Card>
+    MD5 值：`09fee1f6221e7d4a60f4a1d5dd7f66ea`  
+    SHA256 值：`8fa4f26a13bd976c86f3d9150d255f5862198c4d35782adb6b04b6f8d7d0d2c0`
+- :+ ::mingcute:file-zip-line:: Min11 v4.1安装.pptx
+    <Badge text="安全" type="tip" /> PPT 共 75.4 M
 
+    MD5 值：`fcadf6b356488583c969f3cc45ffa959`  
+    SHA256 值：`45b827f2d3a4e044b4516cb4ffa4853f90c6816e4a5cf0b6c50bf1ee57b2a8d0`
+- :+ ::mingcute:file-zip-line:: Min11 v4.0安装.pptx
+    <Badge text="安全" type="tip" /> PPT 共 39.3 M
+
+    MD5 值：`933e32f15db48892f3aedbcb60e510c3`  
+    SHA256 值：`5f673c049107d314a18e8c4853634018f9d58682a68ba4d717b1c0e6d3e07406`
+- :+ ::mingcute:file-zip-line:: Min11 v3.3安装.pptx
+    <Badge text="安全" type="tip" /> PPT 共 41.2 M
+
+    MD5 值：`6783d8a549e0ba3a5731cd9154d81e9e`  
+    SHA256 值：`1a4961fe3aecd67a001817e88ed4657970b8e6ee8b798a7b1e9e24d71d7e3fe6`
+- :+ ::mingcute:file-zip-line:: Min11 v3.0安装.pptx
+    <Badge text="安全" type="tip" /> PPT 共 32.2 M
+
+    MD5 值：`d2299d231a2114d19c2ecf75f5c31546`  
+    SHA256 值：`6f8ae87fcc889f575be859112f21ada186a2bc6bc55596223ae4969aa51a77a5`
+:::
 ::::
 
 ::: tabs

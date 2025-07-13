@@ -13,6 +13,10 @@ permalink: /notes/MC-鼠标指针.html
 ![](/rc/sbzz.png#light)
 ![](/rc/sbzz-dark.png#dark)
 
+::: details 目录
+[[TOC]]
+:::
+
 ## ::mingcute:document-line:: 简介
 
 ==MC 鼠标指针== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2023.2=={.info} 开始制作的一个 ==鼠标指针=={.info} 。  
@@ -63,59 +67,56 @@ permalink: /notes/MC-鼠标指针.html
 - [Mojang Minecraft](https://www.minecraft.net/)  
   部分游戏贴图、粒子等内容（遵循[此条款](https://www.minecraft.net/usage-guidelines)）
 ---
-- [中文Minecraft Wiki](https://zh.minecraft.wiki/)  
+- [中文 Minecraft Wiki](https://zh.minecraft.wiki/)  
   部分图片内容（遵循[此条款](https://zh.minecraft.wiki/w/Minecraft_Wiki:%E8%BD%AC%E8%BD%BD%E9%A1%BB%E7%9F%A5)）
 ---
-- [无尽贪婪 Mod](https://www.mcmod.cn/class/505.html)  
-  部分贴图内容（遵循[MIT 许可协议](https://bbs.mcmod.cn/forum.php?mod=viewthread&tid=615&page=63&ordertype=1#pid31760)）
+- [无尽贪婪 Avaritia Mod](https://modrinth.com/mod/re-avaritia)  
+  部分贴图内容（遵循[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)）
 :::
 
-## ::mingcute:eye-2-line:: 预览
+## ::mingcute:bulb-line:: 预览与教程
 
 :::: tabs
 
-@tab ::mingcute:film-line:: 视频演示&宣传片
+@tab ::mingcute:film-line:: 宣传片与教程
 
-<LinkCard title="哔哩哔哩" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1t13yzSE84"></LinkCard>
+<LinkCard title="哔哩哔哩 - 链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1t13yzSE84"></LinkCard>
 
 @[bilibili](BV1t13yzSE84)
 
 @tab ::mingcute:cursor-3-line:: 实时预览
 
+<LinkCard icon="mingcute:arrow-right-up-circle-line" title="新标签页打开" href="/rc/鼠标样式预览.html" target="_blank"/>
 <iframe src="/rc/鼠标样式预览.html" width="100%" height="790px" frameborder="0"></iframe>
+
+@tab ::mingcute:film-line:: 预览与教程
+
+<LinkCard title="哔哩哔哩 - MC 鼠标指针 - 合集" icon="mingcute:bilibili-fill" href="https://space.bilibili.com/1337092956/lists/5398777?type=season"></LinkCard>
 
 ::::
 
-### ::mingcute:bulb-line:: 教程
-
-::: tabs
-
-@tab ::mingcute:film-line:: 通用安装方式
-
-<LinkCard title="哔哩哔哩-链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1t13yzSE84"></LinkCard>
-
-@tab ::mingcute:film-line:: 旧版-安装方式
-
-<LinkCard title="哔哩哔哩-链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1EJegeBERB"></LinkCard>
-
-:::
-
 ## ::mingcute:arrow-to-down-line:: 下载链接
 
-:::: details ::mingcute:file-info-line:: 文件属性
+:::: card
+::mingcute:file-info-line:: **文件属性**【 [校验文件值](/notes/更多/必看.html#确保文件是安全的) 】
 
-::: card-masonry
+::: collapse accordion
+- :+ ::mingcute:file-zip-line:: v2.0-鼠标光标.7z
+    <Badge text="安全" type="tip" /> 压缩包共 574 KB
 
-<Card title="v2.0-鼠标光标.7z" icon="mingcute:file-zip-line"><Badge text="安全" type="tip" />
-  压缩包共 574 KB
-</Card>
-<Card title="v1.8-鼠标光标.7z" icon="mingcute:file-zip-line"><Badge text="安全" type="tip" />
-  压缩包共 292 KB
-</Card>
-<Card title="v1.3-鼠标光标.7z" icon="mingcute:file-zip-line"><Badge text="安全" type="tip" />
-  压缩包共 7.5 KB
-</Card>
+    MD5 值：`f5df33e3ed22cdc8d86f70c5938c282b`  
+    SHA256 值：`5a9ce3761cbfbd043488aa42f5498855b3eee9730714b0dd7da78e795dd0267b`
+- ::mingcute:file-zip-line:: v1.8-鼠标光标.7z
+    <Badge text="安全" type="tip" /> 压缩包共 292 KB
 
+    MD5 值：`a499f03983f4ba4828af93ad71ca6b27`  
+    SHA256 值：`69515fb369cd7ad063121299843466f79f7ce6ccf53346e804cd0c1b00a0cf21`
+- ::mingcute:file-zip-line:: v1.3-鼠标光标.7z
+    <Badge text="安全" type="tip" /> 压缩包共 7.5 KB
+
+    MD5 值：`b1054e52d636057f4009fd46ad4275af`  
+    SHA256 值：`adedc9d57ef25c0e99a6fe6afe710c64416f65bc8ba6f52acdbd6696eff19a73`
+:::
 ::::
 
 ::: tabs

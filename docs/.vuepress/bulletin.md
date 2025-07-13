@@ -12,7 +12,7 @@
 
 【<a href="/notes/更多/公告.html">查看全部公告</a>】
 
-- 所有协议上次更新时间：`2025.7.08`
+- 所有协议上次更新时间：`2025.07.12`
 协议：<a href="/notes/协议/开源.html">开源</a> | <a href="/notes/协议/非开源.html">非开源</a> | <a href="/notes/协议/闭源.html">闭源</a> | <a href="/notes/协议/转载.html">转载</a>
 
 <p style="margin-top: 16px; "></p>

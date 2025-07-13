@@ -12,6 +12,10 @@ permalink: /notes/YM-站点监控.html
 
 ![](/rc/zdjk-yl.png)
 
+::: details 目录
+[[TOC]]
+:::
+
 ## ::mingcute:document-line:: 简介
 
 ==YM 站点监控== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2025.4.10=={.info} 开始制作的一个 ==网页项目=={.info} 。

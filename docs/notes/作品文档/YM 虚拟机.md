@@ -15,6 +15,10 @@ permalink: /notes/YM-虚拟机.html
 
 ![](/rc/xnj.png)
 
+::: details 目录
+[[TOC]]
+:::
+
 ## ::mingcute:document-line:: 简介
 
 ==YM 虚拟机== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2023.5.2=={.info} 开始制作的一个 ==PPT 项目=={.info} 。

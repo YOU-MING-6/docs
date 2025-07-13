@@ -82,7 +82,6 @@ export default defineUserConfig({
       contentFile: path.join(__dirname, 'bulletin.md'), // 公告内容文件路径
     },
 
-
     markdown: {
       fileTree: true, // ::: file-tree  文件树容器
       plot: true, // !!plot!! 隐秘文本

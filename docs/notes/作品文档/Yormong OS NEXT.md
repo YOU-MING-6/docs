@@ -15,6 +15,10 @@ permalink: /notes/Yormong-OS-NEXT.html
 
 ![](/rc/ym-os-next.png)
 
+::: details 目录
+[[TOC]]
+:::
+
 ## ::mingcute:document-line:: 简介
 
 ==Yormong OS NEXT== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2024.7.16=={.info} 开始制作的一个 ==PPT 系统=={.info} 。

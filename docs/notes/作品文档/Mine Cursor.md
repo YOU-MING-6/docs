@@ -15,6 +15,10 @@ permalink: /notes/Mine-Cursor.html
 封面制作中...
 :::
 
+::: details 目录
+[[TOC]]
+:::
+
 ## ::mingcute:document-line:: 简介
 
 ==Mine Cursor== 是由 [hite404](/friends/) 于 ==2025.4.25=={.info} 开始制作的一个 ==实用软件工具=={.info} 。  
