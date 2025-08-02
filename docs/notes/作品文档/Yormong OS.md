@@ -21,7 +21,7 @@ permalink: /notes/Yormong-OS.html
 
 ## ::mingcute:document-line:: 简介
 
-==Yormong OS== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2024.1.24=={.info} 开始制作的一个 ==PPT 系统=={.info} 。
+==Yormong OS== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2024.01.24=={.info} 开始制作的一个 ==PPT 系统=={.info} 。
 
 - 基于 ==Mindows11=={.info} 制作的 ==PPT 系统=={.info} 。
 - 此 PPT 图片及动图来源于网络。
@@ -30,9 +30,9 @@ permalink: /notes/Yormong-OS.html
 ::: card
 ::mingcute:book-3-line:: **作品名称：** Yormong OS  
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
-::mingcute:calendar-time-add-line:: **发起时间：** *2024.1.24*  
+::mingcute:calendar-time-add-line:: **发起时间：** *2024.01.24*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:pause-circle-line /#ff922b:: ==暂停更新=={.warning}  
-::mingcute:time-duration-line:: **上次更新时间：** *2024.7.8* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2024.07.08* - [查看更新历史](#更新历史)  
 ::mingcute:board-line:: **当前版本：** ==公测版 - v1.0.4=={.important} ；v1.0.4.20240708.265
 
 ---

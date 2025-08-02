@@ -24,7 +24,7 @@ permalink: /notes/Mindows11.html
 
 ## ::mingcute:document-line:: 简介
 
-==Mindows11== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2023.4.14=={.info} 开始制作的  ==PPT 系统=={.info} 。
+==Mindows11== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2023.04.14=={.info} 开始制作的  ==PPT 系统=={.info} 。
 
 - 此 PPT 图片及动图来源于网络
 - 界面设计参考于网络
@@ -36,9 +36,9 @@ permalink: /notes/Mindows11.html
 ::: card
 ::mingcute:book-3-line:: **作品名称：** Mindows11  
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
-::mingcute:calendar-time-add-line:: **发起时间：** *2023.4.14*  
+::mingcute:calendar-time-add-line:: **发起时间：** *2023.04.14*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:close-circle-line /#fa5252:: ==停止支持=={.caution}  
-::mingcute:time-duration-line:: **上次更新时间：** *2023.8.07* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2023.08.07* - [查看更新历史](#更新历史)  
 ::mingcute:board-line:: **当前版本：** ==正式版 - v4.2==
 
 ---

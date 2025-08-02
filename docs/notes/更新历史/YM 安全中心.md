@@ -22,7 +22,7 @@ permalink: /notes/更新历史/YM-安全中心.html
 ::: warning 用户 <Badge text="柚明" type="tip" /> 已暂停更新作品 YM 虚拟机
 :::
 ::: right
-**2024.9.1**
+**2024.09.01**
 :::
 
 
@@ -32,7 +32,7 @@ permalink: /notes/更新历史/YM-安全中心.html
 - 更换新的「LOGO」
 
 ::: right
-**2024.6.23**
+**2024.06.23**
 :::
 
 
@@ -42,7 +42,7 @@ permalink: /notes/更新历史/YM-安全中心.html
 - 更换新的「LOGO」
 
 ::: right
-**2024.6.23**
+**2024.06.23**
 :::
 
 
@@ -50,7 +50,7 @@ permalink: /notes/更新历史/YM-安全中心.html
 ::: tip 用户 <Badge text="柚明" type="tip" /> 已继续更新作品  YM 安全中心 
 :::
 ::: right
-**2024.6.23**
+**2024.06.23**
 :::
 
 
@@ -80,7 +80,7 @@ permalink: /notes/更新历史/YM-安全中心.html
 - 制作基本内容
 
 ::: right
-**2023.5.2**
+**2023.05.02**
 :::
 
 
@@ -88,7 +88,7 @@ permalink: /notes/更新历史/YM-安全中心.html
 ::: tip 由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 想到灵感，而后开始创作
 :::
 ::: right
-**2023.5.2**
+**2023.05.02**
 :::
 
 <p style="margin-top: 100px"></p>

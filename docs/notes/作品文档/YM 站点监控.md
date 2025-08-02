@@ -18,7 +18,7 @@ permalink: /notes/YM-站点监控.html
 
 ## ::mingcute:document-line:: 简介
 
-==YM 站点监控== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2025.4.10=={.info} 开始制作的一个 ==网页项目=={.info} 。
+==YM 站点监控== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2025.04.10=={.info} 开始制作的一个 ==网页项目=={.info} 。
 
 - 一个基于 UptimeRobot API 的在线状态面板 | 站点监测 | 状态检测
 - 网站用于给观众实时显示网站可用性，并记录历史数据
@@ -26,9 +26,9 @@ permalink: /notes/YM-站点监控.html
 ::: card
 ::mingcute:book-3-line:: **作品名称：** YM 站点监控  
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
-::mingcute:calendar-time-add-line:: **发起时间：** *2025.4.10*  
+::mingcute:calendar-time-add-line:: **发起时间：** *2025.04.10*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:check-circle-line /#40c057:: ==正在更新=={.tip}  
-::mingcute:time-duration-line:: **上次更新时间：** *2025.6.29* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2025.06.29* - [查看更新历史](#更新历史)  
 ::mingcute:board-line:: **当前版本：** ==正式版==
 
 ---

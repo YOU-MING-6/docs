@@ -21,7 +21,7 @@ permalink: /notes/Mine-Cursor.html
 
 ## ::mingcute:document-line:: 简介
 
-==Mine Cursor== 是由 [hite404](/friends/) 于 ==2025.4.25=={.info} 开始制作的一个 ==实用软件工具=={.info} 。  
+==Mine Cursor== 是由 [hite404](/friends/) 于 ==2025.04.25=={.info} 开始制作的一个 ==实用软件工具=={.info} 。  
 （本文的 “鼠标指针” 指的是 鼠标光标。）
 
 - 一个基于 wxpython 开发，可随意使用原版 MC 物品贴图的自定义鼠标指针的软件；
@@ -29,15 +29,16 @@ permalink: /notes/Mine-Cursor.html
 - 素材库包含了 Minecraft 原版物品、生物、方块、粒子等贴图；
 - 支持导出主题分享给好友，让好友也来使用你自定义的鼠标指针。
 
-::: info 本项目属于合作性质，我们并非发起方。
+::: info 合作项目
+本项目属于合作性质，我们并非 [发起方](#创作人员) 。
 :::
 
 ::: card
 ::mingcute:book-3-line:: **作品名称：** Mine Cursor  
 ::mingcute:contacts-2-line:: **发起者：** hite404 - [查看全部](#创作人员)  
-::mingcute:calendar-time-add-line:: **发起时间：** *2025.4.25*  
+::mingcute:calendar-time-add-line:: **发起时间：** *2025.04.25*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:check-circle-line /#40c057:: ==正在更新=={.tip}  
-::mingcute:time-duration-line:: **上次更新时间：** *2025.5.22* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2025.05.22* - [查看更新历史](#更新历史)  
 ::mingcute:board-line:: **当前版本：** ==内测版 - v0.0.8=={.important}
 
 ---

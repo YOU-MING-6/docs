@@ -25,7 +25,7 @@ permalink: /notes/更新历史/Mindows11.html
 ::: caution 用户 <Badge text="柚明" type="tip" /> 已停止更新作品 Mindows11
 :::
 ::: right
-**2024.1.23**
+**2024.01.23**
 :::
 
 
@@ -40,7 +40,7 @@ permalink: /notes/更新历史/Mindows11.html
 - 优化&修复  PE安装程序 
 
 ::: right
-**2023.8.7**
+**2023.08.07**
 :::
 
 
@@ -50,7 +50,7 @@ permalink: /notes/更新历史/Mindows11.html
 - 优化&修复大部分内容
 
 ::: right
-**2023.8.2**
+**2023.08.02**
 :::
 
 
@@ -60,7 +60,7 @@ permalink: /notes/更新历史/Mindows11.html
 - 重做  PE安装程序 
 
 ::: right
-**2023.7.22**
+**2023.07.22**
 :::
 
 
@@ -70,7 +70,7 @@ permalink: /notes/更新历史/Mindows11.html
 - 优化&修复大部分内容
 
 ::: right
-**2023.7.15**
+**2023.07.15**
 :::
 
 
@@ -80,7 +80,7 @@ permalink: /notes/更新历史/Mindows11.html
 - 全新版本发布
 
 ::: right
-**2023.6.25**
+**2023.06.25**
 :::
 
 
@@ -90,7 +90,7 @@ permalink: /notes/更新历史/Mindows11.html
 - 优化&修复大部分内容
 
 ::: right
-**2023.6.25**
+**2023.06.25**
 :::
 
 
@@ -100,7 +100,7 @@ permalink: /notes/更新历史/Mindows11.html
 - 更新 OOBE 界面
 
 ::: right
-**2023.5.19**
+**2023.05.19**
 :::
 
 
@@ -110,7 +110,7 @@ permalink: /notes/更新历史/Mindows11.html
 - 优化部分内容
 
 ::: right
-**2023.5.6**
+**2023.05.06**
 :::
 
 
@@ -120,7 +120,7 @@ permalink: /notes/更新历史/Mindows11.html
 - 制作更多内容
 
 ::: right
-**2023.4.28**
+**2023.04.28**
 :::
 
 
@@ -133,7 +133,7 @@ permalink: /notes/更新历史/Mindows11.html
 
 - 优化部分内容
 ::: right
-**2023.4.21**
+**2023.04.21**
 :::
 
 
@@ -142,7 +142,7 @@ permalink: /notes/更新历史/Mindows11.html
 
 - 制作 安装程序 
 ::: right
-**2023.4.15**
+**2023.04.15**
 :::
 
 
@@ -151,7 +151,7 @@ permalink: /notes/更新历史/Mindows11.html
 
 - 制作基本内容
 ::: right
-**2023.4.14**
+**2023.04.14**
 :::
 
 
@@ -159,7 +159,7 @@ permalink: /notes/更新历史/Mindows11.html
 ::: tip 由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 想到灵感，而后开始创作
 :::
 ::: right
-**2023.4.14**
+**2023.04.14**
 :::
 
 <p style="margin-top: 100px"></p>

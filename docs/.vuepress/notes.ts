@@ -122,10 +122,10 @@ const demofeedback = defineNoteConfig({
       prefix: '',
       items: [
         { text: '导航', link: '/notes/反馈中心/'},
-        { text: '反馈', link: '反馈'},
-        { text: '发送灵感', link: '发送灵感'},
-        { text: '发送授权申请', link: '发送授权申请'},
-        { text: '举报违规行为', link: '举报违规行为'}
+        { text: 'bilibili 私信', link: '/notes/反馈中心/bilibili.html'},
+        { text: 'QQ 反馈', link: '/notes/反馈中心/qq.html'},
+        { text: '邮件反馈', link: '/notes/反馈中心/mail.html'},
+        { text: '灵感', link: '灵感'},
       ]
     },
     {

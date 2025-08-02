@@ -22,7 +22,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 ::: warning 用户 <Badge text="柚明" type="tip" /> 已暂停更新作品  Yormong OS 
 :::
 ::: right
-**2024.8.1**
+**2024.08.01**
 :::
 
 
@@ -42,7 +42,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了一些已知问题
 
 ::: right
-**2024.7.8**
+**2024.07.08**
 :::
 
 
@@ -50,7 +50,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 ::: info 用户 [某团一笑](/friends/) 与我们一起更新作品
 :::
 ::: right
-**2024.7.7**
+**2024.07.07**
 :::
 
 
@@ -70,7 +70,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了一些已知问题
 
 ::: right
-**2024.7.5**
+**2024.07.05**
 :::
 
 
@@ -90,7 +90,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了一些已知问题
 
 ::: right
-**2024.7.5**
+**2024.07.05**
 :::
 
 
@@ -108,7 +108,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了一些已知问题
 
 ::: right
-**2024.6.25**
+**2024.06.25**
 :::
 
 
@@ -130,7 +130,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了一些已知问题
 
 ::: right
-**2024.6.22**
+**2024.06.22**
 :::
 
 
@@ -158,7 +158,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了一些已知问题
 
 ::: right
-**2024.6.21**
+**2024.06.21**
 :::
 
 
@@ -179,7 +179,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了一些已知问题
 
 ::: right
-**2024.6.2**
+**2024.06.02**
 :::
 
 
@@ -198,7 +198,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了一些已知问题
 
 ::: right
-**2024.5.25**
+**2024.05.25**
 :::
 
 
@@ -219,7 +219,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了一些已知问题
 
 ::: right
-**2024.5.18**
+**2024.05.18**
 :::
 
 
@@ -242,7 +242,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了程序关闭按钮有时失灵的问题
 
 ::: right
-**2024.5.18**
+**2024.05.18**
 :::
 
 
@@ -262,7 +262,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了程序右上角关闭按钮有时失灵的问题
 
 ::: right
-**2024.5.5**
+**2024.05.05**
 :::
 
 
@@ -278,7 +278,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 优化了其他一部分内容
 
 ::: right
-**2024.5.2**
+**2024.05.02**
 :::
 
 
@@ -295,7 +295,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 优化了其他一部分内容
 
 ::: right
-**2024.3.31**
+**2024.03.31**
 :::
 
 
@@ -310,7 +310,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 优化了 锁屏 
 
 ::: right
-**2024.5.18**
+**2024.05.18**
 :::
 
 
@@ -328,7 +328,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 修复了一些已知问题
 
 ::: right
-**2024.3.18**
+**2024.03.18**
 :::
 
 
@@ -342,7 +342,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 优化了部分程序
 
 ::: right
-**2024.3.10**
+**2024.03.10**
 :::
 
 
@@ -354,7 +354,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 
 
 ::: right
-**2024.3.3**
+**2024.03.03**
 :::
 
 
@@ -364,7 +364,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 优化「文件」程序
 
 ::: right
-**2024.2.20**
+**2024.02.20**
 :::
 
 
@@ -372,7 +372,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 ::: tip 用户 <Badge text="柚明" type="tip" /> 已继续更新作品  Yormong OS 
 :::
 ::: right
-**2024.2.19**
+**2024.02.19**
 :::
 
 
@@ -380,7 +380,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 ::: warning 因过年，用户 <Badge text="柚明" type="tip" /> 已暂停更新作品
 :::
 ::: right
-**2023.2.9**
+**2023.02.09**
 :::
 
 
@@ -390,7 +390,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 优化了其他一部分内容
 
 ::: right
-**2024.2.8**
+**2024.02.08**
 :::
 
 
@@ -401,7 +401,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 基于 Tuling 系统 进行更新
 
 ::: right
-**2024.2.6**
+**2024.02.06**
 :::
 
 
@@ -411,7 +411,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 优化了其他一部分内容
 
 ::: right
-**2024.2.3**
+**2024.02.03**
 :::
 
 
@@ -422,7 +422,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 优化了其他一部分内容
 
 ::: right
-**2024.1.30**
+**2024.01.30**
 :::
 
 
@@ -432,7 +432,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 优化了 OOBE 
 
 ::: right
-**2024.3.28**
+**2024.03.28**
 :::
 
 
@@ -442,7 +442,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 重做  OOBE 
 
 ::: right
-**2024.1.26**
+**2024.01.26**
 :::
 
 
@@ -453,7 +453,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 - 制作基本内容
 
 ::: right
-**2024.1.25**
+**2024.01.25**
 :::
 
 
@@ -461,7 +461,7 @@ permalink: /notes/更新历史/Yormong-OS.html
 ::: tip 由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 想到灵感，而后开始创作
 :::
 ::: right
-**2024.1.24**
+**2024.01.24**
 :::
 
 <p style="margin-top: 100px"></p>

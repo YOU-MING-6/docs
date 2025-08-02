@@ -13,7 +13,7 @@ tags:
 permalink: /notes/Floating-OS.html
 ---
 
-::: caution 此作品目前已 `停止支持`
+::: caution 此作品目前已 `停止支持(构建)`
 :::
 
 ![](/rc/ft.png)
@@ -24,11 +24,12 @@ permalink: /notes/Floating-OS.html
 
 ## ::mingcute:document-line:: 简介
 
-==Floating OS== 是一个由 [Afly-dream](/friends/) 于 ==2024.8.5=={.info} 开始制作的一个 ==二创系统=={.info}。
+==Floating OS== 是一个由 [Afly-dream](/friends/) 于 ==2024.08.05=={.info} 开始制作的一个 ==二创系统=={.info}。
 
 - 这是一个真实的 ==二创系统=={.info} ，不是 PPT
 
-::: info 本项目属于合作性质，我们并非发起方。
+::: info 合作项目
+本项目属于合作性质，我们并非 [发起方](#创作人员) 。
 :::
 
 ::: card
@@ -36,7 +37,7 @@ permalink: /notes/Floating-OS.html
 ::mingcute:contacts-2-line:: **发起者：** Afly-dream - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2024*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:close-circle-line /#fa5252:: ==停止支持(构建)=={.caution} - [详情](#停止支持-构建)  
-::mingcute:time-duration-line:: **上次更新时间：** *2024.8.05* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2024.08.05* - [查看更新历史](#更新历史)  
 ::mingcute:board-line:: **当前版本：** ==构建版 - v0.0.1=={.important} ；v0.0.1 Build 2024121207
 
 ---

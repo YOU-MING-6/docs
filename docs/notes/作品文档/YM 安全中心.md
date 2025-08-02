@@ -21,7 +21,7 @@ permalink: /notes/YM-安全中心.html
 
 ## ::mingcute:document-line:: 简介
 
-==YM 安全中心== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2023.5.2=={.info} 开始制作的一个 ==PPT 装饰项目=={.info} ；
+==YM 安全中心== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2023.05.02=={.info} 开始制作的一个 ==PPT 装饰项目=={.info} ；
 
 - 此项目由部分 PPT 系统延申而来，用于 ==装饰=={.info} 。
 - 仅用于我们制作 PPT 系统 时弹出顶部的导航条。
@@ -30,9 +30,9 @@ permalink: /notes/YM-安全中心.html
 ::: card
 ::mingcute:book-3-line:: **作品名称：** YM 安全中心  
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
-::mingcute:calendar-time-add-line:: **发起时间：** *2023.5.2*  
+::mingcute:calendar-time-add-line:: **发起时间：** *2023.05.02*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:pause-circle-line /#ff922b:: ==暂停更新=={.warning}  
-::mingcute:time-duration-line:: **上次更新时间：** *2024.6.23* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2024.06.23* - [查看更新历史](#更新历史)  
 ::mingcute:board-line:: **当前版本：** ==内测版 - v0.0.3=={.important} ；v0.0.3.20240623.100
 
 ---

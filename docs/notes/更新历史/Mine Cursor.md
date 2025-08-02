@@ -24,7 +24,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 - 优化了一些内容
 
 ::: right
-**2025.5.22**
+**2025.05.22**
 :::
 
 
@@ -42,7 +42,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 - 修复了一些已知问题
 
 ::: right
-**2025.5.17**
+**2025.05.17**
 :::
 
 
@@ -57,7 +57,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 - 优化了一些内容
 
 ::: right
-**2025.5.8**
+**2025.05.08**
 :::
 
 
@@ -72,7 +72,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 - 优化了一些内容
 
 ::: right
-**2025.5.4**
+**2025.05.04**
 :::
 
 
@@ -84,7 +84,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 - 确定宣传片素材
 
 ::: right
-**2025.5.3**
+**2025.05.03**
 :::
 
 
@@ -102,7 +102,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 - 修复了一些已知问题
 
 ::: right
-**2025.5.2**
+**2025.05.02**
 :::
 
 
@@ -113,7 +113,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 - 支持编辑动态光标
 
 ::: right
-**2025.5.2**
+**2025.05.02**
 :::
 
 
@@ -126,7 +126,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 - 支持编辑图层
 
 ::: right
-**2025.5.1**
+**2025.05.01**
 :::
 
 
@@ -134,7 +134,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 ::: info 用户 [hite4044](/friends/) 邀请我们一起更新作品
 :::
 ::: right
-**2025.4.27**
+**2025.04.27**
 :::
 
 
@@ -145,7 +145,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 - 确定基础界面
 
 ::: right
-**2025.4.26**
+**2025.04.26**
 :::
 
 
@@ -153,7 +153,7 @@ permalink: /notes/更新历史/Mine-Cursor.html
 ::: tip 由 [hite404](/friends/) 想到灵感，而后开始创作
 :::
 ::: right
-**2025.4.25**
+**2025.04.25**
 :::
 
 <p style="margin-top: 100px"></p>

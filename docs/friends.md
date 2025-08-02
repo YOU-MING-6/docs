@@ -5,7 +5,7 @@ description: 以个人喜好为指引，去创造那些令自己心驰神往的�
 permalink: /friends/
 list:
     -
-      name: YOU MING 柚明 # 2023.2.1
+      name: YOU MING 柚明 # 2023.02.01
       link: /notes/更多/工作室.html#you-ming-柚明
       avatar: /rc/ym-ys.png
       location: 中国
@@ -26,7 +26,7 @@ groups:
     title: 合作成员
     list:
       -
-        name: 某团一笑 # 2023.7.22 21:14
+        name: 某团一笑 # 2023.07.22 21:14
         avatar: /rc/tx-2-ys.png
         location: 中国
         desc: “现在，让我们来看看答案。”
@@ -38,7 +38,7 @@ groups:
             icon: bilibili
             link: https://space.bilibili.com/3493093632379150
       -
-        name: Afly-dream # 2024.5.01 19:46
+        name: Afly-dream # 2024.05.01 19:46
         avatar: /rc/tx-3-ys.png
         location: 中国
         desc: “有梦想，才能有希望。”
@@ -53,7 +53,7 @@ groups:
             icon: github
             link: https://github.com/Afly-dream
       -
-        name: hite404 # 2025.4.27 18:24
+        name: hite404 # 2025.04.27 18:24
         avatar: /rc/tx-4-ys.png
         location: 中国
         desc: “不忘初心，方得始终！”

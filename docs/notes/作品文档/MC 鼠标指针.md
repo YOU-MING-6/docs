@@ -23,22 +23,21 @@ permalink: /notes/MC-鼠标指针.html
 （本文的 “鼠标指针” 指的是 鼠标光标）
 
 - 使用了 ==「新版 MC 材质」=={.info} 制作，~~而不是网上的 老版材质~~；
-- 还有一部分鼠标是动态的；
+- 在 2.4 版本中，新增了 `大号` `特大号` 光标样式，现在压缩包内共计 950+ 光标文件！
 - 在 ==1.2=={.info} 版本中，支持了右键自动安装；
   - 注：自动安装过程中会在 `C:\Windows\Cursors` 创建 `Minecraft` 文件夹以用于保存光标文件；
 - 在鼠标文件 ==忙.ani=={.info} 中，使用了超过 60 帧的动画；
 - 目前 2.0 版本新增了铜质工具的光标文件；
-- 你还可以按 ==文件名=={.info}  进行 ==手动设置=={.info} 鼠标光标；
-- 你也可以自己根据 ==可选=={.info} 来自定义鼠标光标；
+- 你也可以自己在 ==可选=={.info} 中自定义鼠标光标（参考文件名）；
 - 目前 2.0 版本已有 ==230+=={.info} 个光标文件！
 
 ::: card
 ::mingcute:book-3-line:: **作品名称：** MC 鼠标指针  
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
-::mingcute:calendar-time-add-line:: **发起时间：** *2023.2*  
+::mingcute:calendar-time-add-line:: **发起时间：** *2023.02*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:check-circle-line /#40c057:: ==正在更新=={.tip}  
-::mingcute:time-duration-line:: **上次更新时间：** *2025.2.06* - [查看更新历史](#更新历史)  
-::mingcute:board-line:: **当前版本：** ==正式版 - v2.0==
+::mingcute:time-duration-line:: **上次更新时间：** *2025.08.02* - [查看更新历史](#更新历史)  
+::mingcute:board-line:: **当前版本：** ==正式版 - v2.4==
 
 ---
 
@@ -82,7 +81,7 @@ permalink: /notes/MC-鼠标指针.html
 
 <LinkCard title="哔哩哔哩 - 链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1t13yzSE84"></LinkCard>
 
-@[bilibili](BV1t13yzSE84)
+<!-- @[bilibili](BV1t13yzSE84) -->
 
 @tab ::mingcute:cursor-3-line:: 实时预览
 
@@ -101,7 +100,12 @@ permalink: /notes/MC-鼠标指针.html
 ::mingcute:file-info-line:: **文件属性**【 [校验文件值](/notes/更多/必看.html#确保文件是安全的) 】
 
 ::: collapse accordion
-- :+ ::mingcute:file-zip-line:: v2.0-鼠标光标.7z
+- :+ ::mingcute:file-zip-line:: v2.4-鼠标光标.7z
+    <Badge text="安全" type="tip" /> 压缩包共 46.3 MB
+
+    MD5 值：`a7fbc88e2eab138dbbd69881be461f8d`  
+    SHA256 值：`1849374d5032b01bfe1da5687a2865106c16f776c3930d2ceab46bf048bfd982`
+- ::mingcute:file-zip-line:: v2.0-鼠标光标.7z
     <Badge text="安全" type="tip" /> 压缩包共 574 KB
 
     MD5 值：`f5df33e3ed22cdc8d86f70c5938c282b`  

@@ -22,7 +22,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 ::: warning 用户 <Badge text="柚明" type="tip" /> 已暂停更新作品 YM 虚拟机
 :::
 ::: right
-**2024.9.1**
+**2024.09.01**
 :::
 
 
@@ -30,7 +30,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 ::: info 用户 [某团一笑](/friends/) 与我们一起更新作品
 :::
 ::: right
-**2024.7.7**
+**2024.07.07**
 :::
 
 
@@ -41,7 +41,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 - 优化了一些内容
 
 ::: right
-**2024.6.17**
+**2024.06.17**
 :::
 
 
@@ -52,7 +52,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 - 优化了一些内容
 
 ::: right
-**2024.6.16**
+**2024.06.16**
 :::
 
 
@@ -65,7 +65,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 - 修复了一些已知问题
 
 ::: right
-**2024.6.23**
+**2024.06.23**
 :::
 
 
@@ -79,7 +79,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 - 优化了一些内容
 
 ::: right
-**2024.6.15**
+**2024.06.15**
 :::
 
 
@@ -89,7 +89,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 - 重新制作基本内容
 
 ::: right
-**2024.6.15**
+**2024.06.15**
 :::
 
 
@@ -99,7 +99,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 - 使用新的 UI 重做框架
 
 ::: right
-**2024.6.15**
+**2024.06.15**
 :::
 
 
@@ -107,7 +107,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 ::: tip 用户 <Badge text="柚明" type="tip" /> 已继续更新作品  YM 虚拟机 
 :::
 ::: right
-**2024.6.15**
+**2024.06.15**
 :::
 
 
@@ -137,7 +137,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 - 制作基本内容
 
 ::: right
-**2023.5**
+**2023.05**
 :::
 
 
@@ -147,7 +147,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 - 制作基本框架
 
 ::: right
-**2023.5**
+**2023.05**
 :::
 
 
@@ -155,7 +155,7 @@ permalink: /notes/更新历史/YM-虚拟机.html
 ::: tip 由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 想到灵感，而后开始创作
 :::
 ::: right
-**2023.5**
+**2023.05**
 :::
 
 <p style="margin-top: 100px"></p>

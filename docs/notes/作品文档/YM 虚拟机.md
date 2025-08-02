@@ -21,7 +21,7 @@ permalink: /notes/YM-虚拟机.html
 
 ## ::mingcute:document-line:: 简介
 
-==YM 虚拟机== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2023.5.2=={.info} 开始制作的一个 ==PPT 项目=={.info} 。
+==YM 虚拟机== 是一个由 [YOU MING 柚明](/notes/更多/工作室.html#you-ming-柚明) 于 ==2023.05.02=={.info} 开始制作的一个 ==PPT 项目=={.info} 。
 
 - 此项目由部分 PPT 系统延申而来，用于 ==装饰=={.info} 。
 - 仅用于我们剪辑视频时启动其他 PPT 时使用。
@@ -31,9 +31,9 @@ permalink: /notes/YM-虚拟机.html
 ::: card
 ::mingcute:book-3-line:: **作品名称：** YM 虚拟机  
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
-::mingcute:calendar-time-add-line:: **发起时间：** *2023.5.2*  
+::mingcute:calendar-time-add-line:: **发起时间：** *2023.05.02*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:pause-circle-line /#ff922b:: ==暂停更新=={.warning}  
-::mingcute:time-duration-line:: **上次更新时间：** *2024.7.07* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2024.07.07* - [查看更新历史](#更新历史)  
 ::mingcute:board-line:: **当前版本：** ==内测版 - v2.0.0=={.important} ；v2.0.0.20240616.187
 
 ---
