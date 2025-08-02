@@ -79,9 +79,9 @@ permalink: /notes/MC-鼠标指针.html
 
 @tab ::mingcute:film-line:: 宣传片与教程
 
-<LinkCard title="哔哩哔哩 - 链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1t13yzSE84"></LinkCard>
+<LinkCard title="哔哩哔哩 - 链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1Bfh8zVEGc"></LinkCard>
 
-<!-- @[bilibili](BV1t13yzSE84) -->
+@[bilibili](BV1Bfh8zVEGc)
 
 @tab ::mingcute:cursor-3-line:: 实时预览
 
@@ -90,7 +90,7 @@ permalink: /notes/MC-鼠标指针.html
 
 @tab ::mingcute:film-line:: 预览与教程
 
-<LinkCard title="哔哩哔哩 - MC 鼠标指针 - 合集" icon="mingcute:bilibili-fill" href="https://space.bilibili.com/1337092956/lists/5398777?type=season"></LinkCard>
+<LinkCard title="哔哩哔哩 - 合集" icon="mingcute:bilibili-fill" href="https://space.bilibili.com/1337092956/lists"></LinkCard>
 
 ::::
 
