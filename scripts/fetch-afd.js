@@ -1,5 +1,5 @@
 // @ts-check
-require('dotenv').config({ path: './.env.local' })
+require('dotenv').config({ path: process.env.DOTENV_PATH }) // 尝试从环境变量中读取 .env.local 路径
 const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
@@ -7,7 +7,7 @@ const CryptoJS = require('crypto-js')
 
 const { AFD_USER_ID: user_id, AFD_TOKEN: token } = process.env
 if (!user_id || !token) {
-  console.error('请在 .env.local 中配置 AFD_USER_ID 与 AFD_TOKEN')
+  console.error('请先配置 AFD_USER_ID 与 AFD_TOKEN')
   process.exit(1)
 }
 
