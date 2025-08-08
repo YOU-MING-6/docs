@@ -1,5 +1,5 @@
 // @ts-check
-require('dotenv').config({ path: process.env.DOTENV_PATH }) // 尝试从环境变量中读取 .env.local 路径
+// require('dotenv').config({ path: process.env.DOTENV_PATH })
 const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
@@ -39,3 +39,5 @@ async function run() {
 }
 
 run().catch(console.error)
+console.log('AFD_USER_ID:', process.env.AFD_USER_ID);
+console.log('AFD_TOKEN:', process.env.AFD_TOKEN);
