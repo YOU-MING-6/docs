@@ -16,7 +16,12 @@ const params = JSON.stringify({ page: 1, per_page: 100 });
 const sign = CryptoJS.MD5(`${token}params${params}ts${ts}user_id${user_id}`).toString();
 
 async function run() {
-  const { data: res } = await axios.post(api, { user_id, params, ts, sign });
+  const { data: res } = await axios.post(api, {
+    user_id,
+    params,
+    ts,
+    sign
+  });
   if (res.ec !== 200) {
     throw new Error(res.em || '拉取失败');
   }
