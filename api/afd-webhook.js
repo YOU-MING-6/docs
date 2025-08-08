@@ -1,18 +1,9 @@
-// api/afd-webhook.js
 module.exports = (req, res) => {
-  if (req.method === 'POST') {
-    const { AFD_USER_ID, AFD_TOKEN } = process.env;
-    if (!AFD_USER_ID || !AFD_TOKEN) {
-      return res.status(500).send('Missing environment variables');
-    }
-
-    // 这里添加处理 Webhook 请求的逻辑
-    console.log('Received webhook:', req.body);
-
-    // 假设请求处理成功
-    res.status(200).send('Webhook received');
-  } else {
-    // 如果不是 POST 请求，返回 405 Method Not Allowed
-    res.status(405).send('Method Not Allowed');
+  // 只允许 POST
+  if (req.method !== 'POST') {
+    return res.status(405).json({ ec: 405, em: 'Method Not Allowed' });
   }
+
+  // 如需签名校验可在这里加，但爱发电只要求返回 200
+  res.status(200).json({ ec: 200, em: '' });
 };
