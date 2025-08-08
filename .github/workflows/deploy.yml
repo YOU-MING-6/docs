@@ -40,7 +40,10 @@ jobs:
       # Run the build script
       - name: Build VuePress site
         run: pnpm run docs:build
-
+        env:
+          AFD_USER_ID: ${{ secrets.AFD_USER_ID }}
+          AFD_TOKEN: ${{ secrets.AFD_TOKEN }}
+          VERCEL_BUILD_HOOK: ${{ secrets.VERCEL_BUILD_HOOK }}
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
@@ -54,6 +57,3 @@ jobs:
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.YOUMING_TOKEN }}
-          AFD_USER_ID: ${{ secrets.AFD_USER_ID }}
-          AFD_TOKEN: ${{ secrets.AFD_TOKEN }}
-          VERCEL_BUILD_HOOK: ${{ secrets.VERCEL_BUILD_HOOK }}
