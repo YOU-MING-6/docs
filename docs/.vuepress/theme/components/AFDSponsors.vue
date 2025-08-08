@@ -23,7 +23,7 @@
         <ul class="sponsor-grid">
           <li
             v-for="s in list"
-            :key="s.user.AFD_USER_ID"
+            :key="s.user.user_id"
             class="sponsor-card"
           >
             <img
