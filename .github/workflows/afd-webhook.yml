@@ -34,8 +34,10 @@ jobs:
       # 将 afd-sponsors.json 提交回仓库
       # Commit afd-sponsors.json back to the repository
       - uses: EndBug/add-and-commit@v9
-        with:
-          add: 'docs/.vuepress/public/data/afd-sponsors.json'
-          message: 'Update AFD data'
-        env:
-          GITHUB_TOKEN: ${{ secrets.YOUMING_TOKEN }}
+          with:
+            add: 'docs/.vuepress/public/data/afd-sponsors.json'
+            message: 'Update AFD data'
+            branch: main
+            only-changed: true
+          env:
+            GITHUB_TOKEN: ${{ secrets.YOUMING_TOKEN }}
