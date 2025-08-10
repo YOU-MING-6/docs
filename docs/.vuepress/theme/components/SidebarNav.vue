@@ -41,6 +41,11 @@ const locale = computed(() => locales[lang.value])
       <span class="vpi-arrow-right" />
     </VPLink>
   </div>
+  <div>
+    <VPLink href="/notes/更多/爱发电.html">
+      <img width="130" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="">
+    </VPLink>
+  </div>
 </template>
 
 <style scoped>

@@ -90,7 +90,12 @@ export const navbar = defineNavbarConfig([
         ],
       },
       {
-        text: '链接',
+        text: '特别鸣谢 · 爱发电',
+        link: '/notes/更多/爱发电.html',
+        icon: 'mingcute:lightning-line',
+      },
+      {
+        text: '',
         items: [
           {
             text: '社交链接页',

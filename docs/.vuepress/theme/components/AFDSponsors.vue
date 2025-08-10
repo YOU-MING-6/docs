@@ -7,8 +7,8 @@
     <!-- 空状态 -->
     <div v-if="!sponsors.length" class="empty">
       <p>🤍 目前还没有赞助者，成为第一位支持者吧！</p>
-      <a href="https://afdian.com/a/afdian">
-        <img width="200" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="">
+      <a href="https://afdian.com/a/you-ming" target="_blank">
+        <img width="150" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="">
       </a>
     </div>
 

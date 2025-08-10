@@ -21,6 +21,9 @@ list:
         -
           icon: github
           link: https://github.com/YOU-MING-6
+        -
+          icon: afdian
+          link: https://afdian.com/a/you-ming
 groups:
   -
     title: 合作成员

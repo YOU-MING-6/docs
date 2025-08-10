@@ -186,6 +186,14 @@ const demoMore = defineNoteConfig({
         { text: '成员页面', link: '/friends/', icon: 'mingcute:contacts-3-line'},
       ]
     },
+    { text: '特别鸣谢 · 爱发电', link: '爱发电'},
+    {
+      text: '',
+      prefix: '',
+      items: [
+        { text: '社交链接页', link: '/notes/更多/链接.html'}
+      ]
+    },
   ],
 })
 

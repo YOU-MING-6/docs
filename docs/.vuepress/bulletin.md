@@ -5,6 +5,8 @@
 
 - 查看 <a href="/notes/协议/转载.html">转载须知</a> | ~~<a href="/指南.html" style="color: #555;">新人指南</a>~~(弃用)
 
+部分用户可能存在些许卡顿，请耐心等待！
+
 ***
 
 <p style="font-size: 26px; font-weight: 650; margin-top: 20px; ">公告</p>
@@ -28,7 +30,6 @@
 - 查看此网站的 <a href="/notes/更多/链接.html">社交链接页</a>
 - 给我们发 <a href="/notes/更多/链接.html#邮箱">邮件</a> 反馈
 
-::: warning 注意
-部分用户可能存在些许卡顿  
-请耐心等待！
-:::
+<VPLink href="/notes/更多/爱发电.html">
+  <img width="140" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="">
+</VPLink>
