@@ -35,7 +35,7 @@ jobs:
       # Commit afd-sponsors.json back to the repository
       - uses: EndBug/add-and-commit@v9
         with:
-          add: 'docs/docs/.vuepress/public/data/afd-sponsors.json'
+          add: 'docs/.vuepress/public/data/afd-sponsors.json'
           message: 'Update AFD data'
           branch: main
           only-changed: true
