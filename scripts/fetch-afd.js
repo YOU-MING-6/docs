@@ -27,12 +27,13 @@ async function run() {
     throw new Error(res.em || '拉取失败');
   }
 
-  const outDir = path.resolve(__dirname, '../docs/.vuepress/data');
+  const outDir = path.resolve(__dirname, '../docs/.vuepress/public/data');
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(
     path.join(outDir, 'afd-sponsors.json'),
     JSON.stringify(res.data.list, null, 2)
   );
+  console.log(`数据已写入到: ${path.join(outDir, 'afd-sponsors.json')}`);
   console.log(`✅ 成功拉取 ${res.data.list.length} 位赞助者`);
 }
 
