@@ -1,1 +1,93 @@
-[]
+[
+  {
+    "sponsor_plans": [
+      {
+        "can_ali_agreement": 0,
+        "plan_id": "9d22537e739011f0a53952540025c377",
+        "rank": 0,
+        "user_id": "8dd7b50c5e6411ecb42352540025c377",
+        "status": 1,
+        "name": "小可爱 (￣y▽,￣)╭",
+        "pic": "",
+        "desc": "· 无偿支持，为爱发电\n· 加入感谢名单，公开鸣谢",
+        "price": "5.00",
+        "update_time": 1755221039,
+        "timing": {
+          "timing_on": 0,
+          "timing_off": 0,
+          "timing_sell_on": 0,
+          "timing_sell_off": 0
+        },
+        "pay_month": 1,
+        "show_price": "5.00",
+        "show_price_after_adjust": "",
+        "has_coupon": 0,
+        "coupon": [],
+        "favorable_price": -1,
+        "independent": 0,
+        "permanent": 0,
+        "can_buy_hide": 1,
+        "need_address": 0,
+        "product_type": 0,
+        "sale_limit_count": -1,
+        "need_invite_code": false,
+        "bundle_stock": 0,
+        "bundle_sku_select_count": 0,
+        "config": {},
+        "has_plan_config": 0,
+        "shipping_fee_info": [],
+        "expire_time": 1764864000,
+        "sku_processed": [],
+        "rankType": 1
+      }
+    ],
+    "current_plan": {
+      "can_ali_agreement": 0,
+      "plan_id": "9d22537e739011f0a53952540025c377",
+      "rank": 0,
+      "user_id": "8dd7b50c5e6411ecb42352540025c377",
+      "status": 1,
+      "name": "小可爱 (￣y▽,￣)╭",
+      "pic": "",
+      "desc": "· 无偿支持，为爱发电\n· 加入感谢名单，公开鸣谢",
+      "price": "5.00",
+      "update_time": 1755221039,
+      "timing": {
+        "timing_on": 0,
+        "timing_off": 0,
+        "timing_sell_on": 0,
+        "timing_sell_off": 0
+      },
+      "pay_month": 1,
+      "show_price": "5.00",
+      "show_price_after_adjust": "",
+      "has_coupon": 0,
+      "coupon": [],
+      "favorable_price": -1,
+      "independent": 0,
+      "permanent": 0,
+      "can_buy_hide": 1,
+      "need_address": 0,
+      "product_type": 0,
+      "sale_limit_count": -1,
+      "need_invite_code": false,
+      "bundle_stock": 0,
+      "bundle_sku_select_count": 0,
+      "config": {},
+      "has_plan_config": 0,
+      "shipping_fee_info": [],
+      "expire_time": 1764864000,
+      "sku_processed": [],
+      "rankType": 1
+    },
+    "all_sum_amount": "5.00",
+    "first_pay_time": 1762221681,
+    "last_pay_time": 1762221681,
+    "user": {
+      "user_id": "55b406d0f79c11ed824c5254001e7c00",
+      "name": "无光",
+      "avatar": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+      "user_private_id": "f55f5accfd7635233cefcaa3d9f8a54b0dc525ae"
+    }
+  }
+]
