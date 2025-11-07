@@ -1,5 +1,8 @@
 name: AFD_Webhook
 
+permissions:
+  contents: write
+
 # 定义触发器
 on:
   # UTC 时间 每周五 5 点
