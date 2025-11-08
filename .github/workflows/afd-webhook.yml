@@ -3,12 +3,9 @@ name: AFD_Webhook
 permissions:
   contents: write
 
-# 定义触发器
 on:
-  # UTC 时间 每周五 5 点
   schedule:
     - cron: '0 5 * * 5'
-  # 手动按钮
   workflow_dispatch:
 
 jobs:
@@ -16,38 +13,91 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout main
+        uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
           persist-credentials: true
 
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm
 
-      # Install dependencies
       - name: 安装依赖
         run: pnpm install --frozen-lockfile
 
-      # Update AFD data
       - name: 更新 AFD 数据
         run: pnpm run fetch-afd
         env:
           AFD_USER_ID: ${{ secrets.AFD_USER_ID }}
           AFD_TOKEN: ${{ secrets.AFD_TOKEN }}
 
-      # Ensure the directory exists
-      - name: 确保目录存在
-        run: mkdir -p docs/.vuepress/public/data
+      - name: 诊断：定位 afd-sponsors.json 与 git 状态
+        run: |
+          set -e
+          echo "工作目录: $(pwd)"
+          echo "查找所有 afd-sponsors.json："
+          find . -type f -name "afd-sponsors.json" -print || true
+          echo "列出可能的位置："
+          ls -la docs/.vuepress/public/data || true
+          ls -la docs/docs/.vuepress/public/data || true
+          echo "若存在，显示前 30 行并计算 sha1："
+          if [ -f docs/.vuepress/public/data/afd-sponsors.json ]; then
+            head -n 30 docs/.vuepress/public/data/afd-sponsors.json || true
+            sha1sum docs/.vuepress/public/data/afd-sponsors.json || true
+          fi
+          if [ -f docs/docs/.vuepress/public/data/afd-sponsors.json ]; then
+            head -n 30 docs/docs/.vuepress/public/data/afd-sponsors.json || true
+            sha1sum docs/docs/.vuepress/public/data/afd-sponsors.json || true
+          fi
+          echo "git status / tracked files:"
+          git status --porcelain || true
+          git ls-files | grep afd-sponsors.json || true
 
-      # Commit afd-sponsors.json back to the repository
-      - name: 将 afd-sponsors.json 提交回仓库
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: 'docs/.vuepress/public/data/afd-sponsors.json'
-          message: 'Update AFD data'
+      - name: 确保目标目录存在（兼容多层 docs）
+        run: mkdir -p docs/.vuepress/public/data docs/docs/.vuepress/public/data
+
+      - name: 将生成文件复制到仓库期望位置（若写入到错误位置）
+        run: |
+          set -e
+          SRC1=docs/docs/.vuepress/public/data/afd-sponsors.json
+          SRC2=docs/.vuepress/public/data/afd-sponsors.json
+          DST=docs/.vuepress/public/data/afd-sponsors.json
+          # 如果生成在 docs/docs/... 且目标不存在或不同则复制
+          if [ -f "$SRC1" ]; then
+            echo "found $SRC1"
+            if [ ! -f "$DST" ] || ! cmp -s "$SRC1" "$DST"; then
+              cp -v "$SRC1" "$DST"
+            else
+              echo "目标已存在且相同：$DST"
+            fi
+          else
+            echo "未在 $SRC1 找到文件"
+          fi
+          echo "最终文件列表："
+          ls -la docs/.vuepress/public/data || true
+
+      - name: 提交并推送 AFD 数据（允许空提交）
         env:
           GITHUB_TOKEN: ${{ secrets.YOUMING_TOKEN }}
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # add 两个可能路径（其中一个可能不存在）
+          git add -A docs/.vuepress/public/data/afd-sponsors.json docs/docs/.vuepress/public/data/afd-sponsors.json || true
+          # 如果有 staged 变更则正常提交，否则创建一个 allow-empty commit（可记录 workflow 运行）
+          if git diff --staged --quiet; then
+            echo "no staged changes -> create an empty commit to record workflow"
+            git commit --allow-empty -m "Update AFD data (workflow)" || true
+          else
+            git commit -m "Update AFD data (workflow)" || true
+          fi
+          # 推送到 main
+          git push origin main
