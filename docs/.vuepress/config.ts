@@ -30,23 +30,27 @@ export default defineUserConfig({
   plugins: [
     redirectPlugin({
       config: {
-        '/%E5%BF%85%E7%9C%8B-%E5%BC%80%E6%BA%90.html': '/notes/更多/必看.html', // /必看-开源.html
-        '/%e5%bf%85%e7%9c%8b-%e9%9d%9e%e5%bc%80%e6%ba%90.html': '/notes/更多//必看.html',  // /必看-非开源.html
-        '/%E6%9B%B4%E5%A4%9A-%E5%BF%85%E7%9C%8B-%E5%BC%80%E6%BA%90.html': '/notes/更多//必看.html',  // /更多-必看-开源.html
+        '/%E5%BF%85%E7%9C%8B-%E5%BC%80%E6%BA%90.html': '/notes/更多/必看.html', // /必看-开源-非商业.html
+        '/%e5%bf%85%e7%9c%8b-%e9%9d%9e%e5%bc%80%e6%ba%90.html': '/notes/更多//必看.html',  // /必看-非开源-非商业.html
+        '/%E6%9B%B4%E5%A4%9A-%E5%BF%85%E7%9C%8B-%E5%BC%80%E6%BA%90.html': '/notes/更多//必看.html',  // /更多-必看-开源-非商业.html
         '/%e6%9b%b4%e5%a4%9a-%e5%bf%85%e7%9c%8b.html': '/notes/更多//必看.html',  // /更多-必看.html
         '/%E5%BF%85%E7%9C%8B.html': '/notes/更多/必看.html',  // /必看.html
         '/%E5%85%AC%E5%91%8A.html': '/notes/更多/公告.html',  // /公告.html
         '/%E9%93%BE%E6%8E%A5.html': '/notes/更多/链接.html',  // /链接.html
         '/%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5%E9%A1%B5.html': '/notes/更多/链接.html',  // /社交链接页.html
+        '/notes/%e5%8d%8f%e8%ae%ae/%e5%bc%80%e6%ba%90.html': '/notes/协议/开源-非商业.html',  // /notes/协议/开源.html
+        '/notes/%e5%8f%8d%e9%a6%88%e4%b8%ad%e5%bf%83/%e5%8f%8d%e9%a6%88.html': '/notes/反馈中心/',  // /notes/反馈中心/反馈.html
         // 重复
-        '/必看-开源.html': '/notes/更多/必看.html',
-        '/必看-非开源.html': '/notes/更多//必看.html',
-        '/更多-必看-开源.html': '/notes/更多//必看.html',
+        '/必看-开源-非商业.html': '/notes/更多/必看.html',
+        '/必看-非开源-非商业.html': '/notes/更多//必看.html',
+        '/更多-必看-开源-非商业.html': '/notes/更多//必看.html',
         '/更多-必看.html': '/notes/更多//必看.html',
         '/必看.html': '/notes/更多/必看.html',
         '/公告.html': '/notes/更多/公告.html',
         '/链接.html': '/notes/更多/链接.html',
         '/社交链接页.html': '/notes/更多/链接.html',
+        '/notes/协议/开源.html': '/notes/协议/开源-非商业.html',
+        '/notes/反馈中心/反馈.html': '/notes/反馈中心/',
       },
     }),
   ],
@@ -63,7 +67,7 @@ export default defineUserConfig({
       info: [
         {
           username: 'YOU MING 柚明', // 显示的名字
-          alias: ['you-ming-6'], // 别名
+          alias: ['you-ming-6', 'YOU-MING-6'], // 别名
         },
         {
           username: 'Afly-dream', // 显示的名字
@@ -71,8 +75,6 @@ export default defineUserConfig({
         }
       ]
     },
-
-    blog: false, // 是否开启博客功能
 
     // 公告栏
     bulletin: {
@@ -113,9 +115,15 @@ export default defineUserConfig({
     },
 
     plugins: {
-
       git: true, // git 功能
 
+      photoSwipe: {
+        // 图片选择器
+        selector: '.vp-doc :not(a) > img:not([no-view],.no-view,.ignore)',
+        download: true, // 是否显示下载按钮
+        fullscreen: true, // 是否显示全屏按钮
+        scrollToClose: true, // 是否在滚动时关闭当前图片
+      },
       // Shiki 代码高亮 (内置) @vuepress-plume/plugin-shikiji
       // @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
       // 
@@ -123,12 +131,10 @@ export default defineUserConfig({
       //   languages: ['shell', 'bash', 'typescript', 'javascript'],
       // },
 
-
       // shiki 代码高亮 @vuepress/plugin-shiki@next
       // @see https://theme-plume.vuejs.press/guide/code/intro/
       // https://ecosystem.vuejs.press/zh/plugins/markdown/shiki.html
       // 
-
 
       // 评论 comments
       // @see https://theme-plume.vuejs.press/guide/features/comments/

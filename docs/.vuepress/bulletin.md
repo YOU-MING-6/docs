@@ -14,8 +14,7 @@
 
 【<a href="/notes/更多/公告.html">查看全部公告</a>】
 
-- 所有协议上次更新时间：`2025.07.29`
-协议：<a href="/notes/协议/开源.html">开源</a> | <a href="/notes/协议/非开源.html">非开源</a> | <a href="/notes/协议/闭源.html">闭源</a> | <a href="/notes/协议/转载.html">转载</a>
+- <a href="/notes/协议/开源-非商业.html">协议</a>上次更新时间：`2025.11.08`
 
 <p style="margin-top: 16px; "></p>
 
@@ -29,7 +28,3 @@
 
 - 查看此网站的 <a href="/notes/更多/链接.html">社交链接页</a>
 - 给我们发 <a href="/notes/更多/链接.html#邮箱">邮件</a> 反馈
-
-<VPLink href="/notes/更多/爱发电.html">
-  <img width="140" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt="">
-</VPLink>

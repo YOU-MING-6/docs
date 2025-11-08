@@ -1,15 +1,11 @@
+// 用户配置
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import { navbar } from './navbar'
-import { notes } from './notes'
+import { collections } from './collections'
 
-/**
- * @see https://theme-plume.vuejs.press/config/basic/
- */
 export default defineThemeConfig({
   logo: '/rc/docs.png',
-
   appearance: true,
-
   profile: {
     name: 'YOU MING 柚明',
     description: '一个不知名创作者',
@@ -22,7 +18,7 @@ export default defineThemeConfig({
   // 社交链接
   social: [
     { icon: 'bilibili', link: 'https://space.bilibili.com/1337092956' },
-    { icon: 'qq', link: '链接.html#qq-群' },
+    { icon: 'qq', link: '链接.html#qq' },
     { icon: 'github', link: 'https://github.com/YOU-MING-6/docs' },
     ],
   navbarSocialInclude: ['github', 'qq', 'bilibili'], // 导航栏社交链接
@@ -33,5 +29,5 @@ export default defineThemeConfig({
   },
   
   navbar,
-  notes
+  collections
 })

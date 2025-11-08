@@ -4,7 +4,6 @@ import { defineClientConfig } from 'vuepress/client'
 import SidebarNav from './theme/components/SidebarNav.vue'
 import DocFooterNav from './theme/components/DocFooterNav.vue'
 import MetaAfterNav from './theme/components/MetaAfterNav.vue'
-import AFDSponsors from './theme/components/AFDSponsors.vue'
 import './theme/styles/custom.css'
 
 export default defineClientConfig({
@@ -16,6 +15,5 @@ export default defineClientConfig({
     }),
   },
   enhance({ app }) {
-    app.component('AFDSponsors', AFDSponsors)
   },
 })
