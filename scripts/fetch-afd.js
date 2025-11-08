@@ -27,7 +27,7 @@ async function run() {
     throw new Error(res.em || '拉取失败');
   }
 
-  const outDir = path.resolve(__dirname, '../docs/.vuepress/public/data');
+  const outDir = path.resolve(__dirname, '../.vuepress/public/data');
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(
     path.join(outDir, 'afd-sponsors.json'),
@@ -37,4 +37,7 @@ async function run() {
   console.log(`✅ 成功拉取 ${res.data.list.length} 位赞助者`);
 }
 
-run().catch(console.error);
+run().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
