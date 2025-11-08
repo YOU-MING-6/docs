@@ -38,72 +38,34 @@ jobs:
           AFD_USER_ID: ${{ secrets.AFD_USER_ID }}
           AFD_TOKEN: ${{ secrets.AFD_TOKEN }}
 
-      - name: 诊断：定位 afd-sponsors.json 与 git 状态
-        run: |
-          set -e
-          echo "工作目录: $(pwd)"
-          echo "查找所有 afd-sponsors.json："
-          find . -type f -name "afd-sponsors.json" -print || true
-          echo "列出可能的位置："
-          ls -la docs/.vuepress/public/data || true
-          ls -la docs/docs/.vuepress/public/data || true
-          echo "若存在，显示前 30 行并计算 sha1："
-          if [ -f docs/.vuepress/public/data/afd-sponsors.json ]; then
-            head -n 30 docs/.vuepress/public/data/afd-sponsors.json || true
-            sha1sum docs/.vuepress/public/data/afd-sponsors.json || true
-          fi
-          if [ -f docs/docs/.vuepress/public/data/afd-sponsors.json ]; then
-            head -n 30 docs/docs/.vuepress/public/data/afd-sponsors.json || true
-            sha1sum docs/docs/.vuepress/public/data/afd-sponsors.json || true
-          fi
-          echo "git status / tracked files:"
-          git status --porcelain || true
-          git ls-files | grep afd-sponsors.json || true
-
-      - name: 确保目标目录存在（兼容多层 docs）
-        run: mkdir -p docs/.vuepress/public/data docs/docs/.vuepress/public/data
-
-      - name: 将生成文件复制到仓库期望位置（若写入到错误位置）
-        run: |
-          set -e
-          SRC1=docs/docs/.vuepress/public/data/afd-sponsors.json
-          DST=docs/.vuepress/public/data/afd-sponsors.json
-          if [ -f "$SRC1" ]; then
-            echo "found $SRC1"
-            if [ ! -f "$DST" ] || ! cmp -s "$SRC1" "$DST"; then
-              cp -v "$SRC1" "$DST"
-            else
-              echo "目标已存在且相同：$DST"
-            fi
-          else
-            echo "未在 $SRC1 找到文件"
-          fi
-          echo "最终文件列表："
-          ls -la docs/.vuepress/public/data || true
-
-      - name: 提交并推送 AFD 数据（仅当文件变更时）
+      - name: 同步并在有更改时提交到 main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
-          TARGET=docs/.vuepress/public/data/afd-sponsors.json
+          DST=docs/.vuepress/public/data/afd-sponsors.json
+
+          # 确保目标目录存在
+          mkdir -p "$(dirname "$DST")"
+
+          # 如果目标文件不存在则跳过提交
+          if [ ! -f "$DST" ]; then
+            echo "目标文件不存在：$DST，跳过提交"
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          if [ ! -f "$TARGET" ]; then
-            echo "目标文件不存在：$TARGET，跳过提交"
-            exit 0
-          fi
-
           # stage 目标文件
-          git add "$TARGET"
+          git add "$DST"
 
-          # 检查相对于 HEAD 是否有变更；如果没有变更则跳过提交和推送
-          if git diff --cached --quiet HEAD -- "$TARGET"; then
-            echo "文件与主分支相同（无更改），跳过提交与推送"
+          # 若与 HEAD 无差异则跳过提交
+          if git diff --cached --quiet HEAD -- "$DST"; then
+            echo "文件无更改，跳过提交与推送"
             exit 0
           fi
 
-          # 有变更，提交并推送
+          # 有更改则提交并推送
           git commit -m "Update AFD data (workflow)"
           git push origin main
