@@ -67,9 +67,7 @@ jobs:
         run: |
           set -e
           SRC1=docs/docs/.vuepress/public/data/afd-sponsors.json
-          SRC2=docs/.vuepress/public/data/afd-sponsors.json
           DST=docs/.vuepress/public/data/afd-sponsors.json
-          # 如果生成在 docs/docs/... 且目标不存在或不同则复制
           if [ -f "$SRC1" ]; then
             echo "found $SRC1"
             if [ ! -f "$DST" ] || ! cmp -s "$SRC1" "$DST"; then
@@ -83,21 +81,29 @@ jobs:
           echo "最终文件列表："
           ls -la docs/.vuepress/public/data || true
 
-      - name: 提交并推送 AFD 数据（允许空提交）
+      - name: 提交并推送 AFD 数据（仅当文件变更时）
         env:
-          GITHUB_TOKEN: ${{ secrets.YOUMING_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
+          TARGET=docs/.vuepress/public/data/afd-sponsors.json
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # add 两个可能路径（其中一个可能不存在）
-          git add -A docs/.vuepress/public/data/afd-sponsors.json docs/docs/.vuepress/public/data/afd-sponsors.json || true
-          # 如果有 staged 变更则正常提交，否则创建一个 allow-empty commit（可记录 workflow 运行）
-          if git diff --staged --quiet; then
-            echo "no staged changes -> create an empty commit to record workflow"
-            git commit --allow-empty -m "Update AFD data (workflow)" || true
-          else
-            git commit -m "Update AFD data (workflow)" || true
+
+          if [ ! -f "$TARGET" ]; then
+            echo "目标文件不存在：$TARGET，跳过提交"
+            exit 0
           fi
-          # 推送到 main
+
+          # stage 目标文件
+          git add "$TARGET"
+
+          # 检查相对于 HEAD 是否有变更；如果没有变更则跳过提交和推送
+          if git diff --cached --quiet HEAD -- "$TARGET"; then
+            echo "文件与主分支相同（无更改），跳过提交与推送"
+            exit 0
+          fi
+
+          # 有变更，提交并推送
+          git commit -m "Update AFD data (workflow)"
           git push origin main
