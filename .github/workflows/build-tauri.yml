@@ -74,18 +74,18 @@ jobs:
 
       - name: Patch tauri.conf.json
         run: |
-          sed -i 's/"identifier": "com\.tauri\.dev"/"identifier": "com.ymdocs.app"/g' src-tauri/tauri.conf.json
-          sed -i 's/"beforeBuildCommand": "pnpm build"/"beforeBuildCommand": "pnpm docs:build"/g' src-tauri/tauri.conf.json
-          sed -i 's|"frontendDist": "../dist"|"frontendDist": "../docs/.vuepress/dist"|g' src-tauri/tauri.conf.json
+          sed -i.bak 's/"identifier": "com.tauri.dev"/"identifier": "com.ymdocs.app"/g' src-tauri/tauri.conf.json
+          sed -i.bak 's/"beforeBuildCommand": "pnpm build"/"beforeBuildCommand": "pnpm docs:build"/g' src-tauri/tauri.conf.json
+          sed -i.bak 's|"frontendDist": "../dist"|"frontendDist": "../docs/.vuepress/dist"|g' src-tauri/tauri.conf.json
 
       - name: Sanitize tauri.conf.json
         run: |
           python3 -c "
-            import json,sys
-            cfg=json.load(open('src-tauri/tauri.conf.json'))
-            for p in ('nsis','shortcuts'):
-                cfg['bundle'].pop(p,None)
-            json.dump(cfg,open('src-tauri/tauri.conf.json','w'),indent=2)
+          import json,sys
+          cfg=json.load(open('src-tauri/tauri.conf.json'))
+          for p in ('nsis','shortcuts'):
+              cfg['bundle'].pop(p,None)
+          json.dump(cfg,open('src-tauri/tauri.conf.json','w'),indent=2)
           "
 
       - name: Build Tauri
