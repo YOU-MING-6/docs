@@ -42,10 +42,11 @@ jobs:
           echo http://localhost:8080 |
           echo pnpm docs:dev
 
-      - name: Fix bundle identifier
+      - name: Patch tauri.conf.json
         run: |
           (Get-Content src-tauri/tauri.conf.json) `
-            -replace '"identifier"\s*:\s*"com\.tauri\.dev"', '"identifier": "com.ymdocs.app"' |
+            -replace '"identifier"\s*:\s*"com\.tauri\.dev"', '"identifier": "com.ymdocs.app"' `
+            -replace '"beforeBuildCommand"\s*:\s*"pnpm build"', '"beforeBuildCommand": "pnpm docs:build"' |
           Set-Content src-tauri/tauri.conf.json
 
       - name: Build Tauri
