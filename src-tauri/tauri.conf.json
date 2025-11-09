@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "YM Docs",
-  "version": "25.11.09",
+  "version": "25.11.9",
   "identifier": "com.ymdocs.app",
   "build": {
     "beforeBuildCommand": "pnpm docs:build",

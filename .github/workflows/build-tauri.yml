@@ -33,18 +33,6 @@ jobs:
             ext: .dmg
             folder: dmg
 
-          # Linux 家族
-          - os: ubuntu-latest
-            arch: x64
-            target: x86_64-unknown-linux-gnu
-            ext: .AppImage
-            folder: appimage
-          - os: ubuntu-latest
-            arch: arm64
-            target: aarch64-unknown-linux-gnu
-            ext: .AppImage
-            folder: appimage
-
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -85,6 +73,7 @@ jobs:
           echo pnpm docs:dev
 
       - name: Patch tauri.conf.json
+        shell: pwsh
         run: |
           (Get-Content src-tauri/tauri.conf.json) `
             -replace '"identifier"\s*:\s*"com\.tauri\.dev"', '"identifier": "com.ymdocs.app"' `
