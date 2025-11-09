@@ -77,7 +77,6 @@ jobs:
           sed -i.bak 's/"identifier": "com\.tauri\.dev"/"identifier": "com.ymdocs.app"/g' src-tauri/tauri.conf.json
           sed -i.bak 's/"beforeBuildCommand": "pnpm build"/"beforeBuildCommand": "pnpm docs:build"/g' src-tauri/tauri.conf.json
           sed -i.bak 's|"frontendDist": "../dist"|"frontendDist": "../docs/.vuepress/dist"|g' src-tauri/tauri.conf.json
-          rm -f src-tauri/tauri.conf.json.bak
 
       - name: Sanitize tauri.conf.json
         run: |
