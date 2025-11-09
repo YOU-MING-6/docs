@@ -30,7 +30,7 @@
     "targets": ["nsis"],
     "icon": ["icons/icon.ico"],
     "copyright": "Copyright © 2023-present Youming 工作室",
-    "category": "ProductivityApp",
+    "category": "Productivity",
     "shortcuts": [
       {
         "name": "YM Docs",

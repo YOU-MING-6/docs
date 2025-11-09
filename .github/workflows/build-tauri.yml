@@ -73,23 +73,20 @@ jobs:
           echo pnpm docs:dev
 
       - name: Patch tauri.conf.json
-        shell: pwsh
         run: |
-          (Get-Content src-tauri/tauri.conf.json) `
-            -replace '"identifier"\s*:\s*"com\.tauri\.dev"', '"identifier": "com.ymdocs.app"' `
-            -replace '"beforeBuildCommand"\s*:\s*"pnpm build"', '"beforeBuildCommand": "pnpm docs:build"' `
-            -replace '"frontendDist"\s*:\s*"../dist"', '"frontendDist": "../docs/.vuepress/dist"' |
-          Set-Content src-tauri/tauri.conf.json
+          sed -i 's/"identifier": "com\.tauri\.dev"/"identifier": "com.ymdocs.app"/g' src-tauri/tauri.conf.json
+          sed -i 's/"beforeBuildCommand": "pnpm build"/"beforeBuildCommand": "pnpm docs:build"/g' src-tauri/tauri.conf.json
+          sed -i 's|"frontendDist": "../dist"|"frontendDist": "../docs/.vuepress/dist"|g' src-tauri/tauri.conf.json
 
-      - name: Sanitize tauri.conf.json for current target
+      - name: Sanitize tauri.conf.json
         run: |
-          $cfg = Get-Content src-tauri/tauri.conf.json -Raw | ConvertFrom-Json
-          foreach ($prop in @('nsis','shortcuts')) {
-            if ($cfg.bundle.PSObject.Properties.Name -contains $prop) {
-              $cfg.bundle.PSObject.Properties.Remove($prop)
-            }
-          }
-          $cfg | ConvertTo-Json -Depth 10 | Set-Content src-tauri/tauri.conf.json
+          python3 -c "
+            import json,sys
+            cfg=json.load(open('src-tauri/tauri.conf.json'))
+            for p in ('nsis','shortcuts'):
+                cfg['bundle'].pop(p,None)
+            json.dump(cfg,open('src-tauri/tauri.conf.json','w'),indent=2)
+          "
 
       - name: Build Tauri
         run: pnpm tauri build --target ${{ matrix.target }}
