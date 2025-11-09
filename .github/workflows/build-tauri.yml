@@ -1,7 +1,7 @@
 name: Build All Platforms
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:   # 仅手动触发
 
 jobs:
   build:
@@ -9,6 +9,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          # Windows 家族
           - os: windows-latest
             arch: x64
             target: x86_64-pc-windows-msvc
@@ -19,6 +20,8 @@ jobs:
             target: aarch64-pc-windows-msvc
             ext: .exe
             folder: nsis
+
+          # macOS 家族
           - os: macos-latest
             arch: x64
             target: x86_64-apple-darwin
@@ -29,6 +32,18 @@ jobs:
             target: aarch64-apple-darwin
             ext: .dmg
             folder: dmg
+
+          # Linux 家族
+          - os: ubuntu-latest
+            arch: x64
+            target: x86_64-unknown-linux-gnu
+            ext: .AppImage
+            folder: appimage
+          - os: ubuntu-latest
+            arch: arm64
+            target: aarch64-unknown-linux-gnu
+            ext: .AppImage
+            folder: appimage
 
     runs-on: ${{ matrix.os }}
 
@@ -69,10 +84,28 @@ jobs:
           echo http://localhost:8080 |
           echo pnpm docs:dev
 
+      - name: Patch tauri.conf.json
+        run: |
+          (Get-Content src-tauri/tauri.conf.json) `
+            -replace '"identifier"\s*:\s*"com\.tauri\.dev"', '"identifier": "com.ymdocs.app"' `
+            -replace '"beforeBuildCommand"\s*:\s*"pnpm build"', '"beforeBuildCommand": "pnpm docs:build"' `
+            -replace '"frontendDist"\s*:\s*"../dist"', '"frontendDist": "../docs/.vuepress/dist"' |
+          Set-Content src-tauri/tauri.conf.json
+
+      - name: Sanitize tauri.conf.json for current target
+        run: |
+          $cfg = Get-Content src-tauri/tauri.conf.json -Raw | ConvertFrom-Json
+          foreach ($prop in @('nsis','shortcuts')) {
+            if ($cfg.bundle.PSObject.Properties.Name -contains $prop) {
+              $cfg.bundle.PSObject.Properties.Remove($prop)
+            }
+          }
+          $cfg | ConvertTo-Json -Depth 10 | Set-Content src-tauri/tauri.conf.json
+
       - name: Build Tauri
         run: pnpm tauri build --target ${{ matrix.target }}
 
-      - name: Upload artifact
+      - name: Upload installer
         uses: actions/upload-artifact@v4
         with:
           name: YM-Docs-${{ matrix.os }}-${{ matrix.arch }}
