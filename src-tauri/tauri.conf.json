@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "YM Docs",
+  "version": "25.11.09",
+  "identifier": "com.ymdocs.app",
+  "build": {
+    "beforeBuildCommand": "pnpm docs:build",
+    "beforeDevCommand": "pnpm docs:dev",
+    "devPath": "http://localhost:8080",
+    "frontendDist": "../docs/.vuepress/dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "YM 作品文档 2025.11.09",
+        "width": 1200,
+        "height": 800,
+        "minWidth": 800,
+        "minHeight": 600,
+        "center": true,
+        "resizable": true,
+        "maximizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": { "csp": null }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": ["icons/icon.ico"],
+    "copyright": "Copyright © 2023-present Youming 工作室",
+    "category": "ProductivityApp",
+    "shortcuts": [
+      {
+        "name": "YM Docs",
+        "icon": "icons/icon.ico"
+      }
+    ],
+    "nsis": {
+      "languages": ["SimpChinese"],
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+  }
+}
