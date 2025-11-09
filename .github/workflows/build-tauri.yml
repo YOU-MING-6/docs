@@ -26,6 +26,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Install Tauri CLI
+        run: pnpm add -D @tauri-apps/cli
+
       - name: Build VuePress
         run: pnpm docs:build
 
