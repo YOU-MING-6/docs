@@ -6,7 +6,6 @@
   "build": {
     "beforeBuildCommand": "pnpm docs:build",
     "beforeDevCommand": "pnpm docs:dev",
-    "devPath": "http://localhost:8080",
     "frontendDist": "../docs/.vuepress/dist"
   },
   "app": {
@@ -20,7 +19,8 @@
         "center": true,
         "resizable": true,
         "maximizable": true,
-        "fullscreen": false
+        "fullscreen": false,
+        "url": "http://localhost:8080"
       }
     ],
     "security": { "csp": null }
