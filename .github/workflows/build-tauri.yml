@@ -46,7 +46,8 @@ jobs:
         run: |
           (Get-Content src-tauri/tauri.conf.json) `
             -replace '"identifier"\s*:\s*"com\.tauri\.dev"', '"identifier": "com.ymdocs.app"' `
-            -replace '"beforeBuildCommand"\s*:\s*"pnpm build"', '"beforeBuildCommand": "pnpm docs:build"' |
+            -replace '"beforeBuildCommand"\s*:\s*"pnpm build"', '"beforeBuildCommand": "pnpm docs:build"' `
+            -replace '"frontendDist"\s*:\s*"../dist"', '"frontendDist": "../docs/.vuepress/dist"' |
           Set-Content src-tauri/tauri.conf.json
 
       - name: Build Tauri
