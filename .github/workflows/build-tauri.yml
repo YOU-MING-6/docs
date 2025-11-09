@@ -32,14 +32,15 @@ jobs:
       - name: Build VuePress
         run: pnpm docs:build
 
-      - name: Init Tauri (if needed)
+      - name: Init Tauri
+        if: '!hashFiles(''src-tauri/tauri.conf.json'')'
         run: |
-          if (!(Test-Path src-tauri/tauri.conf.json)) {
-            pnpm tauri init --name PlumeDocs --window-title "Plume Docs" `
-                           --dist ../docs/.vuepress/dist `
-                           --dev-url ../docs/.vuepress/dist `
-                           --yes
-          }
+          echo n | pnpm tauri init |
+          echo Docs |
+          echo Docs |
+          echo ../docs/.vuepress/dist |
+          echo http://localhost:8080 |
+          echo pnpm docs:dev
 
       - name: Build Tauri
         run: pnpm tauri build
