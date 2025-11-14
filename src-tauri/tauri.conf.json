@@ -30,19 +30,6 @@
     "targets": ["nsis"],
     "icon": ["icons/icon.ico"],
     "copyright": "Copyright © 2023-present Youming 工作室",
-    "category": "Productivity",
-    "shortcuts": [
-      {
-        "name": "YM Docs",
-        "icon": "icons/icon.ico"
-      }
-    ],
-    "nsis": {
-      "languages": ["SimpChinese"],
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true,
-      "createDesktopShortcut": true,
-      "createStartMenuShortcut": true
-    }
+    "category": "Productivity"
   }
 }
