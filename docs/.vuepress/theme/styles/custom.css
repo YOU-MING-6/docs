@@ -1,31 +1,31 @@
 :root {
   /** 主题颜色 */
-  --vp-c-brand-1: #228be6;
-  --vp-c-brand-2: #339af0;
-  --vp-c-brand-3: #74c0fc;
-  --vp-c-brand-soft: rgba(77, 171, 247, 0.155);
+  --vp-c-brand-1: #0096ff;
+  --vp-c-brand-2: #4cb5ff;
+  --vp-c-brand-3: #99d5ff;
+  --vp-c-brand-soft: rgba(0, 150, 255, 0.155);
 
   /** 辅助颜色 */
-  --vp-c-red-1: #f03e3e;
-  --vp-c-red-2: #fa5252;
-  --vp-c-red-3: #ff6b6b;
+  --vp-c-red-1: #ff6464;
+  --vp-c-red-2: #ff9292;
+  --vp-c-red-3: #ffc1c1;
   --vp-c-red-soft: rgba(255, 107, 107, 0.14);
-  --vp-c-yellow-1: #f59f00;
-  --vp-c-yellow-2: #fab005;
-  --vp-c-yellow-3: #fcc419;
-  --vp-c-yellow-soft: rgba(252, 196, 25, 0.14);
-  --vp-c-green-1: #37b24d;
-  --vp-c-green-2: #40c057;
-  --vp-c-green-3: #51cf66;
-  --vp-c-green-soft: rgba(81, 207, 102, 0.14);
-  --vp-c-brand-1: #228be6;
-  --vp-c-brand-2: #339af0;
-  --vp-c-brand-3: #74c0fc;
-  --vp-c-brand-soft: rgba(116, 192, 252, 0.14);
-  --vp-c-purple-1: #ae3ec9;
-  --vp-c-purple-2: #be4bdb;
-  --vp-c-purple-3: #e599f7;
-  --vp-c-purple-soft: rgb(229, 153, 247, 0.14);
+  --vp-c-yellow-1: #ff9600;
+  --vp-c-yellow-2: #ffb54c;
+  --vp-c-yellow-3: #ffd599;
+  --vp-c-yellow-soft: rgba(255, 150, 0, 0.14);
+  --vp-c-green-1: #64dc64;
+  --vp-c-green-2: #92e692;
+  --vp-c-green-3: #c1f1c1;
+  --vp-c-green-soft: rgba(100, 220, 100, 0.14);
+  --vp-c-brand-1: #0096ff;
+  --vp-c-brand-2: #4cb5ff;
+  --vp-c-brand-3: #99d5ff;
+  --vp-c-brand-soft: rgba(0, 150, 255, 0.14);
+  --vp-c-purple-1: #9664ff;
+  --vp-c-purple-2: #b592ff;
+  --vp-c-purple-3: #d5c1ff;
+  --vp-c-purple-soft: rgba(150, 100, 255, 0.14);
 
  /** 背景颜色 */
   --vp-c-bg: #ffffff;
@@ -41,9 +41,9 @@
 
 [data-theme="dark"] {
   /** 主题颜色 */
-  --vp-c-brand-1: #228be6;
-  --vp-c-brand-2: #1c7ed6;
-  --vp-c-brand-3: #1971c2;
+  --vp-c-brand-1: #0096ff;
+  --vp-c-brand-2: #0078cc;
+  --vp-c-brand-3: #005a99;
   --vp-c-brand-soft: rgba(28, 126, 214, 0.155);
 
   /** 背景颜色 */

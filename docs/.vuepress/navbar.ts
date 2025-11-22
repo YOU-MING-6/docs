@@ -87,7 +87,7 @@ export const navbar = defineNavbarConfig([
           {
             text: '工作室',
             link: '/notes/更多/工作室.html',
-            icon: '/rc/ym-docs-icon.svg',
+            icon: '/rc/ym-icon.svg',
           },
           {
             text: '成员页面',

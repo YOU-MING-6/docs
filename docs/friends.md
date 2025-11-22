@@ -1,7 +1,7 @@
 ---
 pageLayout: friends
 title: Youming 工作室
-description: 以个人喜好为指引，去创造那些令自己心驰神往的事物。
+description: 创造无限可能
 permalink: /friends/
 list:
     -
@@ -11,7 +11,7 @@ list:
       location: 中国
       organization: Youming 工作室
       desc: “在放弃之前，成功的可能性永远不会归零。”
-      backgroundColor: rgba(130, 201, 30, 0.65)
+      backgroundColor: rgba(0, 150, 255, 0.65)
       color: rgb(255, 255, 255, 0.8)
       nameColor: rgb(255, 255, 255, 0.9)
       socials:
