@@ -148,6 +148,13 @@ const routeLocale = useRouteLocale();
   z-index: 0;
 }
 
+/* 手机 */
+@media (max-width: 1850px) {
+  .deng-box, .deng-box1, .deng-box2, .deng-box3 {
+    display: none;
+  }
+}
+
 .deng-box3 .deng,
 .deng-box1 .deng {
   position: relative;
