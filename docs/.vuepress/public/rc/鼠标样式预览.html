@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>鼠标样式预览工具</title>
-    <link rel="stylesheet" href="icon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
             /* 定义全局颜色变量 */
@@ -687,14 +687,13 @@
                 </div>
             </div>
             <div class="about-version">
-                最后更新: 2025年4月1日
+                最后更新: 2026.02.08
             </div>
             <div class="footer">
-                <p>鼠标样式预览工具 &copy; 2025 - <span id="currentYear"></span>
-                    <a href="https://docs.youming.v6.army/notes/更多/工作室.html" target="_blank" style="color: var(--gray-600);">
+                <p>鼠标样式预览工具 | 
+                    <a href="/notes/更多/工作室.html" target="_blank" style="color: var(--gray-600);">
                         Youming 工作室
-                    </a>  |  
-                    <a href="https://web.youming.v6.army" target="_blank" style="color: var(--gray-600);">YM 站点监测</a>
+                    </a>
                 </p>
             </div>
         </div>
@@ -942,10 +941,9 @@
         }
         
         document.addEventListener('DOMContentLoaded', () => {
-            /* 文档加载完成后初始化应用并设置当前年份 */
+            /* 文档加载完成后初始化应用 */
             try {
                 new CursorPreviewApp();
-                document.getElementById('currentYear').textContent = new Date().getFullYear();
             } catch (error) {
                 console.error('文档加载事件监听器失败:', error);
             }

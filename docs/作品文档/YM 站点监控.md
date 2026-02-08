@@ -28,7 +28,7 @@ permalink: /notes/YM-站点监控.html
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2025.04.10*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:check-circle-line /#40c057:: ==正在更新=={.tip}  
-::mingcute:time-duration-line:: **上次更新时间：** *2025.06.29* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2025.06.29* - [查看更新日志](#更新日志)  
 ::mingcute:board-line:: **当前版本：** ==正式版==
 
 ---
@@ -62,7 +62,9 @@ permalink: /notes/YM-站点监控.html
 
 @tab ::mingcute:earth-line:: 网站预览
 
-<LinkCard title="YM 站点监控" icon="mingcute:computer-camera-line" href="https://web.youming.v6.army"></LinkCard>
+<LinkCard title="YM 站点监控 - 地址①" icon="mingcute:book-2-line" href="https://web.youming.v6.army"></LinkCard>
+<LinkCard title="YM 站点监控 - 地址②" icon="mingcute:book-2-line" href="https://web.youming.us.ci"></LinkCard>
+<LinkCard title="YM 站点监控 - 地址③" icon="mingcute:book-2-line" href="https://web.youming.dpdns.org"></LinkCard>
 
 ::::
 
@@ -96,6 +98,6 @@ permalink: /notes/YM-站点监控.html
 ::: important 下载即代表你已阅读并同意 [作品权限](#作品权限) 中的内容。
 :::
 
-## ::mingcute:history-anticlockwise-line:: 更新历史
+## ::mingcute:history-anticlockwise-line:: 更新日志
 
-查看此网站的 [更新日志](/notes/更新历史/YM-站点监控.html)
+查看此网站的 [更新日志](/notes/更新日志/YM-站点监控.html)

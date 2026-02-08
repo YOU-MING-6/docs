@@ -14,7 +14,7 @@
 
 【<a href="/notes/更多/公告.html">查看全部公告</a>】
 
-- <a href="/notes/协议/开源-非商业.html">协议</a>上次更新时间：`2025.11.08`
+- <a href="/notes/协议/开源-商业.html">协议</a>上次更新时间：`2026.02.08`
 
 <p style="margin-top: 16px; "></p>
 

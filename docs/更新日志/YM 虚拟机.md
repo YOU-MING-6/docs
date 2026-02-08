@@ -1,16 +1,16 @@
 ---
-title: YM 虚拟机
+title: YM 虚拟机 (更新日志)
 author: YOU MING 柚明
 icon: mingcute:chart-pie-2-line
 outline: 2
 createTime: 2023/05/02
 tags:
-- 更新历史
-permalink: /notes/更新历史/YM-虚拟机.html
+- 更新日志
+permalink: /notes/更新日志/YM-虚拟机.html
 ---
 
 ::: card title="返回" icon="mingcute:back-line"
-这里是该项目的 **更新历史** 文档 | [返回主文档](/notes/YM-虚拟机.html)
+这里是该项目的 **更新日志** 文档 | [返回主文档](/notes/YM-虚拟机.html)
 :::
 
 <div style="text-align: center; ">

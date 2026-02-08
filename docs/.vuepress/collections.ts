@@ -55,9 +55,9 @@ export const demoNotes = defineCollection({
 
 export const demoHistory = defineCollection({
   type: 'doc',
-  dir: 'notes/更新历史',
-  title: '更新历史',
-  linkPrefix: '/notes/更新历史/',
+  dir: 'notes/更新日志',
+  title: '更新日志',
+  linkPrefix: '/notes/更新日志/',
   sidebar: [
     {
       text: '返回',
@@ -67,7 +67,7 @@ export const demoHistory = defineCollection({
       ]
     },
     {
-      text: '更新历史',
+      text: '更新日志',
       prefix: '',
       items: [
         {

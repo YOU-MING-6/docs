@@ -1,16 +1,16 @@
 ---
-title: MC 片头&尾
+title: MC 片头&尾 (更新日志)
 author: YOU MING 柚明
 icon: mingcute:video-line
 outline: 2
 createTime: 2024/11/09
 tags:
-- 更新历史
-permalink: /notes/更新历史/MC-片头-尾.html
+- 更新日志
+permalink: /notes/更新日志/MC-片头-尾.html
 ---
 
 ::: card title="返回" icon="mingcute:back-line"
-这里是该项目的 **更新历史** 文档 | [返回主文档](/notes/MC-片头-尾.html)
+这里是该项目的 **更新日志** 文档 | [返回主文档](/notes/MC-片头-尾.html)
 :::
 
 <div style="text-align: center; ">

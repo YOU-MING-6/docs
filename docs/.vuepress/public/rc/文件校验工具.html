@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>文件校验工具</title>
-  <link rel="stylesheet" href="icon.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <script src="spark-md5.js"></script>
   <style>
     :root {
@@ -279,12 +279,19 @@
 
     /* 模态框样式 */
     .modal {
-      display: none;
+      display: flex;
       position: fixed;
       z-index: 100;
       inset: 0;
       background-color: rgba(0, 0, 0, 0.5);
-      backdrop-filter: blur(2px);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    .modal.show {
+      opacity: 1;
+      visibility: visible;
     }
 
     .modal-content {
@@ -300,6 +307,14 @@
         display: flex;
         flex-direction: column;
         overflow: hidden;
+        transform: scale(0.9);
+        opacity: 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .modal.show .modal-content {
+      transform: scale(1);
+      opacity: 1;
     }
     
     @media (max-width: 768px) {
@@ -310,7 +325,7 @@
     
     @media (min-width: 769px) {
         .modal-content {
-            width: 600px;
+            width: 80%;
             max-width: 80%;
         }
     }
@@ -418,8 +433,7 @@
     /* 响应式设计 */
     @media (max-width: 600px) {
       .modal-content {
-        margin: 5vh auto;
-        width: 95%;
+        width: 80%;
       }
       
       .main-container {
@@ -481,7 +495,7 @@
       <div class="modal-header">
         <div>
           <h2 class="modal-title">校验值数据库</h2>
-          <p class="modal-subtitle">版本: 2025.07.13 | 记录数: <span id="dbCount">0</span></p>
+          <p class="modal-subtitle">更新时间: 2026.02.08  ---  记录数: <span id="dbCount">0</span></p>
         </div>
         <span class="close" id="closeDBBtn">&times;</span>
       </div>
@@ -531,8 +545,8 @@
 
     // 算法描述
     const algoDescMap = {
-      md5: 'MD5：常用于文件完整性校验。',
-      sha256: 'SHA256：安全性高，适合重要文件校验。'
+      md5: 'MD5：常用于文件完整性校验，速度较快。',
+      sha256: 'SHA256：安全性高，适合重要文件校验，速度较慢。'
     };
 
     // DOM 元素
@@ -668,7 +682,7 @@
     // 打开数据库模态框
     function openDatabaseModal() {
       dbUtils.renderDatabase();
-      dbModal.style.display = 'block';
+      dbModal.classList.add('show');
       
       // 添加ESC键关闭功能
       document.addEventListener('keydown', handleEscapeKey);
@@ -676,7 +690,7 @@
     
     // 关闭数据库模态框
     function closeDatabaseModal() {
-      dbModal.style.display = 'none';
+      dbModal.classList.remove('show');
       document.removeEventListener('keydown', handleEscapeKey);
     }
     

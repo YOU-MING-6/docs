@@ -37,7 +37,7 @@ permalink: /notes/Floating-OS.html
 ::mingcute:contacts-2-line:: **发起者：** Afly-dream - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2024*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:close-circle-line /#fa5252:: ==停止支持(构建)=={.caution} - [详情](#停止支持-构建)  
-::mingcute:time-duration-line:: **上次更新时间：** *2024.08.05* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2024.08.05* - [查看更新日志](#更新日志)  
 ::mingcute:board-line:: **当前版本：** ==构建版 - v0.0.1=={.important} ；v0.0.1 Build 2024121207
 
 ---
@@ -89,6 +89,6 @@ permalink: /notes/Floating-OS.html
 ::: important 下载即代表你已阅读并同意 [作品权限](#作品权限) 中的内容。
 :::
 
-## ::mingcute:history-anticlockwise-line:: 更新历史
+## ::mingcute:history-anticlockwise-line:: 更新日志
 
-[查看更新历史](/notes/更新历史/Floating-OS.html)
+[查看更新日志](/notes/更新日志/Floating-OS.html)

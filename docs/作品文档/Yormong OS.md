@@ -32,7 +32,7 @@ permalink: /notes/Yormong-OS.html
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2024.01.24*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:pause-circle-line /#ff922b:: ==暂停更新=={.warning}  
-::mingcute:time-duration-line:: **上次更新时间：** *2024.07.08* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2024.07.08* - [查看更新日志](#更新日志)  
 ::mingcute:board-line:: **当前版本：** ==公测版 - v1.0.4=={.important} ；v1.0.4.20240708.265
 
 ---
@@ -124,6 +124,6 @@ permalink: /notes/Yormong-OS.html
 ::: important 下载即代表你已阅读并同意 [作品权限](#作品权限) 中的内容。
 :::
 
-## ::mingcute:history-anticlockwise-line:: 更新历史
+## ::mingcute:history-anticlockwise-line:: 更新日志
 
-[查看更新历史](/notes/更新历史/Yormong-OS.html)
+[查看更新日志](/notes/更新日志/Yormong-OS.html)

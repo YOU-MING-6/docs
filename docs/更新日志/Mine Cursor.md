@@ -1,16 +1,16 @@
 ---
-title: Mine Cursor
+title: Mine Cursor (更新日志)
 author: hite404
 icon: mingcute:mouse-line
 outline: 2
 createTime: 2025/04/27
 tags:
-- 更新历史
-permalink: /notes/更新历史/Mine-Cursor.html
+- 更新日志
+permalink: /notes/更新日志/Mine-Cursor.html
 ---
 
 ::: card title="返回" icon="mingcute:back-line"
-这里是该项目的 **更新历史** 文档 | [返回主文档](/notes/Mine-Cursor.html)
+这里是该项目的 **更新日志** 文档 | [返回主文档](/notes/Mine-Cursor.html)
 :::
 
 <div style="text-align: center; ">

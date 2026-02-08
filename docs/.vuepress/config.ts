@@ -17,10 +17,10 @@ export default defineUserConfig({
 
   alias: {
     // 灯笼装饰（docs\.vuepress\theme\components\lantern.vue）
-    // "@theme/Nav/VPNavBarTitle.vue": path.resolve(
-    //   __dirname,
-    //   "./theme/components/lantern.vue"
-    // ),
+    "@theme/Nav/VPNavBarTitle.vue": path.resolve(
+      __dirname,
+      "./theme/components/lantern.vue"
+    ),
   },
 
   shouldPrefetch: false, // 是否开启预加载

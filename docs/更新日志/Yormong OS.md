@@ -1,16 +1,16 @@
 ---
-title: Yormong OS
+title: Yormong OS (更新日志)
 author: YOU MING 柚明
 icon: mingcute:classify-3-line
 outline: 2
 createTime: 2024/01/24
 tags:
-- 更新历史
-permalink: /notes/更新历史/Yormong-OS.html
+- 更新日志
+permalink: /notes/更新日志/Yormong-OS.html
 ---
 
 ::: card title="返回" icon="mingcute:back-line"
-这里是该项目的 **更新历史** 文档 | [返回主文档](/notes/Yormong-OS.html)
+这里是该项目的 **更新日志** 文档 | [返回主文档](/notes/Yormong-OS.html)
 :::
 
 <div style="text-align: center; ">

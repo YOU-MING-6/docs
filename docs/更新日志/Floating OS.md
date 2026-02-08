@@ -1,5 +1,5 @@
 ---
-title: Floating OS
+title: Floating OS (更新日志)
 author: YOU MING 柚明 | Afly-dream
 icon: mingcute:album-line
 outline: 2
@@ -8,16 +8,16 @@ badge:
   text: 停止
   type: danger
 tags:
-- 更新历史
-permalink: /notes/更新历史/Floating-OS.html
+- 更新日志
+permalink: /notes/更新日志/Floating-OS.html
 ---
 
 ::: card title="返回" icon="mingcute:back-line"
-这里是该项目的 **更新历史** 文档 | [返回主文档](/notes/Floating-OS.html)
+这里是该项目的 **更新日志** 文档 | [返回主文档](/notes/Floating-OS.html)
 :::
 
 <div style="text-align: center; ">
-    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2024</p>
+    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2025</p>
 </div>
 
 
@@ -28,6 +28,11 @@ permalink: /notes/更新历史/Floating-OS.html
 ::: right
 **2025.02.15**
 :::
+
+
+<div style="text-align: center; ">
+    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2024</p>
+</div>
 
 
 ## v 0.0.1 <Badge text="构建版" type="danger" />

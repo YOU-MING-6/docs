@@ -8,13 +8,13 @@ export const navbar = defineNavbarConfig([
     text: '作品文档',
     link: '/notes/',
     icon: 'mingcute:book-2-line',
-    activeMatch: '^/notes/[^/更新历史/|/反馈中心/|/协议/|/更多/]{1,}|/notes/$',
+    activeMatch: '^/notes/[^/更新日志/|/反馈中心/|/协议/|/更多/]{1,}|/notes/$',
   },
   {
-    text: '更新历史',
-    link: '/notes/更新历史/MC-鼠标指针.html',
+    text: '更新日志',
+    link: '/notes/更新日志/MC-鼠标指针.html',
     icon: 'mingcute:history-anticlockwise-line',
-    activeMatch: '^/notes/更新历史/',
+    activeMatch: '^/notes/更新日志/',
   },
   {
     text: '反馈中心',
@@ -170,9 +170,9 @@ export const notes = defineCollections([
   
   {
     type: 'doc',
-    dir: 'notes/更新历史',
-    title: '更新历史',
-    linkPrefix: '/notes/更新历史/',
+    dir: 'notes/更新日志',
+    title: '更新日志',
+    linkPrefix: '/notes/更新日志/',
     sidebar: [
       {
         text: '返回',
@@ -182,7 +182,7 @@ export const notes = defineCollections([
         ]
       },
       {
-        text: '更新历史',
+        text: '更新日志',
         prefix: '',
         items: [
           {

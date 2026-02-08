@@ -17,8 +17,8 @@ config:
           link: /notes/
         -
           theme: alt
-          text: 更新历史
-          link: /notes/更新历史/MC-鼠标指针.html
+          text: 更新日志
+          link: /notes/更新日志/MC-鼠标指针.html
         -
           theme: alt
           text: 反馈中心

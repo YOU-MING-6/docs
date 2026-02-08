@@ -36,7 +36,7 @@ permalink: /notes/MC-鼠标指针.html
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2023.02*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:check-circle-line /#40c057:: ==正在更新=={.tip}  
-::mingcute:time-duration-line:: **上次更新时间：** *2025.08.02* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2025.08.02* - [查看更新日志](#更新日志)  
 ::mingcute:board-line:: **当前版本：** ==正式版 - v2.4==
 
 ---
@@ -158,6 +158,6 @@ permalink: /notes/MC-鼠标指针.html
 ::: important 下载即代表你已阅读并同意 [作品权限](#作品权限) 中的内容。
 :::
 
-## ::mingcute:history-anticlockwise-line:: 更新历史
+## ::mingcute:history-anticlockwise-line:: 更新日志
 
-[查看更新历史](/notes/更新历史/MC-鼠标指针.html)
+[查看更新日志](/notes/更新日志/MC-鼠标指针.html)

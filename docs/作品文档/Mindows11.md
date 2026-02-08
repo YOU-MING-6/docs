@@ -38,7 +38,7 @@ permalink: /notes/Mindows11.html
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2023.04.14*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:close-circle-line /#fa5252:: ==停止支持=={.caution}  
-::mingcute:time-duration-line:: **上次更新时间：** *2023.08.07* - [查看更新历史](#更新历史)  
+::mingcute:time-duration-line:: **上次更新时间：** *2023.08.07* - [查看更新日志](#更新日志)  
 ::mingcute:board-line:: **当前版本：** ==正式版 - v4.2==
 
 ---
@@ -151,6 +151,6 @@ permalink: /notes/Mindows11.html
 ::: important 下载即代表你已阅读并同意 [作品权限](#作品权限) 中的内容。
 :::
 
-## ::mingcute:history-anticlockwise-line:: 更新历史
+## ::mingcute:history-anticlockwise-line:: 更新日志
 
-[查看更新历史](/notes/更新历史/Mindows11.html)
+[查看更新日志](/notes/更新日志/Mindows11.html)
