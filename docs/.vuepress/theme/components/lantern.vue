@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { ref } from "vue";
 import VPImage from "vuepress-theme-plume/components/VPImage.vue";
 import VPLink from "vuepress-theme-plume/components/VPLink.vue";
 import { useRouteLocale } from "vuepress/client";
@@ -7,6 +8,19 @@ import { useData, useSidebar } from "vuepress-theme-plume/composables";
 const { theme, site, isDark } = useData();
 const { hasSidebar } = useSidebar();
 const routeLocale = useRouteLocale();
+
+// Audio control for lantern 2
+const audioRef = ref<HTMLAudioElement | null>(null);
+function toggleAudio() {
+  if (audioRef.value) {
+    if (audioRef.value.paused) {
+      audioRef.value.play();
+    } else {
+      audioRef.value.pause();
+      audioRef.value.currentTime = 0;
+    }
+  }
+}
 </script>
 
 <template>
@@ -23,7 +37,7 @@ const routeLocale = useRouteLocale();
         class="logo"
         :image="{ light: theme.logo, dark: theme.logoDark || theme.logo }"
       />
-      <SparklesText :sparkles-count="5" :text="site.title"></SparklesText>
+      <SparklesText data-v-fcd4cf4a="" :text="site.title"></SparklesText>
 
       <slot name="nav-bar-title-after" />
     </VPLink>
@@ -42,9 +56,8 @@ const routeLocale = useRouteLocale();
     </div>
   </div>
 
-<AudioReader src="/rc/gxfc.mp3">
   <!-- 灯笼2 -->
-  <div class="deng-box1">
+  <div class="deng-box1" @click="toggleAudio" style="cursor:pointer;">
     <div class="deng">
       <div class="xian"></div>
       <div class="deng-a">
@@ -55,24 +68,25 @@ const routeLocale = useRouteLocale();
         <div class="shui-b"></div>
       </div>
     </div>
+    <audio ref="audioRef" src="/rc/gxfc.mp3" style="display:none"></audio>
   </div>
-</AudioReader>
 
-<AudioReader src="/rc/gxfc.mp3">
   <!-- 灯笼3 -->
-  <div class="deng-box2">
-    <div class="deng">
-      <div class="xian"></div>
-      <div class="deng-a">
-        <div class="deng-b"><div class="deng-t">快</div></div>
-      </div>
-      <div class="shui shui-a">
-        <div class="shui-c"></div>
-        <div class="shui-b"></div>
+  <div class="deng-box1" @click="toggleAudio" style="cursor:pointer;">
+    <div class="deng-box2">
+      <div class="deng">
+        <div class="xian"></div>
+        <div class="deng-a">
+          <div class="deng-b"><div class="deng-t">快</div></div>
+        </div>
+        <div class="shui shui-a">
+          <div class="shui-c"></div>
+          <div class="shui-b"></div>
+        </div>
       </div>
     </div>
+    <audio ref="audioRef" src="/rc/gxfc.mp3" style="display:none"></audio>
   </div>
-</AudioReader>
 
   <!-- 灯笼4 -->
   <div class="deng-box3">
@@ -92,17 +106,15 @@ const routeLocale = useRouteLocale();
 
 <style scoped>
 .title {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: var(--vp-nav-height);
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "ZWZT";
-  border-bottom: 1px solid transparent;
-  transition: opacity var(--vp-t-color), color var(--vp-t-color),
-    border-bottom var(--vp-t-color);
-  overflow: hidden;
+  width:100%;
+  height:var(--vp-nav-height);
+  color:var(--vp-c-text-1);
+  transition:opacity var(--vp-t-color),color var(--vp-t-color),border-bottom var(--vp-t-color);
+  border-bottom:1px solid #0000;
+  align-items:center;
+  font-size:16px;
+  font-weight:600;
+  display:flex
 }
 
 @media (min-width: 960px) {

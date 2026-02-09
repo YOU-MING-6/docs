@@ -37,14 +37,14 @@ permalink: /notes/Mine-Cursor.html
 ::mingcute:book-3-line:: **作品名称：** Mine Cursor  
 ::mingcute:contacts-2-line:: **发起者：** hite404 - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2025.04.25*  
-::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:check-circle-line /#40c057:: ==正在更新=={.tip}  
+::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:check-circle-line /#64dc64:: ==正在更新=={.tip}  
 ::mingcute:time-duration-line:: **上次更新时间：** *2025.05.22* - [查看更新日志](#更新日志)  
 ::mingcute:board-line:: **当前版本：** ==内测版 - v0.0.8=={.important}
 
 ---
 
 ::mingcute:layout-3-line:: **项目分类：** [YM-软件工具](/notes/#ym-软件工具)  
-::mingcute:quill-pen-line:: **项目类型：** ::mingcute:quill-pen-line /#40c057:: 开源项目-非商业 - [查看作品权限](#作品权限)  
+::mingcute:quill-pen-line:: **项目类型：** ::mingcute:quill-pen-line /#64dc64:: 开源项目-非商用 - [查看作品权限](#作品权限)  
 :::
 
 ::: card
@@ -53,15 +53,13 @@ permalink: /notes/Mine-Cursor.html
 
 ### ::mingcute:contacts-3-line:: 创作人员
 
-发起者：
+<LinkCard title="hite404" icon="/rc/tx-4.png" href="/friends/">不忘初心，方得始终。
+<Badge text="发起者" type="warning" /></LinkCard>
 
-<LinkCard title="hite404" icon="/rc/tx-4.png" href="/friends/">
-    不忘初心，方得始终。
-</LinkCard>
-
-参与创作的人员：
-
-<LinkCard title="YOU MING 柚明" icon="/rc/ym-ys.png" href="/notes/更多/工作室.html#you-ming-柚明">一个不知名创作者</LinkCard>
+<CardGrid>
+  <LinkCard title="YOU MING 柚明" icon="/rc/ym-ys.png" href="/notes/更多/工作室.html#you-ming-柚明">一个不知名创作者
+  <Badge text="视频制作 &nbsp;|&nbsp; 提供支持" type="tip" /></LinkCard>
+</CardGrid>
 
 ## ::mingcute:pencil-3-line:: 作品权限
 

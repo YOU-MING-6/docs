@@ -14,7 +14,7 @@ permalink: /notes/更新日志/Yormong-OS.html
 :::
 
 <div style="text-align: center; ">
-    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2024</p>
+    <p style="font-size: 48px; font-weight: 650; margin-top: 60px">2024</p>
 </div>
 
 

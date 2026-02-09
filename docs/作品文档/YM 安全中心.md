@@ -31,14 +31,14 @@ permalink: /notes/YM-安全中心.html
 ::mingcute:book-3-line:: **作品名称：** YM 安全中心  
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2023.05.02*  
-::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:pause-circle-line /#ff922b:: ==暂停更新=={.warning}  
+::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:pause-circle-line /#ff9600:: ==暂停更新=={.warning}  
 ::mingcute:time-duration-line:: **上次更新时间：** *2024.06.23* - [查看更新日志](#更新日志)  
 ::mingcute:board-line:: **当前版本：** ==内测版 - v0.0.3=={.important} ；v0.0.3.20240623.100
 
 ---
 
 ::mingcute:layout-3-line:: **项目分类：** [YM-演示与设计](/notes/#ym-演示与设计)  
-::mingcute:quill-pen-line:: **项目类型：** ::mingcute:forbid-circle-line /#fa5252:: 闭源项目 - [查看作品权限](#作品权限)  
+::mingcute:quill-pen-line:: **项目类型：** ::mingcute:forbid-circle-line /#ff6666:: 闭源项目 - [查看作品权限](#作品权限)  
 :::
 
 ::: card
@@ -47,9 +47,8 @@ permalink: /notes/YM-安全中心.html
 
 ### ::mingcute:contacts-3-line:: 创作人员
 
-发起者：
-
-<LinkCard title="YOU MING 柚明" icon="/rc/ym-ys.png" href="/notes/更多/工作室.html#you-ming-柚明">一个不知名创作者</LinkCard>
+<LinkCard title="YOU MING 柚明" icon="/rc/ym-ys.png" href="/notes/更多/工作室.html#you-ming-柚明">一个不知名创作者
+<Badge text="发起者" type="warning" /></LinkCard>
 
 ## ::mingcute:pencil-3-line:: 作品权限
 

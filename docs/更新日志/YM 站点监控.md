@@ -14,7 +14,7 @@ permalink: /notes/更新日志/YM-站点监控.html
 :::
 
 <div style="text-align: center; ">
-    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2026</p>
+    <p style="font-size: 48px; font-weight: 650; margin-top: 60px">2026</p>
 </div>
 
 
@@ -35,7 +35,7 @@ permalink: /notes/更新日志/YM-站点监控.html
 
 
 <div style="text-align: center; ">
-    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2025</p>
+    <p style="font-size: 48px; font-weight: 650; margin-top: 60px">2025</p>
 </div>
 
 

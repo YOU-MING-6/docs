@@ -29,25 +29,24 @@ permalink: /notes/MC-片头-尾.html
 ::mingcute:book-3-line:: **作品名称：** MC 片头&尾  
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2024*  
-::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:pause-circle-line /#ff922b:: ==暂停更新=={.warning}  
+::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:pause-circle-line /#ff9600:: ==暂停更新=={.warning}  
 ::mingcute:time-duration-line:: **上次更新时间：** *2024.11.09* - [查看更新日志](#更新日志)  
 ::mingcute:board-line:: **当前版本：** ==正式版==
 
 ---
 
 ::mingcute:layout-3-line:: **项目分类：** [YM-软件工具](/notes/#ym-软件工具)  
-::mingcute:quill-pen-line:: **项目类型：** ::mingcute:quill-pen-line /#40c057:: 开源项目-非商业 - [查看作品权限](#作品权限)  
+::mingcute:quill-pen-line:: **项目类型：** ::mingcute:quill-pen-line /#64dc64:: 开源项目-非商用 - [查看作品权限](#作品权限)  
 :::
 
 ### ::mingcute:contacts-3-line:: 创作人员
 
-发起者：
-
-<LinkCard title="YOU MING 柚明" icon="/rc/ym-ys.png" href="/notes/更多/工作室.html#you-ming-柚明">一个不知名创作者</LinkCard>
+<LinkCard title="YOU MING 柚明" icon="/rc/ym-ys.png" href="/notes/更多/工作室.html#you-ming-柚明">一个不知名创作者
+<Badge text="发起者" type="warning" /></LinkCard>
 
 ## ::mingcute:pencil-3-line:: 作品权限
 
-::: important 要使用或修改此作品，请遵守 [《开源作品使用权限协议-非商业》](/notes/协议/开源-非商业.html) 。
+::: important 要使用或修改此作品，请遵守 [《开源作品使用权限协议-非商用》](/notes/协议/开源-非商用.html) 。
 :::
 
 ### ::mingcute:quote-right-line:: 引用内容

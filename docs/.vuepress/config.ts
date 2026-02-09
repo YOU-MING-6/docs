@@ -30,27 +30,29 @@ export default defineUserConfig({
   plugins: [
     redirectPlugin({
       config: {
-        '/%E5%BF%85%E7%9C%8B-%E5%BC%80%E6%BA%90.html': '/notes/更多/必看.html', // /必看-开源-非商业.html
-        '/%e5%bf%85%e7%9c%8b-%e9%9d%9e%e5%bc%80%e6%ba%90.html': '/notes/更多//必看.html',  // /必看-非开源-非商业.html
-        '/%E6%9B%B4%E5%A4%9A-%E5%BF%85%E7%9C%8B-%E5%BC%80%E6%BA%90.html': '/notes/更多//必看.html',  // /更多-必看-开源-非商业.html
+        '/%E5%BF%85%E7%9C%8B-%E5%BC%80%E6%BA%90.html': '/notes/更多/必看.html', // /必看-开源-非商用.html
+        '/%e5%bf%85%e7%9c%8b-%e9%9d%9e%e5%bc%80%e6%ba%90.html': '/notes/更多//必看.html',  // /必看-非开源-非商用.html
+        '/%E6%9B%B4%E5%A4%9A-%E5%BF%85%E7%9C%8B-%E5%BC%80%E6%BA%90.html': '/notes/更多//必看.html',  // /更多-必看-开源-非商用.html
         '/%e6%9b%b4%e5%a4%9a-%e5%bf%85%e7%9c%8b.html': '/notes/更多//必看.html',  // /更多-必看.html
         '/%E5%BF%85%E7%9C%8B.html': '/notes/更多/必看.html',  // /必看.html
         '/%E5%85%AC%E5%91%8A.html': '/notes/更多/公告.html',  // /公告.html
         '/%E9%93%BE%E6%8E%A5.html': '/notes/更多/链接.html',  // /链接.html
         '/%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5%E9%A1%B5.html': '/notes/更多/链接.html',  // /社交链接页.html
-        '/notes/%e5%8d%8f%e8%ae%ae/%e5%bc%80%e6%ba%90.html': '/notes/协议/开源-非商业.html',  // /notes/协议/开源.html
+        '/notes/%e5%8d%8f%e8%ae%ae/%e5%bc%80%e6%ba%90.html': '/notes/协议/开源-非商用.html',  // /notes/协议/开源.html
         '/notes/%e5%8f%8d%e9%a6%88%e4%b8%ad%e5%bf%83/%e5%8f%8d%e9%a6%88.html': '/notes/反馈中心/',  // /notes/反馈中心/反馈.html
+        '/notes/%E5%8D%8F%E8%AE%AE/%E5%BC%80%E6%BA%90-%E9%9D%9E%E5%95%86%E4%B8%9A.html': '/notes/协议/开源-非商用.html',  // /notes/协议/开源-非商业.html
         // 重复
-        '/必看-开源-非商业.html': '/notes/更多/必看.html',
-        '/必看-非开源-非商业.html': '/notes/更多//必看.html',
-        '/更多-必看-开源-非商业.html': '/notes/更多//必看.html',
+        '/必看-开源-非商用.html': '/notes/更多/必看.html',
+        '/必看-非开源-非商用.html': '/notes/更多//必看.html',
+        '/更多-必看-开源-非商用.html': '/notes/更多//必看.html',
         '/更多-必看.html': '/notes/更多//必看.html',
         '/必看.html': '/notes/更多/必看.html',
         '/公告.html': '/notes/更多/公告.html',
         '/链接.html': '/notes/更多/链接.html',
         '/社交链接页.html': '/notes/更多/链接.html',
-        '/notes/协议/开源.html': '/notes/协议/开源-非商业.html',
+        '/notes/协议/开源.html': '/notes/协议/开源-非商用.html',
         '/notes/反馈中心/反馈.html': '/notes/反馈中心/',
+        '/notes/协议/开源-非商业.html': '/notes/协议/开源-非商用.html',  // /notes/协议/开源-非商业.html
       },
     }),
   ],
@@ -111,6 +113,12 @@ export default defineUserConfig({
         lazyload: true,  // 启用图片懒加载
         mark: true,  // 启用图片标记
         size: true,  // 启用图片大小
+      },
+      table: {
+        align: 'left', // 'left' | 'center' | 'right'
+        maxContent: false, // 表格宽度是否为最大内容宽度；行内元素不再自动换行，超出容器宽度时表格显示滚动条
+        fullWidth: false, // 表格宽度默认占据整行
+        copy: true, // true | 'all' | 'html' | 'md'
       }
     },
 

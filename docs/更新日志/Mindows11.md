@@ -16,8 +16,22 @@ permalink: /notes/更新日志/Mindows11.html
 这里是该项目的 **更新日志** 文档 | [返回主文档](/notes/Mindows11.html)
 :::
 
+
 <div style="text-align: center; ">
-    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2024</p>
+    <p style="font-size: 48px; font-weight: 650; margin-top: 60px">2026</p>
+</div>
+
+
+## ◉ 协议更换
+::: info 本作品已由 [《开源作品使用权限协议-非商用》](/notes/协议/开源-非商用.html) 协议更变为 [《开源作品使用权限协议-商用》](/notes/协议/开源-商用.html) 协议
+:::
+::: right
+**2026.02.09**
+:::
+
+
+<div style="text-align: center; ">
+    <p style="font-size: 48px; font-weight: 650; margin-top: 60px">2024</p>
 </div>
 
 
@@ -30,7 +44,7 @@ permalink: /notes/更新日志/Mindows11.html
 
 
 <div style="text-align: center; ">
-    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2023</p>
+    <p style="font-size: 48px; font-weight: 650; margin-top: 60px">2023</p>
 </div>
 
 

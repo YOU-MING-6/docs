@@ -14,7 +14,7 @@ permalink: /notes/更新日志/MC-鼠标指针.html
 :::
 
 <div style="text-align: center; ">
-    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2025</p>
+    <p style="font-size: 48px; font-weight: 650; margin-top: 60px">2025</p>
 </div>
 
 
@@ -141,7 +141,7 @@ permalink: /notes/更新日志/MC-鼠标指针.html
 
 
 <div style="text-align: center; ">
-    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2024</p>
+    <p style="font-size: 48px; font-weight: 650; margin-top: 60px">2024</p>
 </div>
 
 

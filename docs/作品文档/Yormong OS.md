@@ -31,14 +31,14 @@ permalink: /notes/Yormong-OS.html
 ::mingcute:book-3-line:: **作品名称：** Yormong OS  
 ::mingcute:contacts-2-line:: **发起者：** YOU MING 柚明 - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2024.01.24*  
-::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:pause-circle-line /#ff922b:: ==暂停更新=={.warning}  
+::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:pause-circle-line /#ff9600:: ==暂停更新=={.warning}  
 ::mingcute:time-duration-line:: **上次更新时间：** *2024.07.08* - [查看更新日志](#更新日志)  
 ::mingcute:board-line:: **当前版本：** ==公测版 - v1.0.4=={.important} ；v1.0.4.20240708.265
 
 ---
 
 ::mingcute:layout-3-line:: **项目分类：** [YM-演示与设计](/notes/#ym-演示与设计)  
-::mingcute:quill-pen-line:: **项目类型：** ::mingcute:key-2-line /#228be6:: 非开源项目 - [查看作品权限](#作品权限)  
+::mingcute:quill-pen-line:: **项目类型：** ::mingcute:key-2-line /#0095ff:: 非开源项目 - [查看作品权限](#作品权限)  
 :::
 
 ::: card
@@ -47,20 +47,19 @@ permalink: /notes/Yormong-OS.html
 
 ### ::mingcute:contacts-3-line:: 创作人员
 
-发起者：
-
-<LinkCard title="YOU MING 柚明" icon="/rc/ym-ys.png" href="/notes/更多/工作室.html#you-ming-柚明">一个不知名创作者</LinkCard>
-
-参与创作的人员：
+<LinkCard title="YOU MING 柚明" icon="/rc/ym-ys.png" href="/notes/更多/工作室.html#you-ming-柚明">一个不知名创作者
+<Badge text="发起者" type="warning" /></LinkCard>
 
 <CardGrid>
-<LinkCard title="某团一笑" icon="/rc/tx-2-ys.png" href="/friends/">现在，让我们来看看答案。</LinkCard>
-<LinkCard title="Afly-dream" icon="/rc/tx-3-ys.png" href="/friends/">有梦想，才能有希望。</LinkCard>
+  <LinkCard title="某团一笑" icon="/rc/tx-2-ys.png" href="/friends/">现在，让我们来看看答案。
+  <Badge text="协作" type="tip" /></LinkCard>
+  <LinkCard title="Afly-dream" icon="/rc/tx-3-ys.png" href="/friends/">有梦想，才能有希望。
+  <Badge text="协作" type="tip" /></LinkCard>
 </CardGrid>
 
 ## ::mingcute:pencil-3-line:: 作品权限
 
-::: important 要使用或修改此作品，请遵守 [《非开源作品使用授权协议》](/notes/协议/非开源-非商业.html) 。
+::: important 要使用或修改此作品，请遵守 [《非开源作品使用授权协议》](/notes/协议/非开源-非商用.html) 。
 :::
 
 ### ::mingcute:quote-right-line:: 引用内容

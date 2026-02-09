@@ -36,25 +36,25 @@ permalink: /notes/Floating-OS.html
 ::mingcute:book-3-line:: **作品名称：** Floating OS  
 ::mingcute:contacts-2-line:: **发起者：** Afly-dream - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2024*  
-::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:close-circle-line /#fa5252:: ==停止支持(构建)=={.caution} - [详情](#停止支持-构建)  
+::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:close-circle-line /#ff6666:: ==停止支持(构建)=={.caution} - [详情](#停止支持-构建)  
 ::mingcute:time-duration-line:: **上次更新时间：** *2024.08.05* - [查看更新日志](#更新日志)  
 ::mingcute:board-line:: **当前版本：** ==构建版 - v0.0.1=={.important} ；v0.0.1 Build 2024121207
 
 ---
 
 ::mingcute:layout-3-line:: **项目分类：** [YM-软件工具](/notes/#ym-软件工具)  
-::mingcute:quill-pen-line:: **项目类型：** ::mingcute:forbid-circle-line /#fa5252:: 闭源项目 - [查看作品权限](#作品权限)  
+::mingcute:quill-pen-line:: **项目类型：** ::mingcute:forbid-circle-line /#ff6666:: 闭源项目 - [查看作品权限](#作品权限)  
 :::
 
 ### ::mingcute:contacts-3-line:: 创作人员
 
-发起者：
+<LinkCard title="Afly-dream" icon="/rc/tx-3-ys.png" href="/friends/">有梦想，才能有希望。
+<Badge text="发起者" type="warning" /></LinkCard>
 
-<LinkCard title="Afly-dream" icon="/rc/tx-3-ys.png" href="/friends/">有梦想，才能有希望。</LinkCard>
-
-参与创作的人员：
-
-<LinkCard title="某团一笑" icon="/rc/tx-2-ys.png" href="/friends/">现在，让我们来看看答案。</LinkCard>
+<CardGrid>
+  <LinkCard title="某团一笑" icon="/rc/tx-2-ys.png" href="/friends/">现在，让我们来看看答案。
+  <Badge text="共创" type="tip" /></LinkCard>
+</CardGrid>
 
 ## ::mingcute:pencil-3-line:: 作品权限
 
