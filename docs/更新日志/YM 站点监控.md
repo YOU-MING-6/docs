@@ -14,6 +14,27 @@ permalink: /notes/更新日志/YM-站点监控.html
 :::
 
 <div style="text-align: center; ">
+    <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2026</p>
+</div>
+
+
+## 2月09日 <Badge text="正式版" type="tip" />
+### ✨更新
+
+- 添加了一些分发域名域名
+- 删除了英文模式
+- 更新了一些内容
+
+### 🪐优化提升
+
+- 优化了一些内容
+
+::: right
+**2026.02.09**
+:::
+
+
+<div style="text-align: center; ">
     <p style="font-size: 56px; font-weight: 650; margin-top: 60px">2025</p>
 </div>
 

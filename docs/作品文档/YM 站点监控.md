@@ -62,23 +62,13 @@ permalink: /notes/YM-站点监控.html
 
 @tab ::mingcute:earth-line:: 网站预览
 
-<LinkCard title="YM 站点监控 - 地址①" icon="mingcute:book-2-line" href="https://web.youming.v6.army"></LinkCard>
-<LinkCard title="YM 站点监控 - 地址②" icon="mingcute:book-2-line" href="https://web.youming.us.ci"></LinkCard>
-<LinkCard title="YM 站点监控 - 地址③" icon="mingcute:book-2-line" href="https://web.youming.dpdns.org"></LinkCard>
+<LinkCard title="YM 站点监控 - 域名①" icon="mingcute:book-2-line" href="https://web.youming.v6.army"></LinkCard>
+<LinkCard title="YM 站点监控 - 分发域名②" icon="mingcute:book-2-line" href="https://web.youming.us.ci"></LinkCard>
+<LinkCard title="YM 站点监控 - 分发域名③" icon="mingcute:book-2-line" href="https://web.youming.dpdns.org"></LinkCard>
 
 ::::
 
 ## ::mingcute:arrow-to-down-line:: 下载链接
-
-:::: details ::mingcute:file-info-line:: 文件属性
-
-::: card-masonry
-
-<Card title="site-status.zip" icon="mingcute:file-zip-line"><Badge text="安全" type="tip" />
-  源代码压缩包（Download ZIP）约 214 KB
-</Card>
-
-::::
 
 :::: tabs
 
