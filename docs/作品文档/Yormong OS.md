@@ -62,7 +62,7 @@ permalink: /notes/Yormong-OS.html
 ::: important 要使用或修改此作品，请遵守 [《需申请作品使用授权协议》](/notes/协议/修改需申请.html) 。
 :::
 
-<a class="vp-link link" href="/notes/协议/修改需申请.html">
+<a class="vp-link link" href="/notes/协议/修改需申请.html" style="display: inline-block; width: fit-content;">
   <div style="display: flex; width: fit-content; height: 120px; overflow-x: auto; border-radius: 8px; overflow-y: hidden; margin: 1rem 0;">
     <img src="/rc/权限/署名.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
     <img src="/rc/权限/非商用.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">

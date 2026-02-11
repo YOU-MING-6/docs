@@ -66,7 +66,7 @@ permalink: /notes/Mindows11.html
 ::: important 要使用或修改此作品，请遵守 [《可修改作品使用权限协议 I》](/notes/协议/可修改I.html) 。
 :::
 
-<a class="vp-link link" href="/notes/协议/可修改I.html">
+<a class="vp-link link" href="/notes/协议/可修改I.html" style="display: inline-block; width: fit-content;">
   <div style="display: flex; width: fit-content; height: 120px; overflow-x: auto; border-radius: 8px; overflow-y: hidden; margin: 1rem 0;">
     <img src="/rc/权限/署名.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
     <img src="/rc/权限/商用.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">

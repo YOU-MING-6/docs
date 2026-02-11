@@ -1,6 +1,6 @@
 ---
 title: 可修改作品使用权限协议 III
-icon: mingcute:pencil-3-line
+icon: mingcute:quill-pen-line
 createTime: 2026/02/10
 permalink: /notes/协议/可修改III.html
 ---
