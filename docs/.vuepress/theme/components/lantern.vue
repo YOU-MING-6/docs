@@ -37,7 +37,7 @@ function toggleAudio() {
         class="logo"
         :image="{ light: theme.logo, dark: theme.logoDark || theme.logo }"
       />
-      <SparklesText data-v-fcd4cf4a="" :text="site.title">作品文档</SparklesText>
+      <SparklesText :sparkles-count="5" :text="site.title"></SparklesText>
 
       <slot name="nav-bar-title-after" />
     </VPLink>
@@ -104,7 +104,6 @@ function toggleAudio() {
 </div>
 </template>
 
-<style scoped>
 <style scoped>
 .title {
   display: flex;
