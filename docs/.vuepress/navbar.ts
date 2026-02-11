@@ -45,24 +45,9 @@ export const navbar = defineNavbarConfig([
         text: '协议',
         items: [
           {
-            text: '开源作品使用权限协议-商用',
-            link: '/notes/协议/开源-商用.html',
-            icon: 'mingcute:pencil-3-line',
-          },
-          {
-            text: '开源作品使用权限协议-非商用',
-            link: '/notes/协议/开源-非商用.html',
-            icon: 'mingcute:pencil-3-line',
-          },
-          {
-            text: '非开源作品使用授权协议',
-            link: '/notes/协议/非开源-非商用.html',
-            icon: 'mingcute:key-2-line',
-          },
-          {
-            text: '闭源作品使用权限协议',
-            link: '/notes/协议/闭源.html',
-            icon: 'mingcute:forbid-circle-line',
+            text: '所有协议',
+            link: '/notes/协议/',
+            icon: 'mingcute:navigation-line',
           },
           {
             text: '转载文章内容协议',

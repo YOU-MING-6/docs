@@ -44,7 +44,7 @@ permalink: /notes/Mine-Cursor.html
 ---
 
 ::mingcute:layout-3-line:: **项目分类：** [YM-软件工具](/notes/#ym-软件工具)  
-::mingcute:quill-pen-line:: **项目类型：** ::mingcute:quill-pen-line /#64dc64:: 开源项目-非商用 - [查看作品权限](#作品权限)  
+::mingcute:quill-pen-line:: **遵循协议：** MPL 2.0 许可证 - [查看作品权限](#作品权限)  
 :::
 
 ::: card

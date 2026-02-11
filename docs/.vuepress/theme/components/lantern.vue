@@ -37,7 +37,7 @@ function toggleAudio() {
         class="logo"
         :image="{ light: theme.logo, dark: theme.logoDark || theme.logo }"
       />
-      <SparklesText data-v-fcd4cf4a="" :text="site.title"></SparklesText>
+      <SparklesText data-v-fcd4cf4a="" :text="site.title">作品文档</SparklesText>
 
       <slot name="nav-bar-title-after" />
     </VPLink>
@@ -105,16 +105,19 @@ function toggleAudio() {
 </template>
 
 <style scoped>
+<style scoped>
 .title {
-  width:100%;
-  height:var(--vp-nav-height);
-  color:var(--vp-c-text-1);
-  transition:opacity var(--vp-t-color),color var(--vp-t-color),border-bottom var(--vp-t-color);
-  border-bottom:1px solid #0000;
-  align-items:center;
-  font-size:16px;
-  font-weight:600;
-  display:flex
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: var(--vp-nav-height);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "ZWZT";
+  border-bottom: 1px solid transparent;
+  transition: opacity var(--vp-t-color), color var(--vp-t-color),
+    border-bottom var(--vp-t-color);
+  overflow: hidden;
 }
 
 @media (min-width: 960px) {

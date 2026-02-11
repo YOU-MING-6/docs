@@ -38,9 +38,13 @@ export default defineUserConfig({
         '/%E5%85%AC%E5%91%8A.html': '/notes/更多/公告.html',  // /公告.html
         '/%E9%93%BE%E6%8E%A5.html': '/notes/更多/链接.html',  // /链接.html
         '/%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5%E9%A1%B5.html': '/notes/更多/链接.html',  // /社交链接页.html
-        '/notes/%e5%8d%8f%e8%ae%ae/%e5%bc%80%e6%ba%90.html': '/notes/协议/开源-非商用.html',  // /notes/协议/开源.html
+        '/notes/%e5%8d%8f%e8%ae%ae/%e5%bc%80%e6%ba%90.html': '/notes/协议/可修改IV.html',  // /notes/协议/开源.html
         '/notes/%e5%8f%8d%e9%a6%88%e4%b8%ad%e5%bf%83/%e5%8f%8d%e9%a6%88.html': '/notes/反馈中心/',  // /notes/反馈中心/反馈.html
-        '/notes/%E5%8D%8F%E8%AE%AE/%E5%BC%80%E6%BA%90-%E9%9D%9E%E5%95%86%E4%B8%9A.html': '/notes/协议/开源-非商用.html',  // /notes/协议/开源-非商业.html
+        '/notes/%E5%8D%8F%E8%AE%AE/%E5%BC%80%E6%BA%90-%E9%9D%9E%E5%95%86%E4%B8%9A.html': '/notes/协议/可修改IV.html',  // /notes/协议/开源-非商业.html
+        '/notes/%E5%8D%8F%E8%AE%AE/%E5%BC%80%E6%BA%90-%E5%95%86%E7%94%A8.html': '/notes/协议/可修改II.html',  // /notes/协议/开源-商用.html
+        '/notes/%E5%8D%8F%E8%AE%AE/%E5%BC%80%E6%BA%90-%E9%9D%9E%E5%95%86%E7%94%A8.html': '/notes/协议/可修改IV.html',  // /notes/协议/开源-非商用.html
+        '/notes/%E5%8D%8F%E8%AE%AE/%E9%9D%9E%E5%BC%80%E6%BA%90-%E9%9D%9E%E5%95%86%E7%94%A8.html': '/notes/协议/修改需申请.html',  // /notes/协议/非开源-非商用.html
+        '/notes/%E5%8D%8F%E8%AE%AE/%E9%97%AD%E6%BA%90.html': '/notes/协议/不可修改II.html',  // /notes/协议/闭源.html
         // 重复
         '/必看-开源-非商用.html': '/notes/更多/必看.html',
         '/必看-非开源-非商用.html': '/notes/更多//必看.html',
@@ -50,9 +54,13 @@ export default defineUserConfig({
         '/公告.html': '/notes/更多/公告.html',
         '/链接.html': '/notes/更多/链接.html',
         '/社交链接页.html': '/notes/更多/链接.html',
-        '/notes/协议/开源.html': '/notes/协议/开源-非商用.html',
+        '/notes/协议/开源.html': '/notes/协议/可修改IV.html',
         '/notes/反馈中心/反馈.html': '/notes/反馈中心/',
-        '/notes/协议/开源-非商业.html': '/notes/协议/开源-非商用.html',  // /notes/协议/开源-非商业.html
+        '/notes/协议/开源-非商业.html': '/notes/协议/可修改IV.html',
+        '/notes/协议/开源-商用.html': '/notes/协议/可修改II.html',
+        '/notes/协议/开源-非商用.html': '/notes/协议/可修改IV.html',
+        '/notes/协议/非开源-非商用.html': '/notes/协议/修改需申请.html',
+        '/notes/协议/闭源.html': '/notes/协议/不可修改II.html',
       },
     }),
   ],

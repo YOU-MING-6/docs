@@ -18,7 +18,7 @@ export default defineThemeConfig({
   // 社交链接
   social: [
     { icon: 'bilibili', link: 'https://space.bilibili.com/1337092956' },
-    { icon: 'qq', link: '链接.html#qq' },
+    { icon: 'qq', link: '/notes/更多/链接.html#qq' },
     { icon: 'github', link: 'https://github.com/YOU-MING-6/docs' },
     ],
   navbarSocialInclude: ['github', 'qq', 'bilibili'], // 导航栏社交链接

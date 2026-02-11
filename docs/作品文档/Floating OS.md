@@ -43,7 +43,7 @@ permalink: /notes/Floating-OS.html
 ---
 
 ::mingcute:layout-3-line:: **项目分类：** [YM-软件工具](/notes/#ym-软件工具)  
-::mingcute:quill-pen-line:: **项目类型：** ::mingcute:forbid-circle-line /#ff6666:: 闭源项目 - [查看作品权限](#作品权限)  
+::mingcute:quill-pen-line:: **遵循协议：** ::mingcute:forbid-circle-line /#ff6666:: 不可修改-非商用 - [查看作品权限](#作品权限)  
 :::
 
 ### ::mingcute:contacts-3-line:: 创作人员
@@ -58,7 +58,7 @@ permalink: /notes/Floating-OS.html
 
 ## ::mingcute:pencil-3-line:: 作品权限
 
-::: important 目前为构建版，暂不支持使用或修改此作品。
+::: important 目前为构建版，暂不支持查看、使用或修改此作品。
 :::
 
 ### ::mingcute:quote-right-line:: 引用内容

@@ -38,7 +38,7 @@ permalink: /notes/Yormong-OS.html
 ---
 
 ::mingcute:layout-3-line:: **项目分类：** [YM-演示与设计](/notes/#ym-演示与设计)  
-::mingcute:quill-pen-line:: **项目类型：** ::mingcute:key-2-line /#0095ff:: 非开源项目 - [查看作品权限](#作品权限)  
+::mingcute:quill-pen-line:: **遵循协议：** ::mingcute:key-2-line /#0095ff:: 修改需申请 - [查看作品权限](#作品权限)  
 :::
 
 ::: card
@@ -59,8 +59,19 @@ permalink: /notes/Yormong-OS.html
 
 ## ::mingcute:pencil-3-line:: 作品权限
 
-::: important 要使用或修改此作品，请遵守 [《非开源作品使用授权协议》](/notes/协议/非开源-非商用.html) 。
+::: important 要使用或修改此作品，请遵守 [《需申请作品使用授权协议》](/notes/协议/修改需申请.html) 。
 :::
+
+<a class="vp-link link" href="/notes/协议/修改需申请.html">
+  <div style="display: flex; width: fit-content; height: 120px; overflow-x: auto; border-radius: 8px; overflow-y: hidden; margin: 1rem 0;">
+    <img src="/rc/权限/署名.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+    <img src="/rc/权限/非商用.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+    <img src="/rc/权限/修改需申请.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+    <img src="/rc/权限/协议继承.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+    <img src="/rc/权限/禁止转让授权.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+    <img src="/rc/权限/禁止暗示背书.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+  </div>
+</a>
 
 ### ::mingcute:quote-right-line:: 引用内容
 

@@ -1,13 +1,13 @@
 ---
-title: 转载文章内容协议
-icon: mingcute:share-3-line
-createTime: 2025/03/08
-permalink: /notes/协议/转载.html
+title: 不可修改作品使用权限协议 I
+icon: mingcute:forbid-circle-line
+createTime: 2026/02/10
+permalink: /notes/协议/不可修改I.html
 ---
 
 <div style="text-align: center;">
-    <p style="font-size: 36px; font-weight: 650">转载文章内容协议</p>
-    <p style="font-size: 28px; font-weight: 650">非商用-可修改-协议继承</p>
+    <p style="font-size: 36px; font-weight: 650">不可修改作品使用权限协议 I</p>
+    <p style="font-size: 28px; font-weight: 650">商用-不可修改</p>
     <p style="margin-top: 20px"></p>
 </div>
 
@@ -20,25 +20,24 @@ permalink: /notes/协议/转载.html
 
 ### 第1条 适用范围
 
-本协议适用于本网站所发布的无特殊标注的文章及其原创图片、视频等内容（以下简称“文章”及“原创附属内容”）。  
-不适用于独立作品项目、[哔哩哔哩](https://www.bilibili.com/)投稿等内容（请遵守各自协议）。
+本协议适用于所有标注需遵守《不可修改作品使用权限协议 I》的内容（以下简称“作品”）。  
+作品的使用、分发、修改及衍生创作均受本协议约束，未经授权不得超越本协议规定的权限范围。
 
 ### 第2条 版权声明
 
-- 文章版权归属于底部「贡献者」所列创作者。
+- 作品的著作权归属于「创作人员」所列创作者。
 - 引用第三方内容时，已遵循原协议条款，并已注明来源。
 - 侵权申诉请通过 [侵权申诉举报](#第1条-侵权申诉举报) 提交。
 
 ::: center
-## 第二章 转载文章条款
+## 第二章 使用权限条款
 :::
 
 <div style="display: flex; width: fit-content; height: 120px; overflow-x: auto; border-radius: 8px; overflow-y: hidden; margin: 1rem 0;">
   <img src="/rc/权限/署名.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
-  <img src="/rc/权限/非商用.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
-  <img src="/rc/权限/可修改.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
-  <img src="/rc/权限/禁止歪曲原意.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
-  <img src="/rc/权限/协议继承.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+  <img src="/rc/权限/商用.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+  <img src="/rc/权限/不可修改.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+  <img src="/rc/权限/禁止逆向工程.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
   <img src="/rc/权限/禁止转让授权.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
   <img src="/rc/权限/禁止暗示背书.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
 </div>
@@ -46,14 +45,15 @@ permalink: /notes/协议/转载.html
 - 署名：
   - 注明作者：您必须标明作品的原作者姓名或用户名。
   - 提供链接：您应提供指向所使用作品的链接及其协议链接。
-- 非商用：
-  - 允许个人或非商业组织将作品用于非商业用途（如个人学习、教育、研究等）。
-- 可修改：
-  - 允许个人修改、改编、重新发布或基于作品创作衍生内容。
-- 禁止歪曲原意：
-  - 转载文章时，不得歪曲或断章取义作品的核心观点、数据或上下文，造成误解或影响。
-- 协议继承：
-  - 修改、改编、重新发布或基于作品创作的衍生内容必须继承本协议的条款（保持非商用与可修改）。
+- 商用：
+  - 允许个人或组织将作品用于商业用途，但禁止修改其内容。
+- 不可修改：
+  - 禁止任何个人或组织修改、改编、重新发布或基于作品创作衍生内容。
+  - 允许非商业用途下的分享作品。
+  - 个人非商业用途下，允许查看、阅读及适度参考作品内容，或者用于个人学习、教育、研究等非商业场景。
+  - 参考内容须与原作有显著差异。
+- 禁止逆向工程：
+  - 禁止个人或组织通过反向工程、反编译、解密等技术手段分析作品。
 - 禁止授权转让：
   - 禁止将本协议下的使用权转售、出租、分许可或以其他方式转让。
 - 暗示背书：
@@ -69,7 +69,7 @@ permalink: /notes/协议/转载.html
 
 ### 第1条 作品责任
 
-- 文章或原创附属内容按“原样”（AS IS）提供，不保证其适用性、准确性或完整性。
+- 作品按“原样”（AS IS）提供，不保证其适用性、准确性或完整性。
 - 使用作品引发的损失、争议或法律后果，由使用者自行承担。
 - 引用第三方内容的合法性由使用者自行确认，因引用引发的争议由使用者负责。
 
@@ -94,8 +94,7 @@ permalink: /notes/协议/转载.html
 ### 第1条 侵权申诉举报
 
 - 举报通道：[反馈中心](/notes/反馈中心/)
-- 举报材料需包含：
-  - 侵权链接、权属证明文件、联系方式。
+- 举报过程及所需材料见该页面。
 - 我们将在 7个工作日内 响应并处理。
 
 ### 第2条 联系方式

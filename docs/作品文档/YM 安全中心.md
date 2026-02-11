@@ -38,7 +38,7 @@ permalink: /notes/YM-安全中心.html
 ---
 
 ::mingcute:layout-3-line:: **项目分类：** [YM-演示与设计](/notes/#ym-演示与设计)  
-::mingcute:quill-pen-line:: **项目类型：** ::mingcute:forbid-circle-line /#ff6666:: 闭源项目 - [查看作品权限](#作品权限)  
+::mingcute:quill-pen-line:: **遵循协议：** ::mingcute:forbid-circle-line /#ff6666:: 不可修改-非商用 - [查看作品权限](#作品权限)  
 :::
 
 ::: card
@@ -52,8 +52,19 @@ permalink: /notes/YM-安全中心.html
 
 ## ::mingcute:pencil-3-line:: 作品权限
 
-::: important 要查看此作品，请遵守 [《闭源作品使用权限协议》](/notes/协议/闭源.html) 。
+::: important 要查看此作品，请遵守 [《不可修改作品使用权限协议 II》](/notes/协议/不可修改II.html) 。
 :::
+
+<a class="vp-link link" href="/notes/协议/不可修改II.html">
+  <div style="display: flex; width: fit-content; height: 120px; overflow-x: auto; border-radius: 8px; overflow-y: hidden; margin: 1rem 0;">
+    <img src="/rc/权限/署名.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+    <img src="/rc/权限/非商用.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+    <img src="/rc/权限/不可修改.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+    <img src="/rc/权限/禁止逆向工程.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+    <img src="/rc/权限/禁止转让授权.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+    <img src="/rc/权限/禁止暗示背书.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+  </div>
+</a>
 
 ## ::mingcute:eye-2-line:: 预览
 

@@ -1,16 +1,17 @@
 ---
-title: 开源作品使用权限协议-商用
+title: 可修改作品使用权限协议 II
 icon: mingcute:pencil-3-line
-createTime: 2025/08/17
-permalink: /notes/协议/开源-商用.html
+createTime: 2026/02/10
+permalink: /notes/协议/可修改II.html
 ---
 
 <div style="text-align: center; ">
-    <p style="font-size: 36px; font-weight: 650">开源作品使用权限协议-商用</p>
+    <p style="font-size: 36px; font-weight: 650">可修改作品使用权限协议 II</p>
+    <p style="font-size: 28px; font-weight: 650">商用-可修改-协议继承</p>
     <p style="margin-top: 20px"></p>
 </div>
 
-**更新日期：2026.02.09**  
+**更新日期：2026.02.11**  
 **已生效**
 
 ::: center
@@ -19,7 +20,7 @@ permalink: /notes/协议/开源-商用.html
 
 ### 第1条 适用范围
 
-本协议适用于所有标注需遵守《开源作品使用权限协议-商用》的内容（以下简称“作品”）。  
+本协议适用于所有标注需遵守《可修改作品使用权限协议 II》的内容（以下简称“作品”）。  
 作品的使用、分发、修改及衍生创作均受本协议约束，未经授权不得超越本协议规定的权限范围。
 
 ### 第2条 版权声明
@@ -32,29 +33,25 @@ permalink: /notes/协议/开源-商用.html
 ## 第二章 使用权限条款
 :::
 
-### 第1条 必要条件
+<div style="display: flex; width: fit-content; height: 120px; overflow-x: auto; border-radius: 8px; overflow-y: hidden; margin: 1rem 0;">
+  <img src="/rc/权限/署名.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+  <img src="/rc/权限/商用.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+  <img src="/rc/权限/可修改.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+  <img src="/rc/权限/协议继承.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+  <img src="/rc/权限/禁止转让授权.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+  <img src="/rc/权限/禁止暗示背书.svg" alt="1" class="no-view" style="display: block; margin: 0; flex-shrink: 0;">
+</div>
 
-- 署名
+- 署名：
   - 注明作者：您必须标明作品的原作者姓名或用户名。
   - 提供链接：您应提供指向所使用作品的链接及其协议链接。
-
-### 第2条 行为规范
-
-**用户在遵守本协议的前提下，可进行以下行为：**
-
-- 查看与参考：
-  - 个人及商业用途下，允许查看、阅读及参考作品内容。
-- 分享与转载：
-  - 允许个人及商业用途下分享或转载作品，但必须显著标注作者、作品名称及协议页。
-- 修改与衍生创作：
-  - 允许个人及商业用途下修改、改编、重新发布或基于作品创作衍生内容。
-  - 衍生作品必须继承本协议的条款。
-- 商业性使用：
+- 商用：
   - 允许个人或组织将作品用于商业用途。
-
-**用户不得进行以下行为：**
-
-- 授权转让：
+- 可修改：
+  - 允许个人或组织修改、改编、重新发布或基于作品创作衍生内容。
+- 协议继承：
+  - 修改、改编、重新发布或基于作品创作的衍生内容必须继承本协议的条款（保持商用与可修改）。
+- 禁止授权转让：
   - 禁止将本协议下的使用权转售、出租、分许可或以其他方式转让。
 - 暗示背书：
   - 您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
@@ -112,5 +109,5 @@ permalink: /notes/协议/开源-商用.html
 <p style="margin-top: 60px"></p>
 
 ::: card
-本协议参考 [CC-BY-NC](https://creativecommons.org/) 框架制定
+本协议参考 [CC 协议](https://creativecommons.org/) 框架制定
 :::
