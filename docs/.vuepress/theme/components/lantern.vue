@@ -9,7 +9,6 @@ const { theme, site, isDark } = useData();
 const { hasSidebar } = useSidebar();
 const routeLocale = useRouteLocale();
 
-// Audio control for lantern 2
 const audioRef = ref<HTMLAudioElement | null>(null);
 function toggleAudio() {
   if (audioRef.value) {

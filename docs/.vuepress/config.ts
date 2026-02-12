@@ -1,9 +1,8 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
-import { path } from "vuepress/utils";
+import { path } from "vuepress/utils"
 import { redirectPlugin } from '@vuepress/plugin-redirect'
-// import { getDirname } from "vuepress/utils"; // 灯笼装饰
 
 export default defineUserConfig({
   base: '/',
@@ -21,6 +20,11 @@ export default defineUserConfig({
       __dirname,
       "./theme/components/lantern.vue"
     ),
+    // 404 页面组件
+    "@theme/Nav/NotFound.vue": path.resolve(
+      __dirname,
+      "./theme/layouts/NotFound.vue"
+    )
   },
 
   shouldPrefetch: false, // 是否开启预加载
