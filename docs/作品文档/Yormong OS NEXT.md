@@ -1,12 +1,10 @@
 ---
 title: Yormong OS NEXT
-author: YOU MING 柚明 ︱ 某团一笑
 icon: mingcute:round-line
 createTime: 2024/07/16
 tags:
   - 暂停更新
   - YM-演示与设计
-  - 闭源
 permalink: /notes/Yormong-OS-NEXT.html
 ---
 

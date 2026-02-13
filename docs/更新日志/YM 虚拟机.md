@@ -1,6 +1,5 @@
 ---
 title: YM 虚拟机 (更新日志)
-author: YOU MING 柚明
 icon: mingcute:chart-pie-2-line
 outline: 2
 createTime: 2023/05/02

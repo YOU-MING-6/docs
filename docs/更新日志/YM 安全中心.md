@@ -1,6 +1,5 @@
 ---
 title: YM 安全中心 (更新日志)
-author: YOU MING 柚明
 icon: mingcute:safety-certificate-line
 outline: 2
 createTime: 2023/05/02

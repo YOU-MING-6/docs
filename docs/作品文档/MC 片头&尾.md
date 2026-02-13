@@ -1,12 +1,10 @@
 ---
 title: MC 片头&尾
-author: YOU MING 柚明
 icon: mingcute:video-line
 createTime: 2024/11/09
 tags:
   - 正在更新
   - YM-软件工具
-  - 开源
 permalink: /notes/MC-片头-尾.html
 ---
 

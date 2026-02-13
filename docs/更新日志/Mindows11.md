@@ -1,12 +1,8 @@
 ---
 title: Mindows11 (更新日志)
-author: YOU MING 柚明
 icon: mingcute:layout-grid-line
 outline: 2
 createTime: 2023/04/14
-badge:
-  text: 停止
-  type: danger
 tags:
 - 更新日志
 permalink: /notes/更新日志/Mindows11.html

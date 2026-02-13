@@ -1,12 +1,8 @@
 ---
 title: Floating OS (更新日志)
-author: YOU MING 柚明 | Afly-dream
 icon: mingcute:album-line
 outline: 2
 createTime: 2024/08/05
-badge:
-  text: 停止
-  type: danger
 tags:
 - 更新日志
 permalink: /notes/更新日志/Floating-OS.html

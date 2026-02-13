@@ -1,12 +1,10 @@
 ---
 title: Yormong OS
-author: YOU MING 柚明 ︱ 某团一笑 ︱ Afly-dream
 icon: mingcute:classify-3-line
 createTime: 2024/01/24
 tags:
   - 暂停更新
   - YM-演示与设计
-  - 非开源
 permalink: /notes/Yormong-OS.html
 ---
 

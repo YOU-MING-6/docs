@@ -1,6 +1,5 @@
 ---
 title: Yormong OS (更新日志)
-author: YOU MING 柚明
 icon: mingcute:classify-3-line
 outline: 2
 createTime: 2024/01/24

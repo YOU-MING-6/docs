@@ -1,6 +1,5 @@
 ---
 title: MC 鼠标指针 (更新日志)
-author: YOU MING 柚明
 icon: mingcute:cursor-3-line
 outline: 2
 createTime: 2023/02

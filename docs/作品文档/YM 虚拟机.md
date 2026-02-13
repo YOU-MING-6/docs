@@ -1,12 +1,10 @@
 ---
 title: YM 虚拟机
-author: YOU MING 柚明 ︱ 某团一笑
 icon: mingcute:chart-pie-2-line
 createTime: 2023/05/02
 tags:
   - 暂停更新
   - YM-演示与设计
-  - 闭源
 permalink: /notes/YM-虚拟机.html
 ---
 

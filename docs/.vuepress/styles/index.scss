@@ -1,8 +1,0 @@
-/* Custom tag colors - matches all .vp-tag-xxxx classes */
-[class^="vp-tag-"] {
-  --vp-tag-color: #ff5722;
-  --vp-tag-hover-color: #e64a19;
-  --vp-tag-bg: rgba(255, 87, 34, 0.14);
-}
-
-/* You can override specific tag colors by inspecting the actual class names in browser devtools */

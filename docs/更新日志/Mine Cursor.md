@@ -1,6 +1,5 @@
 ---
 title: Mine Cursor (更新日志)
-author: hite404
 icon: mingcute:mouse-line
 outline: 2
 createTime: 2025/04/27

@@ -148,3 +148,8 @@ body .vp-navbar.home.top {
   background-color: var(--glass-bg) !important;
   backdrop-filter: var(--glass-blur) !important;
 }
+
+/* 图片查看 */
+.pswp {
+  backdrop-filter: var(--glass-blur) !important;
+}

@@ -1,12 +1,10 @@
 ---
 title: MC 鼠标指针
-author: YOU MING 柚明
 icon: mingcute:cursor-3-line
 createTime: 2023/02
 tags:
   - 正在更新
   - YM-软件工具
-  - 开源
 permalink: /notes/MC-鼠标指针.html
 ---
 

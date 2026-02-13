@@ -1,6 +1,5 @@
 ---
 title: YM-站点监控 (更新日志)
-author: YOU MING 柚明
 icon: mingcute:computer-camera-line
 outline: 2
 createTime: 2025/04/10

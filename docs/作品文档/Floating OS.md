@@ -1,15 +1,10 @@
 ---
 title: Floating OS
-author: 某团一笑 ︱ Afly-dream
 icon: mingcute:album-line
 createTime: 2024/08/05
-badge:
-  text: 停止
-  type: danger
 tags:
   - 停止支持
   - YM-软件工具
-  - 开源
 permalink: /notes/Floating-OS.html
 ---
 

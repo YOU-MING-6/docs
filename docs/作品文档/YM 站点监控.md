@@ -1,12 +1,10 @@
 ---
 title: YM 站点监控
-author: YOU MING 柚明
 icon: mingcute:computer-camera-line
 createTime: 2025/04/10
 tags:
   - 正在更新
   - YM-网站与应用
-  - 开源
 permalink: /notes/YM-站点监控.html
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Yormong OS NEXT (更新日志)
-author: YOU MING 柚明
 icon: mingcute:round-line
 outline: 2
 createTime: 2024/07/16

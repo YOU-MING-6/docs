@@ -1,12 +1,10 @@
 ---
 title: Mine Cursor
-author: hite404 | YOU MING 柚明
 icon: mingcute:mouse-line
 createTime: 2025/04/25
 tags:
   - 正在更新
   - YM-软件工具
-  - 开源
 permalink: /notes/Mine-Cursor.html
 ---
 

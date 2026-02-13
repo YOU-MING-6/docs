@@ -1,15 +1,10 @@
 ---
 title: Mindows11
-author: YOU MING 柚明 ︱ 某团一笑
 icon: mingcute:layout-grid-line
 createTime: 2023/04/14
-badge:
-  text: 停止
-  type: danger
 tags:
   - 停止支持
   - YM-演示与设计
-  - 开源
 permalink: /notes/Mindows11.html
 ---
 

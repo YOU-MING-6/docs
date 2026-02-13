@@ -1,6 +1,5 @@
 ---
 title: MC 片头&尾 (更新日志)
-author: YOU MING 柚明
 icon: mingcute:video-line
 outline: 2
 createTime: 2024/11/09

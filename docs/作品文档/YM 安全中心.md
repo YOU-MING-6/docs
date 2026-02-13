@@ -1,12 +1,10 @@
 ---
 title: YM 安全中心
-author: YOU MING 柚明
 icon: mingcute:safety-certificate-line
 createTime: 2023/05/02
 tags:
   - 暂停更新
   - YM-演示与设计
-  - 闭源
 permalink: /notes/YM-安全中心.html
 ---
 
