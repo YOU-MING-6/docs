@@ -82,15 +82,30 @@ permalink: /notes/Mine-Cursor.html
 
 ![](/rc/mi-cu-yl.png)
 ::: center
-图片为宣传效果，仅供参考
+图片为宣传效果，仅供参考，不代表实际使用效果。
 :::
 
 ::::
 
 ## ::mingcute:arrow-to-down-line:: 下载链接
 
-::: warning 没有可用的下载链接。
-:::
+:::: tabs
+
+@tab ::mingcute:fork-knife-line:: GitHub 下载
+
+- 本项目链接：[https://github.com/hite4044/MineCursor](https://github.com/hite4044/MineCursor)
+- Github 下载：[https://github.com/hite4044/MineCursor/releases](https://github.com/hite4044/MineCursor/releases)
+
+[下载后必看](/notes/更多/必看.html){.read-more}
+
+@tab ::mingcute:cloud-line:: 蓝奏云
+
+- 下载链接：[https://hite404.lanzoul.com/b00l2mhx6d](https://hite404.lanzoul.com/b00l2mhx6d)
+- 提取码：`7i3w`
+
+[下载后必看](/notes/更多/必看.html){.read-more}
+
+::::
 
 ::: important 下载即代表你已阅读并同意 [作品权限](#作品权限) 中的内容。
 :::
