@@ -5,6 +5,7 @@ import NotFound from './theme/layouts/NotFound.vue'
 import SidebarNav from './theme/components/SidebarNav.vue'
 import DocFooterNav from './theme/components/DocFooterNav.vue'
 import MetaAfterNav from './theme/components/MetaAfterNav.vue'
+import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
 import './theme/styles/custom.css'
 
 export default defineClientConfig({
@@ -17,5 +18,6 @@ export default defineClientConfig({
     })
   },
   enhance({ app }) {
-  },
+    app.component('Swiper', Swiper)
+  }
 })

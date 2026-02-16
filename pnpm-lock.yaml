@@ -20,6 +20,9 @@ importers:
       stylus:
         specifier: 0.64.0
         version: 0.64.0
+      swiper:
+        specifier: ^12.1.1
+        version: 12.1.1
       vuepress-plugin-md-power:
         specifier: 1.0.0-rc.187
         version: 1.0.0-rc.187(@types/markdown-it@14.1.2)(artplayer@5.3.0)(esbuild@0.27.3)(less@4.5.1)(markdown-it@14.1.0)(sass-embedded@1.97.3)(sass@1.97.3)(stylus@0.64.0)(typescript@5.8.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.3)(less@4.5.1)(sass-embedded@1.97.3)(sass@1.97.3)(stylus@0.64.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.28(typescript@5.8.3)))
@@ -62,7 +65,7 @@ importers:
         version: 2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.3)(less@4.5.1)(sass-embedded@1.97.3)(sass@1.97.3)(stylus@0.64.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.28(typescript@5.8.3))
       vuepress-theme-plume:
         specifier: 1.0.0-rc.187
-        version: 1.0.0-rc.187(@algolia/client-search@5.44.0)(@iconify/json@2.2.402)(@types/markdown-it@14.1.2)(algoliasearch@5.44.0)(artplayer@5.3.0)(axios@1.13.5)(less@4.5.1)(markdown-it@14.1.0)(ogl@1.0.11)(qrcode@1.5.4)(react@19.2.0)(sass-embedded@1.97.3)(sass@1.97.3)(search-insights@2.17.3)(stylus@0.64.0)(typescript@5.8.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.3)(less@4.5.1)(sass-embedded@1.97.3)(sass@1.97.3)(stylus@0.64.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.28(typescript@5.8.3)))
+        version: 1.0.0-rc.187(@algolia/client-search@5.44.0)(@iconify/json@2.2.402)(@types/markdown-it@14.1.2)(algoliasearch@5.44.0)(artplayer@5.3.0)(axios@1.13.5)(less@4.5.1)(markdown-it@14.1.0)(ogl@1.0.11)(qrcode@1.5.4)(react@19.2.0)(sass-embedded@1.97.3)(sass@1.97.3)(search-insights@2.17.3)(stylus@0.64.0)(swiper@12.1.1)(typescript@5.8.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.3)(less@4.5.1)(sass-embedded@1.97.3)(sass@1.97.3)(stylus@0.64.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.28(typescript@5.8.3)))
 
 packages:
 
@@ -2708,6 +2711,10 @@ packages:
   supports-color@8.1.1:
     resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
     engines: {node: '>=10'}
+
+  swiper@12.1.1:
+    resolution: {integrity: sha512-NB8Uvpu6m725Xf68l2hZBHD184v/ZAi6WIvAorDuR3gRuwCWbGSam233/8seeeIrMJ9isHGk/CTKFdpgeT5u2Q==}
+    engines: {node: '>= 4.7.0'}
 
   sync-child-process@1.0.2:
     resolution: {integrity: sha512-8lD+t2KrrScJ/7KXCSyfhT3/hRq78rC0wBFqNJXv3mZyn6hW2ypM05JmlSvtqRbeq6jqA94oHbxAr2vYsJ8vDA==}
@@ -5806,6 +5813,8 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
+  swiper@12.1.1: {}
+
   sync-child-process@1.0.2:
     dependencies:
       sync-message-port: 1.2.0
@@ -5996,7 +6005,7 @@ snapshots:
       - '@types/markdown-it'
       - typescript
 
-  vuepress-theme-plume@1.0.0-rc.187(@algolia/client-search@5.44.0)(@iconify/json@2.2.402)(@types/markdown-it@14.1.2)(algoliasearch@5.44.0)(artplayer@5.3.0)(axios@1.13.5)(less@4.5.1)(markdown-it@14.1.0)(ogl@1.0.11)(qrcode@1.5.4)(react@19.2.0)(sass-embedded@1.97.3)(sass@1.97.3)(search-insights@2.17.3)(stylus@0.64.0)(typescript@5.8.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.3)(less@4.5.1)(sass-embedded@1.97.3)(sass@1.97.3)(stylus@0.64.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.28(typescript@5.8.3))):
+  vuepress-theme-plume@1.0.0-rc.187(@algolia/client-search@5.44.0)(@iconify/json@2.2.402)(@types/markdown-it@14.1.2)(algoliasearch@5.44.0)(artplayer@5.3.0)(axios@1.13.5)(less@4.5.1)(markdown-it@14.1.0)(ogl@1.0.11)(qrcode@1.5.4)(react@19.2.0)(sass-embedded@1.97.3)(sass@1.97.3)(search-insights@2.17.3)(stylus@0.64.0)(swiper@12.1.1)(typescript@5.8.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.2.3)(less@4.5.1)(sass-embedded@1.97.3)(sass@1.97.3)(stylus@0.64.0)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.28(typescript@5.8.3))):
     dependencies:
       '@iconify/utils': 3.1.0
       '@iconify/vue': 5.0.0(vue@3.5.28(typescript@5.8.3))
@@ -6042,6 +6051,7 @@ snapshots:
     optionalDependencies:
       '@iconify/json': 2.2.402
       ogl: 1.0.11
+      swiper: 12.1.1
     transitivePeerDependencies:
       - '@75lb/nature'
       - '@algolia/client-search'

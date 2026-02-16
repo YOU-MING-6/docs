@@ -8,7 +8,7 @@ tags:
 permalink: /notes/Mine-Cursor.html
 ---
 
-![](/rc/no-2.png)
+![](/rc/Mc-yl.png)
 ::: center
 封面制作中...
 :::
@@ -36,8 +36,8 @@ permalink: /notes/Mine-Cursor.html
 ::mingcute:contacts-2-line:: **发起者：** hite404 - [查看全部](#创作人员)  
 ::mingcute:calendar-time-add-line:: **发起时间：** *2025.04.25*  
 ::mingcute:pencil-ruler-line:: **当前状态：** ::mingcute:check-circle-line /#64dc64:: ==正在更新=={.tip}  
-::mingcute:time-duration-line:: **上次更新时间：** *2025.05.22* - [查看更新日志](#更新日志)  
-::mingcute:board-line:: **当前版本：** ==内测版 - v0.0.8=={.important}
+::mingcute:time-duration-line:: **上次更新时间：** *2026.02.16* - [查看更新日志](#更新日志)  
+::mingcute:board-line:: **当前版本：** ==正式版 - v1.5.1==
 
 ---
 
@@ -80,10 +80,15 @@ permalink: /notes/Mine-Cursor.html
 
 @tab ::mingcute:pic-line:: 图片展示
 
-![](/rc/mi-cu-yl.png)
+<Swiper :items="['/rc/Mc-yl-1.png', '/rc/Mc-yl-2.png', '/rc/Mc-yl-3.png', '/rc/Mc-yl-4.png']" effect="fade" />
+
 ::: center
 图片为宣传效果，仅供参考，不代表实际使用效果。
 :::
+
+@tab ::mingcute:film-line:: 宣传片
+
+<LinkCard title="哔哩哔哩 - 链接" icon="mingcute:bilibili-fill" href="https://www.bilibili.com/video/BV1zMZMBAEiV"></LinkCard>
 
 ::::
 
@@ -102,6 +107,13 @@ permalink: /notes/Mine-Cursor.html
 
 - 下载链接：[https://hite404.lanzoul.com/b00l2mhx6d](https://hite404.lanzoul.com/b00l2mhx6d)
 - 提取码：`7i3w`
+
+[下载后必看](/notes/更多/必看.html){.read-more}
+
+@tab ::mingcute:cloud-line:: 123 网盘
+
+- 下载链接：[https://www.123865.com/s/1fK0jv-WtX4?pwd=xUlL#](https://www.123865.com/s/1fK0jv-WtX4?pwd=xUlL#)
+- 提取码：`xUlL`
 
 [下载后必看](/notes/更多/必看.html){.read-more}
 
