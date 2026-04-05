@@ -16,10 +16,10 @@ export default defineUserConfig({
 
   alias: {
     // 灯笼装饰（docs\.vuepress\theme\components\lantern.vue）
-    "@theme/Nav/VPNavBarTitle.vue": path.resolve(
-      __dirname,
-      "./theme/components/lantern.vue"
-    ),
+    // "@theme/Nav/VPNavBarTitle.vue": path.resolve(
+    //   __dirname,
+    //   "./theme/components/lantern.vue"
+    // ),
     // 404 页面组件
     "@theme/Nav/NotFound.vue": path.resolve(
       __dirname,
