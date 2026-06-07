@@ -92,15 +92,9 @@ const goBack = () => {
               </blockquote>
 
               <div class="action">
-              <button class="link" @click="goBack" :aria-label="'go back'">
-                返回
-              </button>
-              <button class="link" @click="goToParent" :aria-label="'go to parent directory'">
-                上一级
-              </button>
-              <a class="link" :href="withBase(root)" :aria-label="theme.notFound?.linkLabel ?? 'go to home'">
-                {{ theme.notFound?.linkText ?? 'Take me home' }}
-              </a>
+              <VPButton tag="button" theme="alt" text="返回" @click="goBack" />
+              <VPButton tag="button" theme="alt" text="上一级" @click="goToParent" />
+              <VPButton theme="brand" :text="theme.notFound?.linkText ?? '首页'" :href="withBase(root)" />
             </div>
           </div>
           </slot>
@@ -176,7 +170,7 @@ const goBack = () => {
 }
 
 .quote {
-  max-width: 256px;
+  max-width: 480px;
   margin: 0 auto;
   font-size: 14px;
   font-weight: 500;
@@ -192,21 +186,6 @@ const goBack = () => {
   flex-wrap: wrap;
 }
 
-.link {
-  display: inline-block;
-  padding: 3px 16px;
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--vp-c-brand-1);
-  border: 1px solid var(--vp-c-brand-1);
-  border-radius: 16px;
-  transition: color var(--vp-t-color), border-color var(--vp-t-color);
-  background: none;
-  cursor: pointer;
-}
 
-.link:hover {
-  color: var(--vp-c-brand-2);
-  border-color: var(--vp-c-brand-2);
-}
+
 </style>

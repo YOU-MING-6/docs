@@ -41,6 +41,18 @@
   /* 半透明模糊效果 */
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-blur: blur(10px);
+  --glass-brand-bg: rgba(0, 150, 255, 0.70);
+  --glass-brand-hover-bg: rgba(0, 150, 255, 1);
+  --glass-brand-active-bg: rgba(0, 150, 255, 1);
+  --glass-alt-bg: rgba(255, 255, 255, 0.7);
+  --glass-alt-hover-bg: rgba(255, 255, 255, 0.85);
+  --glass-alt-active-bg: rgba(255, 255, 255, 0.95);
+
+  /* 文本选中颜色 */
+  ::selection {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 1);
+  }
 }
 
 [data-theme="dark"] {
@@ -64,6 +76,18 @@
   /* 半透明模糊效果 */
   --glass-bg: rgba(27, 27, 31, 0.5);
   --glass-blur: blur(10px);
+  --glass-brand-bg: rgba(0, 150, 255, 0.70);
+  --glass-brand-hover-bg: rgba(0, 150, 255, 0.80);
+  --glass-brand-active-bg: rgba(0, 150, 255, 0.80);
+  --glass-alt-bg: rgba(27, 27, 31, 0.5);
+  --glass-alt-hover-bg: rgba(27, 27, 31, 0.7);
+  --glass-alt-active-bg: rgba(27, 27, 31, 0.85);
+
+  /* 文本选中颜色 */
+  ::selection {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
 }
 
 .vp-doc .hint-container-title::before {
@@ -152,4 +176,33 @@ body .vp-navbar.home.top {
 /* 图片查看 */
 .pswp {
   backdrop-filter: var(--glass-blur) !important;
+}
+
+/* 首页 Hero 按钮 */
+.vp-home-hero .actions .action .vp-button.brand {
+  background-color: var(--glass-brand-bg) !important;
+  backdrop-filter: var(--glass-blur) !important;
+  -webkit-backdrop-filter: var(--glass-blur) !important;
+}
+.vp-home-hero .actions .action .vp-button.brand:hover {
+  background-color: var(--glass-brand-hover-bg) !important;
+}
+.vp-home-hero .actions .action .vp-button.brand:active {
+  background-color: var(--glass-brand-active-bg) !important;
+}
+
+.vp-home-hero .actions .action .vp-button.alt {
+  background-color: var(--glass-alt-bg) !important;
+  backdrop-filter: var(--glass-blur) !important;
+  -webkit-backdrop-filter: var(--glass-blur) !important;
+}
+.vp-home-hero .actions .action .vp-button.alt:hover {
+  background-color: var(--glass-alt-hover-bg) !important;
+}
+.vp-home-hero .actions .action .vp-button.alt:active {
+  background-color: var(--glass-alt-active-bg) !important;
+}
+/* 按钮光标修复 */
+.vp-button {
+  cursor: pointer;
 }
