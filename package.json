@@ -17,7 +17,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp && cp _routes.json docs/.vuepress/dist/",
     "docs:preview": "http-server docs/.vuepress/dist",
     "vp-update": "pnpm dlx vp-update"
   },
