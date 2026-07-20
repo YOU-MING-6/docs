@@ -41,6 +41,39 @@ jobs:
       - name: Build VuePress site
         run: pnpm run docs:build
 
+      # 创建 .nojekyll 文件（防止 GitHub Pages 忽略 _next 目录）
+      - name: Create .nojekyll
+        run: touch docs/.vuepress/dist/.nojekyll
+
+      # 创建 Vercel 配置
+      - name: Create vercel.json
+        run: |
+          echo '{
+            "rewrites": [
+              { "source": "/(.*)", "destination": "/index.html" }
+            ],
+            "headers": [
+              {
+                "source": "/_next/static/(.*)",
+                "headers": [
+                  {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=31536000, immutable"
+                  }
+                ]
+              }
+            ]
+          }' > docs/.vuepress/dist/vercel.json
+
+      # 创建 Cloudflare Pages 配置
+      - name: Create _routes.json
+        run: |
+          echo '{
+            "version": 1,
+            "include": ["/*"],
+            "exclude": ["/assets/*", "/rc/*", "/_next/*", "/光标浏览工具/*"]
+          }' > docs/.vuepress/dist/_routes.json
+
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
