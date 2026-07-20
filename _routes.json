@@ -1,5 +1,5 @@
 {
   "version": 1,
   "include": ["/*"],
-  "exclude": ["/assets/*", "/rc/*", "/_next/*", "/光标浏览工具/*"]
+  "exclude": ["/assets/*", "/rc/*", "/_next/*", "/%E5%85%89%E6%A0%87%E6%B5%8F%E8%A7%88%E5%B7%A5%E5%85%B7/*"]
 }
