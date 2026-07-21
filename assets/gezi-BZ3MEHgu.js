@@ -1,0 +1,1 @@
+var e=`/rc/fkzx.png`,t=`/rc/gezi.png`;export{e as n,t};

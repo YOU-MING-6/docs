@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文件校验工具</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="spark-md5.js"></script>
+  <style>
+    :root {
+      /* 颜色变量 */
+      --primary: #339af0;
+      --primary-hover: #228be6;
+      --primary-light: #f7fbff;
+      --text: #212529;
+      --text-secondary: #495057;
+      --bg: #ffffff;
+      --bg-secondary: #f8f9fa;
+      --border: #dee2e6;
+      --border-light: #e9ecef;
+      --shadow: 0 4px 16px rgba(0,0,0,0.10);
+      --bg-container: var(--bg);
+      --border-color: var(--border);
+      --text-primary: var(--text);
+      --text-muted: var(--text-secondary);
+      --bg-hover: var(--primary-light);
+      --bg-body: var(--bg-secondary);
+      --shadow-md: 0 4px 24px rgba(0,0,0,0.15);
+      
+      /* 尺寸变量 */
+      --radius-md: 12px;
+      --radius-sm: 8px;
+      
+      /* 动画 */
+      --transition: all 0.2s cubic-bezier(.4,0,.2,1);
+    }
+
+    /* 暗色模式变量 */
+    [data-theme="dark"] {
+      --primary: #228be6;
+      --primary-hover: #1c7ed6;
+      --primary-light: #1a1e21;
+      --text: #f8f9fa;
+      --text-secondary: #adb5bd;
+      --bg: #212529;
+      --bg-secondary: #2b3035;
+      --border: #495057;
+      --border-light: #495057;
+      --shadow: 0 4px 24px rgba(0,0,0,0.22);
+    }
+
+    /* 基础样式 */
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg-secondary);
+      color: var(--text);
+      margin: 0;
+      min-height: 100vh;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* 主容器 */
+    .main-container {
+      width: 100vw;
+      min-height: 100vh;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      padding: 2.5vw 4vw 2vw 4vw;
+      box-shadow: var(--shadow);
+      transition: background 0.3s, color 0.3s;
+      display: flex;
+      flex-direction: column;
+      gap: 1.1em;
+      font-size: 1.05em;
+      box-sizing: border-box;
+    }
+
+    /* 头部样式 */
+    .header-bar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 0.5em;
+      gap: 0.4em;
+    }
+
+    .title {
+      font-size: 1.08em;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 0.4em;
+      line-height: 1.1;
+    }
+
+    /* 表单组 */
+    .form-group {
+      margin-bottom: 0.7em;
+      display: flex;
+      flex-direction: column;
+      gap: 0.32em;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 0.4em;
+      color: var(--text-secondary);
+      font-size: 1em;
+      font-weight: 500;
+      margin-bottom: 0.2em;
+    }
+
+    /* 文件上传区域 */
+    .file-upload {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 0.7em;
+    }
+
+    .file-upload input[type="file"] {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+      z-index: 2;
+    }
+
+    /* 按钮样式 */
+    .btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: var(--radius-sm);
+      padding: 0.42em 1.4em;
+      font-size: 1em;
+      cursor: pointer;
+      transition: var(--transition);
+      margin-top: 0.18em;
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      font-weight: 500;
+      position: relative;
+      z-index: 1;
+      transition: var(--transition);
+    }
+
+    .btn:hover {
+      background: var(--primary-hover);
+    }
+
+    .btn:active {
+      transform: scale(0.97);
+    }
+
+    /* 文件选择按钮 */
+    .custom-file-btn {
+      background: var(--primary);
+      padding: 0.38em 1.1em;
+      position: relative;
+      z-index: 1;
+      color: #fff;
+      border: none;
+      border-radius: var(--radius-sm);
+      font-size: 1em;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.6em;
+      font-weight: 500;
+      position: relative;
+      z-index: 1;
+      transition: var(--transition);
+    }
+
+    .custom-file-btn:hover {
+      background: var(--primary-dark);
+    }
+
+    [data-theme="dark"] .custom-file-btn {
+      background: #339af0;
+      color: #212529;
+    }
+
+    [data-theme="dark"] .custom-file-btn:hover {
+      background: #228be6;
+      color: #fff;
+    }
+
+    /* 文件名显示 */
+    .file-name {
+      font-size: 0.98em;
+      color: var(--text);
+      background: var(--bg-secondary);
+      border-radius: var(--radius-sm);
+      padding: 0.22em 0.8em;
+      max-width: 320px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      border: 1px solid var(--border);
+      transition: var(--transition);
+    }
+
+    /* 下拉选择框 */
+    select {
+      padding: 0.38em 1em 0.38em 0.7em;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: var(--bg-secondary);
+      color: var(--text);
+      font-size: 1em;
+      margin-right: 0.5em;
+      transition: var(--transition);
+      font-weight: 500;
+    }
+
+    /* 结果区域 */
+    .result {
+      word-break: break-all;
+      background: var(--bg-secondary);
+      color: var(--text);
+      padding: 0.9em;
+      border-radius: var(--radius-sm);
+      font-size: 1em;
+      min-height: 2em;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+      transition: background 0.3s, color 0.3s;
+      font-family: 'Fira Mono', 'Consolas', monospace;
+      letter-spacing: 0.4px;
+    }
+
+    /* 提示信息 */
+    .tip {
+      margin-top: 1em;
+      font-size: 0.97em;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      font-weight: 500;
+    }
+
+    /* 算法描述 */
+    .algo-desc {
+      margin-top: 0.32em;
+      font-size: 0.97em;
+      color: var(--text-secondary);
+      min-height: 1.3em;
+      transition: color 0.3s;
+      font-weight: 500;
+    }
+
+    /* 拖放区域 */
+    .drop-area {
+      border: 2px dashed var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.5em;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.7em;
+      transition: var(--transition);
+    }
+
+    .drop-area:hover {
+      background-color: var(--primary-light);
+      border-color: var(--primary);
+    }
+
+    /* 模态框样式 */
+    .modal {
+      display: flex;
+      position: fixed;
+      z-index: 100;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    .modal.show {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal-content {
+        background-color: var(--bg-container);
+        margin: 10vh auto;
+        padding: 20px;
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-md);
+        box-shadow: var(--shadow-md);
+        width: 600px;
+        max-width: 90%;
+        max-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transform: scale(0.9);
+        opacity: 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .modal.show .modal-content {
+      transform: scale(1);
+      opacity: 1;
+    }
+    
+    @media (max-width: 768px) {
+        .modal-content {
+            width: 90%;
+        }
+    }
+    
+    @media (min-width: 769px) {
+        .modal-content {
+            width: 80%;
+            max-width: 80%;
+        }
+    }
+
+    /* 标题样式 */
+    .modal-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 0;
+        padding: 10px 0;
+        color: var(--text-primary);
+    }
+
+    @media (max-width: 768px) {
+        .modal-title {
+            font-size: 1rem;
+        }
+    }
+    
+    @media (min-width: 1440px) {
+        .modal-title {
+            font-size: 1.4rem;
+        }
+    }
+    
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .modal-body {
+        flex: 1;
+        overflow-y: auto;
+        max-height: 60vh;
+    }
+
+    .close {
+      color: var(--text-muted);
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .close:hover {
+      color: var(--text-primary);
+    }
+
+    /* 数据库表格 */
+    .db-table-container {
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      max-height: 65vh;
+      background: var(--bg);
+    }
+
+    .db-table-wrapper {
+      overflow-x: auto;
+      max-height: 60vh;
+    }
+
+    .db-table {
+      width: 100%;
+      min-width: 600px;
+      border-collapse: collapse;
+      font-size: 0.95em;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .db-table th {
+      background: var(--primary-light);
+      color: var(--text);
+      font-weight: 600;
+      padding: 12px 16px;
+      text-align: left;
+      position: sticky;
+      top: 0;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .db-table td {
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    .db-table tr:not(:last-child) td {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .db-table tr:hover td {
+      background: var(--primary-light);
+    }
+
+    .hash-value {
+      font-family: 'Fira Mono', monospace;
+      font-size: 0.9em;
+      word-break: break-all;
+    }
+
+    /* 响应式设计 */
+    @media (max-width: 600px) {
+      .modal-content {
+        width: 80%;
+      }
+      
+      .main-container {
+        padding: 2vw 1vw 2vw 1vw;
+        flex-direction: column;
+        gap: 0.3em;
+        font-size: 1em;
+      }
+      
+      .header-bar {
+        flex-direction: column;
+        gap: 0.3em;
+      }
+      
+      .result {
+        font-size: 0.97em;
+        padding: 0.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <div class="header-bar">
+      <div class="title">
+        <i class="fas fa-file-shield"></i> 文件校验工具
+        <a href="/notes/" style="font-size: 16px; color: #99a0a8;">作品文档</a>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="fileInput"><i class="fas fa-file"></i> 选择文件</label>
+      <div class="file-upload">
+        <div class="drop-area" id="dropArea">
+          <button type="button" class="custom-file-btn" id="customFileBtn"><i class="fas fa-folder-open"></i> 浏览</button>
+          <span class="file-name" id="fileName">未选择文件</span>
+          <input type="file" id="fileInput" />
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="algoSelect"><i class="fas fa-hashtag"></i> 选择算法</label>
+      <div style="display: flex; align-items: center; gap: 0.5em;">
+        <select id="algoSelect">
+          <option value="md5">MD5</option>
+          <option value="sha256">SHA256</option>
+        </select>
+        <button class="btn" id="calcBtn"><i class="fas fa-calculator"></i> 计算校验值</button>
+        <button class="btn" id="viewDBBtn"><i class="fas fa-database"></i> 数据库</button>
+      </div>
+      <div class="algo-desc" id="algoDesc">MD5：常用于文件完整性校验。</div>
+    </div>
+    <div class="result" id="result">请选择文件以自动计算校验值。</div>
+    <div class="tip"><i class="fas fa-shield-alt"></i> 本工具在本地浏览器中计算，不会上传文件。</div>
+  </div>
+
+  <!-- 模态框 -->
+  <div id="dbModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title">校验值数据库</h2>
+          <p class="modal-subtitle">更新时间: 2026.02.08  ---  记录数: <span id="dbCount">0</span></p>
+        </div>
+        <span class="close" id="closeDBBtn">&times;</span>
+      </div>
+      <div class="modal-body">
+        <div class="db-table-container">
+          <div class="db-table-wrapper">
+            <table class="db-table">
+              <thead>
+                <tr>
+                  <th style="width: 25%;">文件名</th>
+                  <th style="width: 35%;">MD5</th>
+                  <th style="width: 40%;">SHA256</th>
+                </tr>
+              </thead>
+              <tbody id="dbContent"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    // 主题切换（自动）
+    (function() {
+      function setTheme(dark) {
+        document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+      }
+      const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setTheme(isDark);
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => setTheme(e.matches));
+    })();
+
+    // 校验值数据库
+    const hashDB = {
+      'v2.4-MC-鼠标指针.7z': { md5: 'a7fbc88e2eab138dbbd69881be461f8d', sha256: '1849374d5032b01bfe1da5687a2865106c16f776c3930d2ceab46bf048bfd982' },
+      'v2.0-MC-鼠标指针.7z': { md5: 'f5df33e3ed22cdc8d86f70c5938c282b', sha256: '5a9ce3761cbfbd043488aa42f5498855b3eee9730714b0dd7da78e795dd0267b' },
+      'v1.8-MC-鼠标指针.7z': { md5: 'a499f03983f4ba4828af93ad71ca6b27', sha256: '69515fb369cd7ad063121299843466f79f7ce6ccf53346e804cd0c1b00a0cf21' },
+      'v1.3-MC-鼠标指针.7z': { md5: 'b1054e52d636057f4009fd46ad4275af', sha256: 'adedc9d57ef25c0e99a6fe6afe710c64416f65bc8ba6f52acdbd6696eff19a73' },
+      'MC 片头&尾.zip': { md5: '10165089aa93befc9c7523db2a5b04e9', sha256: '8928fcd7d9ae351899d278c83bee45a861df7fab214b683e9fd27a507a1242b8' },
+      'Min11 v4.2安装.pptx': { md5: '09fee1f6221e7d4a60f4a1d5dd7f66ea', sha256: '8fa4f26a13bd976c86f3d9150d255f5862198c4d35782adb6b04b6f8d7d0d2c0' },
+      'Min11 v4.1安装.pptx': { md5: 'fcadf6b356488583c969f3cc45ffa959', sha256: '45b827f2d3a4e044b4516cb4ffa4853f90c6816e4a5cf0b6c50bf1ee57b2a8d0' },
+      'Min11 v4.0安装.zip': { md5: '933e32f15db48892f3aedbcb60e510c3', sha256: '5f673c049107d314a18e8c4853634018f9d58682a68ba4d717b1c0e6d3e07406' },
+      'Min11 v3.3安装.zip': { md5: '6783d8a549e0ba3a5731cd9154d81e9e', sha256: '1a4961fe3aecd67a001817e88ed4657970b8e6ee8b798a7b1e9e24d71d7e3fe6' },
+      'Min11 v3.0安装.zip': { md5: 'd2299d231a2114d19c2ecf75f5c31546', sha256: '6f8ae87fcc889f575be859112f21ada186a2bc6bc55596223ae4969aa51a77a5' },
+      '公测版v1.0.0.20240622.343.exe': { md5: 'b203c52c4c373d90eb6b607ed273602b', sha256: 'f263db2ed2e8c4ba8913d79136fb73f13d356133327e2aeae3cbfc593845d1fa' },
+    };
+
+    // 算法描述
+    const algoDescMap = {
+      md5: 'MD5：常用于文件完整性校验，速度较快。',
+      sha256: 'SHA256：安全性高，适合重要文件校验，速度较慢。'
+    };
+
+    // DOM 元素
+    const algoSelect = document.getElementById('algoSelect');
+    const algoDesc = document.getElementById('algoDesc');
+    const fileInput = document.getElementById('fileInput');
+    const customFileBtn = document.getElementById('customFileBtn');
+    const fileNameSpan = document.getElementById('fileName');
+    const calcBtn = document.getElementById('calcBtn');
+    const resultDiv = document.getElementById('result');
+    const viewDBBtn = document.getElementById('viewDBBtn');
+    const dbModal = document.getElementById('dbModal');
+    const closeDBBtn = document.getElementById('closeDBBtn');
+
+    // 算法描述切换
+    algoSelect.addEventListener('change', () => {
+      algoDesc.textContent = algoDescMap[algoSelect.value] || '';
+      if (fileInput.files[0]) {
+        autoCalcHash();
+      }
+    });
+
+    // 文件选择按钮
+    customFileBtn.addEventListener('click', () => fileInput.click());
+
+    // 初始禁用按钮
+    calcBtn.disabled = true;
+    calcBtn.style.opacity = 0.6;
+
+    // 文件选择后自动计算
+    fileInput.addEventListener('change', () => {
+      const file = fileInput.files[0];
+      fileNameSpan.textContent = file?.name || '未选择文件';
+      if (file) {
+        calcBtn.disabled = false;
+        calcBtn.style.opacity = 1;
+        autoCalcHash();
+      } else {
+        calcBtn.disabled = true;
+        calcBtn.style.opacity = 0.6;
+        resultDiv.textContent = '请选择文件并点击“计算校验值”';
+      }
+    });
+
+    // 计算按钮点击
+    calcBtn.addEventListener('click', autoCalcHash);
+
+    // 查看数据库按钮点击
+    viewDBBtn.addEventListener('click', openDatabaseModal);
+
+    // 关闭数据库按钮点击
+    closeDBBtn.addEventListener('click', closeDatabaseModal);
+
+    // 自动计算主逻辑
+    async function autoCalcHash() {
+      const file = fileInput.files[0];
+      const algo = algoSelect.value;
+      if (!file) {
+        resultDiv.textContent = '请先选择文件。';
+        return;
+      }
+      resultDiv.textContent = '在文件较大时，计算可能有点缓慢，请稍候...';
+      try {
+        const hash = algo === 'md5' ? await calcMD5(file) : await calcSHA256(file);
+        // 校验数据库比对（无视文件名）
+        let isSafe = false;
+        let fileName = '未知文件';
+        for (const [key, entry] of Object.entries(hashDB)) {
+          if (entry[algo] && entry[algo].toLowerCase() === hash.toLowerCase()) {
+            isSafe = true;
+            fileName = key;
+            break;
+          }
+        }
+        let statusHtml = '';
+        if (isSafe) {
+          statusHtml = `<span style="color:green;font-weight:bold;">安全</span><br><span style="font-weight:bold;">已匹配到文件: ${fileName}</span>`;
+        } else {
+          statusHtml = `<span style="color:orange;font-weight:bold;">未知</span><br><span style="font-weight:bold;">未在数据库中匹配到该值.</span>`;
+        }
+        resultDiv.innerHTML = `<b>${algo.toUpperCase()}：</b><span style="word-break:break-all;">${hash}</span><br><br>结果：${statusHtml}`;
+      } catch (e) {
+        resultDiv.textContent = '计算失败：' + e;
+      }
+    }
+
+    // 数据库工具函数
+    const dbUtils = {
+      // 获取排序后的数据库条目
+      getSortedEntries: () => {
+        return Object.entries(hashDB)
+          .map(([name, hashes]) => ({ name, ...hashes }))
+          .sort((a, b) => a.name.localeCompare(b.name));
+      },
+    
+      // 渲染数据库表格
+      renderDatabase: () => {
+        const dbContent = document.getElementById('dbContent');
+        const entries = dbUtils.getSortedEntries();
+        
+        // 更新记录数
+        document.getElementById('dbCount').textContent = entries.length;
+        
+        // 清空现有内容
+        dbContent.innerHTML = '';
+        
+        // 填充表格内容
+        entries.forEach(entry => {
+          const row = document.createElement('tr');
+          
+          // 文件名单元格
+          const nameCell = document.createElement('td');
+          nameCell.className = 'hash-value';
+          nameCell.title = entry.name;
+          nameCell.textContent = entry.name;
+          
+          // MD5单元格
+          const md5Cell = document.createElement('td');
+          md5Cell.className = 'hash-value';
+          md5Cell.textContent = entry.md5 || 'N/A';
+          
+          // SHA256单元格
+          const sha256Cell = document.createElement('td');
+          sha256Cell.className = 'hash-value';
+          sha256Cell.textContent = entry.sha256 || 'N/A';
+          
+          row.append(nameCell, md5Cell, sha256Cell);
+          dbContent.appendChild(row);
+        });
+      }
+    };
+    
+    // 打开数据库模态框
+    function openDatabaseModal() {
+      dbUtils.renderDatabase();
+      dbModal.classList.add('show');
+      
+      // 添加ESC键关闭功能
+      document.addEventListener('keydown', handleEscapeKey);
+    }
+    
+    // 关闭数据库模态框
+    function closeDatabaseModal() {
+      dbModal.classList.remove('show');
+      document.removeEventListener('keydown', handleEscapeKey);
+    }
+    
+    // ESC键关闭处理
+    function handleEscapeKey(event) {
+      if (event.key === 'Escape') {
+        closeDatabaseModal();
+      }
+    }
+    
+    // 点击模态框外部关闭
+    dbModal.addEventListener('click', (e) => {
+      if (e.target === dbModal) {
+        closeDatabaseModal();
+      }
+    });
+
+    // 计算SHA256
+    async function calcSHA256(file) {
+      const buffer = await file.arrayBuffer();
+      const hashBuffer = await crypto.subtle.digest('SHA-256', buffer);
+      return Array.from(new Uint8Array(hashBuffer)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    // 计算MD5
+    function calcMD5(file) {
+      return new Promise((resolve, reject) => {
+        const chunkSize = 2 * 1024 * 1024;
+        const spark = new window.SparkMD5.ArrayBuffer();
+        let cursor = 0;
+        const reader = new FileReader();
+        reader.onload = e => {
+          spark.append(e.target.result);
+          cursor += chunkSize;
+          if (cursor < file.size) readNext();
+          else resolve(spark.end());
+        };
+        reader.onerror = () => reject('读取文件失败');
+        function readNext() {
+          reader.readAsArrayBuffer(file.slice(cursor, cursor + chunkSize));
+        }
+        readNext();
+      });
+    }
+  </script>
+</body>
+</html>
