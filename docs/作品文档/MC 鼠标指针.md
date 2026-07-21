@@ -96,10 +96,6 @@ permalink: /notes/MC-鼠标指针.html
 <LinkCard icon="mingcute:arrow-right-up-circle-line" title="新标签页打开" href="/rc/鼠标样式预览.html" target="_blank"/>
 <iframe src="/rc/鼠标样式预览.html" width="100%" height="790px" frameborder="0"></iframe>
 
-@tab ::mingcute:cursor-3-line:: 光标浏览工具
-
-<LinkCard icon="mingcute:arrow-right-up-circle-line" title="新标签页打开" href="/光标浏览工具/index.html" target="_blank"/>
-
 @tab ::mingcute:film-line:: 预览与教程
 
 <LinkCard title="哔哩哔哩 - 合集" icon="mingcute:bilibili-fill" href="https://space.bilibili.com/1337092956/lists"></LinkCard>
