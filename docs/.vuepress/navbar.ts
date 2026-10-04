@@ -26,19 +26,9 @@ export const navbar = defineNavbarConfig([
     icon: 'mingcute:more-3-line',
     items: [
       {
-        text: '公告与帮助',
-        items: [
-          {
-            text: '公告',
-            link: '/notes/更多/公告.html',
-            icon: 'mingcute:horn-2-line',
-          },
-          {
-            text: '指南',
-            link: '/指南.html',
-            icon: 'mingcute:compass-3-line',
-          },
-        ],
+        text: '公告',
+        link: '/notes/更多/公告.html',
+        icon: 'mingcute:horn-2-line',
       },
       {
         text: '协议',
