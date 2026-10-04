@@ -14,9 +14,7 @@
       "katex": "0.16.47"
     },
     "peerDependencyRules": {
-      "allowedVersions": {
-        "markdown-it": "15"
-      }
+      "allowedVersions": {}
     }
   },
   "scripts": {
@@ -47,7 +45,7 @@
   "dependencies": {
     "@iconify/json": "2.2.402",
     "artplayer": "5.4.0",
-    "markdown-it": "^15.0.2",
+    "markdown-it": "^14.2.0",
     "stylus": "0.64.0",
     "vuepress-plugin-md-power": "1.0.0-rc.204"
   }
